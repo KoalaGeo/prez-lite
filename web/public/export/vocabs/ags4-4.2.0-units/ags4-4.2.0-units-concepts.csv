@@ -1,0 +1,159 @@
+iri,broader,prefLabel
+https://w3id.org/ags4/voc/units/acre,,acre
+https://w3id.org/ags4/voc/units/API,,American Petroleum Institute
+https://w3id.org/ags4/voc/units/bar,,bar
+https://w3id.org/ags4/voc/units/Bq_per_g,,Becquerel per gram
+https://w3id.org/ags4/voc/units/cm,,centimetre
+https://w3id.org/ags4/voc/units/cm_per_s,,centimetres per second
+https://w3id.org/ags4/voc/units/colonies_per_l,,colonies per litre
+https://w3id.org/ags4/voc/units/colonies_per_ml,,colonies per millilitre
+https://w3id.org/ags4/voc/units/CFU_per_g,,colony forming units per gram
+https://w3id.org/ags4/voc/units/CFU_per_ml,,colony forming units per millilitre
+https://w3id.org/ags4/voc/units/counts_per_s,,counts per second
+https://w3id.org/ags4/voc/units/cm3,,cubic centimetre
+https://w3id.org/ags4/voc/units/cm3_per_MPa,,cubic centimetre per mega Pascal
+https://w3id.org/ags4/voc/units/cfs,,cubic feet per second
+https://w3id.org/ags4/voc/units/ft3,,cubic foot
+https://w3id.org/ags4/voc/units/in3,,cubic inch
+https://w3id.org/ags4/voc/units/m3,,cubic metre
+https://w3id.org/ags4/voc/units/m3_per_s,,cubic metres per second
+https://w3id.org/ags4/voc/units/mm3,,cubic millimetre
+https://w3id.org/ags4/voc/units/yd3,,cubic yard
+https://w3id.org/ags4/voc/units/day,,day
+https://w3id.org/ags4/voc/units/deg,,degree (angle)
+https://w3id.org/ags4/voc/units/DegC,,degree Celsius
+https://w3id.org/ags4/voc/units/DegC_per_W,,Degree Celsius per Watt
+https://w3id.org/ags4/voc/units/DegF,,degree Fahrenheit
+https://w3id.org/ags4/voc/units/ft_per_min,,feet per minute
+https://w3id.org/ags4/voc/units/ft,,foot
+https://w3id.org/ags4/voc/units/gal,,gallon
+https://w3id.org/ags4/voc/units/gpm,,gallons per minute
+https://w3id.org/ags4/voc/units/GPa,,gigaPascal
+https://w3id.org/ags4/voc/units/g,,gram
+https://w3id.org/ags4/voc/units/g_per_cm3,,grams per cubic centimetre
+https://w3id.org/ags4/voc/units/g_per_l,,grams per litre
+https://w3id.org/ags4/voc/units/hect,,hectare
+https://w3id.org/ags4/voc/units/Hz,,hertz
+https://w3id.org/ags4/voc/units/hr,,hour
+https://w3id.org/ags4/voc/units/hh_mm,,hours minutes
+https://w3id.org/ags4/voc/units/hh_mm_ss,,hours minutes seconds
+https://w3id.org/ags4/voc/units/in,,inch
+https://w3id.org/ags4/voc/units/K-cm_per_W,,Kelvin centimetres per Watt
+https://w3id.org/ags4/voc/units/K-m_per_W,,Kelvin metres per Watt
+https://w3id.org/ags4/voc/units/K_per_W,,Kelvin per Watt
+https://w3id.org/ags4/voc/units/kg,,kilogram
+https://w3id.org/ags4/voc/units/kgf,,kilograms force
+https://w3id.org/ags4/voc/units/kg_per_m3,,kilograms per cubic metre
+https://w3id.org/ags4/voc/units/kg_per_m,,kilograms per metre
+https://w3id.org/ags4/voc/units/kg_per_cm2,,kilograms per square centimetre
+https://w3id.org/ags4/voc/units/kJ_per_kg,,kiloJoules per kilogram
+https://w3id.org/ags4/voc/units/km,,kilometre
+https://w3id.org/ags4/voc/units/km_per_hr,,kilometres per hour
+https://w3id.org/ags4/voc/units/kN,,kiloNewton
+https://w3id.org/ags4/voc/units/kN_per_m3,,kiloNewtons per cubic metre
+https://w3id.org/ags4/voc/units/kN_per_m2,,kiloNewtons per square metre
+https://w3id.org/ags4/voc/units/kPa,,kiloPascal
+https://w3id.org/ags4/voc/units/kPa_per_s,,kiloPascal per second
+https://w3id.org/ags4/voc/units/kips,,kilopound
+https://w3id.org/ags4/voc/units/ksf,,kips per square foot
+https://w3id.org/ags4/voc/units/ksi,,kips per square inch
+https://w3id.org/ags4/voc/units/l,,litre
+https://w3id.org/ags4/voc/units/l_per_hr,,litres per hour
+https://w3id.org/ags4/voc/units/l_per_min,,litres per minute
+https://w3id.org/ags4/voc/units/l_per_s,,litres per second
+https://w3id.org/ags4/voc/units/MPa_per_m,,mega Pascals per metre
+https://w3id.org/ags4/voc/units/MPa_per_s,,mega Pascals per second
+https://w3id.org/ags4/voc/units/Mg,,megagram (tonne)
+https://w3id.org/ags4/voc/units/Mg_per_m3,,megagrams per cubic metre
+https://w3id.org/ags4/voc/units/MJ,,MegaJoule
+https://w3id.org/ags4/voc/units/MJ_per_m3,,MegaJoule per cubic meter
+https://w3id.org/ags4/voc/units/MN,,megaNewton
+https://w3id.org/ags4/voc/units/MN_per_m2,,megaNewtons per square metre
+https://w3id.org/ags4/voc/units/MPa,,megaPascal
+https://w3id.org/ags4/voc/units/m,,metre
+https://w3id.org/ags4/voc/units/m_per_day,,metres per day
+https://w3id.org/ags4/voc/units/m_per_hr,,metres per hour
+https://w3id.org/ags4/voc/units/m_per_min,,metres per minute
+https://w3id.org/ags4/voc/units/m_per_s,,metres per second
+https://w3id.org/ags4/voc/units/uT,,micro Tesla
+https://w3id.org/ags4/voc/units/ug_per_kg,,micrograms per kilogram
+https://w3id.org/ags4/voc/units/ug_per_l,,micrograms per litre
+https://w3id.org/ags4/voc/units/us,,microsecond
+https://w3id.org/ags4/voc/units/uS_per_cm,,microSiemens per centimetre
+https://w3id.org/ags4/voc/units/uV,,microVolt
+https://w3id.org/ags4/voc/units/mi,,mile
+https://w3id.org/ags4/voc/units/mph,,miles per hour
+https://w3id.org/ags4/voc/units/mD,,milli Darcy
+https://w3id.org/ags4/voc/units/mbar,,millibars
+https://w3id.org/ags4/voc/units/mg_per_kg,,milligrams per kilogram
+https://w3id.org/ags4/voc/units/mg_per_l,,milligrams per litre
+https://w3id.org/ags4/voc/units/ml,,millilitre
+https://w3id.org/ags4/voc/units/mm,,millimetre
+https://w3id.org/ags4/voc/units/mm_per_min,,millimetres per minute
+https://w3id.org/ags4/voc/units/mm_per_s,,millimetres per second
+https://w3id.org/ags4/voc/units/mgd,,million gallons per day
+https://w3id.org/ags4/voc/units/ms,,millisecond
+https://w3id.org/ags4/voc/units/mS_per_cm,,milliSiemens per centimetre
+https://w3id.org/ags4/voc/units/mV,,milliVolt
+https://w3id.org/ags4/voc/units/min,,minute
+https://w3id.org/ags4/voc/units/mm_ss,,minutes seconds
+https://w3id.org/ags4/voc/units/mol_per_kg,,moles per kilogram
+https://w3id.org/ags4/voc/units/month,,month
+https://w3id.org/ags4/voc/units/MPN_per_100ml,,most probable number per 100 millilitres
+https://w3id.org/ags4/voc/units/MPN_per_l,,most probable number per litre
+https://w3id.org/ags4/voc/units/MPN_per_ml,,most probable number per millilitre
+https://w3id.org/ags4/voc/units/nT,,nano Tesla
+https://w3id.org/ags4/voc/units/ng_per_l,,nanograms per litre
+https://w3id.org/ags4/voc/units/nT_per_cm,,nanoTesla per centimetre
+https://w3id.org/ags4/voc/units/N,,Newton
+https://w3id.org/ags4/voc/units/Nm,,Newton metre
+https://w3id.org/ags4/voc/units/N_per_s,,Newton-second
+https://w3id.org/ags4/voc/units/No,,No
+https://w3id.org/ags4/voc/units/UNITLESS,,No unit
+https://w3id.org/ags4/voc/units/ohm,,Ohm
+https://w3id.org/ags4/voc/units/ohmcm,,Ohm centimetre
+https://w3id.org/ags4/voc/units/ohm_m,,Ohm metres
+https://w3id.org/ags4/voc/units/ppb,,parts per billion
+https://w3id.org/ags4/voc/units/ppm,,parts per million
+https://w3id.org/ags4/voc/units/ppmv,,Parts per million volume
+https://w3id.org/ags4/voc/units/pct,,percentage
+https://w3id.org/ags4/voc/units/pct_dry_weight,,percentage of dry weight
+https://w3id.org/ags4/voc/units/pct_per_hr,,percentage per hour
+https://w3id.org/ags4/voc/units/pct_per_min,,percentage per minute
+https://w3id.org/ags4/voc/units/pct_vol,,percentage volume
+https://w3id.org/ags4/voc/units/lb,,pound
+https://w3id.org/ags4/voc/units/lbf,,pounds force
+https://w3id.org/ags4/voc/units/pcf,,pounds per cubic foot
+https://w3id.org/ags4/voc/units/psf,,pounds per square foot
+https://w3id.org/ags4/voc/units/psi,,pounds per square inch
+https://w3id.org/ags4/voc/units/rpm,,revolution per minute
+https://w3id.org/ags4/voc/units/rps,,rotations per second
+https://w3id.org/ags4/voc/units/s,,second
+https://w3id.org/ags4/voc/units/S_per_m,,Siemens per metre
+https://w3id.org/ags4/voc/units/cm2,,square centimetre
+https://w3id.org/ags4/voc/units/ft2_per_day,,square feet per day
+https://w3id.org/ags4/voc/units/ft2_per_t,,square feet per ton
+https://w3id.org/ags4/voc/units/ft2_per_yr,,square feet per year
+https://w3id.org/ags4/voc/units/ft2,,square foot
+https://w3id.org/ags4/voc/units/in2,,square inch
+https://w3id.org/ags4/voc/units/km2,,square kilometre
+https://w3id.org/ags4/voc/units/m2,,square metre
+https://w3id.org/ags4/voc/units/m2_per_MN,,square metres per megaNewton
+https://w3id.org/ags4/voc/units/m2_per_yr,,square metres per year
+https://w3id.org/ags4/voc/units/mi2,,square mile
+https://w3id.org/ags4/voc/units/mm2,,square millimetre
+https://w3id.org/ags4/voc/units/yd2,,square yard
+https://w3id.org/ags4/voc/units/t,,ton
+https://w3id.org/ags4/voc/units/tonf,,tons force
+https://w3id.org/ags4/voc/units/tsf,,tons per square foot
+https://w3id.org/ags4/voc/units/W_per_DegC,,Watts per degree Celsius
+https://w3id.org/ags4/voc/units/W_per_K,,Watts per Kelvin
+https://w3id.org/ags4/voc/units/W_per_K-cm,,Watts per Kelvin centimetre
+https://w3id.org/ags4/voc/units/W_per_K-m,,Watts per Kelvin metre
+https://w3id.org/ags4/voc/units/yd,,yard
+https://w3id.org/ags4/voc/units/yr,,year
+https://w3id.org/ags4/voc/units/yyyy-mm-dd,,year month day
+https://w3id.org/ags4/voc/units/yyyy-mm-ddThh_mm,,year month day hours minutes
+https://w3id.org/ags4/voc/units/yyyy-mm-ddThh_mm_ss,,year month day hours minutes seconds
+https://w3id.org/ags4/voc/units/yyyy-mm-ddThh_mm_ss.sss,,year month day hours minutes seconds millseconds
+https://w3id.org/ags4/voc/units/Yes,,Yes

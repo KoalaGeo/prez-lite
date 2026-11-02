@@ -1,0 +1,360 @@
+[
+  {
+    "@id": "_:n3-1117",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TREM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Location Specific Time Related Remarks",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Location Specific Time Related Remarks",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "TREM",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "TREM",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TREM_COMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TREM_DTIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TREM_DURN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TREM_ETIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TREM_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "TREM_COMP allows comments to be related to specific activities or components of work occurring at the location given by LOCA_ID. This heading can be used to tag similar construction activities occurring at multiple locations or identify specific construction elements.\nTREM_DURN allows the length of time associated with a particular event to be included if this is appropriate.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/TREM"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TREM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TREM"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location Specific Time Related Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location Specific Time Related Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TREM_COMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TREM_COMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TREM_COMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Component or sub-activity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Component or sub-activity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TREM_DTIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TREM_DTIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TREM_DTIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time of remark or start of event",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time of remark or start of event",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TREM_DURN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TREM_DURN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TREM_DURN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Duration of event or activity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Duration of event or activity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TREM_ETIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TREM_ETIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TREM_ETIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time of end of event",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time of end of event",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TREM_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TREM_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TREM_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Time related remark",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Time related remark",
+        "@language": "en"
+      }
+    ]
+  }
+]

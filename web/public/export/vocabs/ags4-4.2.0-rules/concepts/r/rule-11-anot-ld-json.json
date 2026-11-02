@@ -1,0 +1,226 @@
+[
+  {
+    "@id": "_:n3-42",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/rules",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rules"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:rules"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Rules",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The rules of the AGS 4.2.0 data format. Sub-rules (e.g. 10a) are narrower than their main rule (10).",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:rules/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/rules/rule-11",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/rules"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "HEADINGs defined as a data TYPE of 'Record Link' (RL) can be used to link data rows to entries in GROUPs outside of the defined hierarchy (Rule 10c) or DICT group for user defined GROUPs.\nThe GROUP name followed by the KEY FIELDs defining the cross-referenced data row, in the order presented in the AGS4 DATA DICTIONARY.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/rules"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "11",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Rule 11",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/rules"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/rules/rule-11a"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/rules/rule-11b"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/rules/rule-11c"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rule-11"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:rules/items/ns1:rule-11"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rule 11",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "HEADINGs defined as a data TYPE of 'Record Link' (RL) can be used to link data rows to entries in GROUPs outside of the defined hierarchy (Rule 10c) or DICT group for user defined GROUPs.\nThe GROUP name followed by the KEY FIELDs defining the cross-referenced data row, in the order presented in the AGS4 DATA DICTIONARY.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/rules/rule-11a",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rule-11a"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:rules/items/ns1:rule-11a"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rule 11a",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Each GROUP/KEY FIELD shall be separated by a delimiter character. This single delimiter character shall be defined in TRAN_DLIM. The default being \"|\" (ASCII character 124).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/rules/rule-11b",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rule-11b"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:rules/items/ns1:rule-11b"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rule 11b",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A heading of data TYPE 'Record Link' can refer to more than one combination of GROUP and KEY FIELDs.\nThe combination shall be separated by a defined concatenation character. This single concatenation character shall be defined in TRAN_RCON. The default being \"+\" (ASCII character 43).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/rules/rule-11c",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:rule-11c"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:rules/items/ns1:rule-11c"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rule 11c",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Any heading of data TYPE 'Record Link' included in a data file shall cross-reference to the KEY FIELDs of data rows in the GROUP referred to by the heading contents.",
+        "@language": "en"
+      }
+    ]
+  }
+]

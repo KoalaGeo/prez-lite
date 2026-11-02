@@ -1,0 +1,981 @@
+[
+  {
+    "@id": "_:n3-1069",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Laboratory Fall Cone Test",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Laboratory Fall Cone Test",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "LFCN",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LFCN",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New\nAGS 4.1: Group Added\nAGS 4.1: Headings Added - LOCA_ID, SAMP_TOP, SAMP_REF, SAMP_TYPE, SAMP_ID, SPEC_REF, SPEC_DPTH, SPEC_DESC, SPEC_PREP, SPEC_BASE, LFCN_DEV, LFCN_CMAS, LFCN_CANG, LFCN_PENA, LFCN_PEN1, LFCN_PEN2, LFCN_PEN3, LFCN_PEN4, LFCN_CONF, LFCN_FCPK, LFCN_FCRM, LFCN_WC, LFCN_WCST, LFCN_REM, LFCN_METH, LFCN_LAB, LFCN_CRED, TEST_STAT, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CANG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CMAS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CONF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_DEV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_FCPK"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_FCRM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_LAB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN2"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN3"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN4"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PENA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_WC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_WCST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DESC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_PREP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "None",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/LFCN"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Laboratory Fall Cone Test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Laboratory Fall Cone Test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CANG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_CANG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_CANG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Angle of cone tip",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Angle of cone tip",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CMAS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_CMAS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_CMAS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mass of cone used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mass of cone used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CONF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_CONF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_CONF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Non-conforming test (due to penetration range)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Non-conforming test (due to penetration range)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_DEV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_DEV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_DEV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviations from the procedure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviations from the procedure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_FCPK",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_FCPK"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_FCPK"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated undrained fall cone shear strength",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated undrained fall cone shear strength",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_FCRM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_FCRM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_FCRM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated undrained fall cone shear strength, remoulded",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated undrained fall cone shear strength, remoulded",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_LAB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_LAB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_LAB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of testing laboratory/organization",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of testing laboratory/organization",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_PEN1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_PEN1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Individual penetration point 1 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Individual penetration point 1 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN2",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_PEN2"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_PEN2"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Individual penetration point 2 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Individual penetration point 2 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN3",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_PEN3"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_PEN3"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Individual penetration point 3 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Individual penetration point 3 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PEN4",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_PEN4"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_PEN4"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Individual penetration point 4 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Individual penetration point 4 if values differ by more than 0.5mm from the average, for undisturbed tests.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_PENA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_PENA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_PENA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Average cone penetration",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Average cone penetration",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_WC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_WC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_WC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Water content of specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water content of specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LFCN_WCST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LFCN_WCST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LFCN_WCST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Water content determined on specimen trimmings or other if applicable.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water content determined on specimen trimmings or other if applicable.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DESC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DESC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DESC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_PREP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_PREP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_PREP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of specimen preparation including time between preparation and testing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of specimen preparation including time between preparation and testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]

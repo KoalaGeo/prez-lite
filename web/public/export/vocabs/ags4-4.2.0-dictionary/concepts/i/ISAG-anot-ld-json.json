@@ -1,0 +1,729 @@
+[
+  {
+    "@id": "_:n3-2000",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Soakaway Tests - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Soakaway Tests - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "ISAG",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ISAG",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "AGS 4.1: Headings Added - ISAG_OPER"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_CONS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DPTE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DPTS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DURN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_ENV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_OPER"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PLEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PORO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PWID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_SI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "None",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/ISAG"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soakaway Tests - General",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soakaway Tests - General",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_CONS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_CONS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_CONS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Description of soakaway construction",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Description of soakaway construction",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of testing organization",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of testing organization",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_DATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_DATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test date",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test date",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DPTE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_DPTE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_DPTE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soakaway pit depth at end of test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soakaway pit depth at end of test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DPTS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_DPTS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_DPTS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soakaway pit depth at start of test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soakaway pit depth at start of test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_DURN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_DURN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_DURN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test duration",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test duration",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_ENV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_ENV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_ENV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_OPER",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_OPER"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_OPER"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of operator carrying out test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of operator carrying out test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_PDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_PDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soakaway pit diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soakaway pit diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PLEN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_PLEN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_PLEN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soakaway pit length",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soakaway pit length",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PORO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_PORO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_PORO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Fill porosity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Fill porosity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_PWID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_PWID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_PWID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soakaway pit width",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soakaway pit width",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_SI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_SI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_SI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soil infiltration rate",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soil infiltration rate",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISAG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISAG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISAG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]

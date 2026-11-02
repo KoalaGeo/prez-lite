@@ -1,0 +1,1317 @@
+[
+  {
+    "@id": "_:n3-876",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Flat Dilatometer Test - Derived Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Flat Dilatometer Test - Derived Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DMTP",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DMTP",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - Flat Dilatometer Test - Derived Parameters\nAGS 4.2.0: Headings Added - Flat Dilatometer Test - Derived Parameters; LOCA_ID, DMTG_TESN, DMTT_DPTH, DMTP_BUW, DMTP_TVS, DMTP_EVS, DMTP_U0, DMTP_ID, DMTP_KD, DMTP_ED, DMTP_UD, DMTP_VS, DMTP_VDM, DMTP_SU, DMTP_PHI, DMTP_K0, DMTP_THS, DMTP_EHS, DMTP_OCR, DMTP_MPS, DMTP_DSD, DMTP_BUWM, DMTP_TVSM, DMTP_EVSM, DMTP_U0M, DMTP_IDM, DMTP_KDM, DMTP_EDM, DMTP_UDM, DMTP_VSM, DMTP_VDMM, DMTP_SUM, DMTP_PHIM, DMTP_K0M, DMTP_THSM, DMTP_EHSM, DMTP_OCRM, DMTP_MPSM, DMTP_DSDM, DMTP_REM, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_BUW"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_BUWM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_DSD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_DSDM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_ED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EDM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EHS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EHSM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EVS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EVSM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_IDM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_K0"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_K0M"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_KD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_KDM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_MPS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_MPSM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_OCR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_OCRM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_PHI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_PHIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_SU"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_SUM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_THS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_THSM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_TVS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_TVSM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_U0"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_U0M"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_UD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_UDM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VDM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VDMM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VSM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "The DMTP group is used to transfer derived parameters determined from flat dilatometer tests.\nThe requirement for this information as part of ground investigation reporting shall be fully specified at the outset of the investigation. The specification may need to detail the interpretative method(s) to be used.\nHeadings with suffix of M are intended for details of the correlation methods/references used to carry out calculations.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/DMTP"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flat Dilatometer Test - Derived Parameters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flat Dilatometer Test - Derived Parameters",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_BUW",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_BUW"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_BUW"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated bulk unit weight of soil, gamma (can be custom or correlation from software)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated bulk unit weight of soil, gamma (can be custom or correlation from software)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_BUWM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_BUWM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_BUWM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for estimated bulk unit weight of soil, gamma_b",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for estimated bulk unit weight of soil, gamma_b",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_DSD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_DSD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_DSD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Interpreted soil description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Interpreted soil description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_DSDM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_DSDM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_DSDM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for interpreted soil description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for interpreted soil description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_ED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_ED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_ED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Dilatometer modulus, E_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dilatometer modulus, E_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EDM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_EDM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_EDM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for dilatometer modulus, E_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for dilatometer modulus, E_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EHS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_EHS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_EHS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated effective horizontal stress, sigma'_h",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated effective horizontal stress, sigma'_h",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EHSM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_EHSM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_EHSM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for estimated effective horizontal stress, sigma'_h",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for estimated effective horizontal stress, sigma'_h",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EVS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_EVS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_EVS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated effective vertical stress, sigma'_v (Calculated from DMTP_TVS and DMTP_U0 or DMTG_WAT)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated effective vertical stress, sigma'_v (Calculated from DMTP_TVS and DMTP_U0 or DMTG_WAT)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_EVSM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_EVSM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_EVSM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for estimated effective vertical stress, sigma'_v",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for estimated effective vertical stress, sigma'_v",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Material index, I_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Material index, I_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_IDM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_IDM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_IDM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for material index, I_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for material index, I_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_K0",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_K0"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_K0"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Coefficient of lateral earth pressure at rest, K_0, fine soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Coefficient of lateral earth pressure at rest, K_0, fine soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_K0M",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_K0M"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_K0M"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for coefficient of lateral earth pressure at rest, K_0, fine soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for coefficient of lateral earth pressure at rest, K_0, fine soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_KD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_KD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_KD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Horizontal stress index, K_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Horizontal stress index, K_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_KDM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_KDM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_KDM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for horizontal stress index, K_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for horizontal stress index, K_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_MPS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_MPS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_MPS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated maximum preconsolidation stress, sigma'_p, (calculated from DMTP_OCR and DMTP_EVS)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated maximum preconsolidation stress, sigma'_p, (calculated from DMTP_OCR and DMTP_EVS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_MPSM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_MPSM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_MPSM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for estimated maximum preconsolidation stress, sigma'_p, (calculated from DMTP_OCR and DMTP_EVS)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for estimated maximum preconsolidation stress, sigma'_p, (calculated from DMTP_OCR and DMTP_EVS)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_OCR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_OCR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_OCR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Over-consolidation ratio, OCR, fine soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Over-consolidation ratio, OCR, fine soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_OCRM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_OCRM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_OCRM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for over-consolidation ratio, OCR, fine soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for over-consolidation ratio, OCR, fine soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_PHI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_PHI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_PHI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Effective angle of internal friction, phi', coarse soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Effective angle of internal friction, phi', coarse soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_PHIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_PHIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_PHIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for effective angle of internal friction, phi', coarse soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for effective angle of internal friction, phi', coarse soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_SU",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_SU"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_SU"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Undrained shear strength, s_u, fine soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Undrained shear strength, s_u, fine soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_SUM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_SUM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_SUM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for undrained shear strength, s_u, fine soils only",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for undrained shear strength, s_u, fine soils only",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_THS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_THS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_THS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated total horizontal stress, sigma_h",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated total horizontal stress, sigma_h",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_THSM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_THSM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_THSM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for estimated total horizontal stress, sigma_h",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for estimated total horizontal stress, sigma_h",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_TVS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_TVS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_TVS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated total vertical stress, sigma_v, (based on DMTP_BUW)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated total vertical stress, sigma_v, (based on DMTP_BUW)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_TVSM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_TVSM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_TVSM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for estimated total vertical stress, sigma_v",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for estimated total vertical stress, sigma_v",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_U0",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_U0"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_U0"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "In situ pore pressure, u_o (can be custom or based on depth below DMTG_WAT)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "In situ pore pressure, u_o (can be custom or based on depth below DMTG_WAT)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_U0M",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_U0M"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_U0M"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for in situ pore pressure, u_o",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for in situ pore pressure, u_o",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_UD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_UD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_UD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pore pressure index u_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pore pressure index u_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_UDM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_UDM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_UDM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for pore pressure index u_D",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for pore pressure index u_D",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VDM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_VDM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_VDM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Vertical drained constrained modulus, M",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Vertical drained constrained modulus, M",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VDMM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_VDMM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_VDMM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for vertical drained constrained modulus, M",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for vertical drained constrained modulus, M",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_VS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_VS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear wave velocity (correlated), V_s",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear wave velocity (correlated), V_s",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTP_VSM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTP_VSM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTP_VSM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method for shear wave velocity (correlated), V_s",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method for shear wave velocity (correlated), V_s",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth of result",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth of result",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  }
+]

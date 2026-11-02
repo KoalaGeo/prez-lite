@@ -1,0 +1,1009 @@
+[
+  {
+    "@id": "_:n3-1822",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Resonant Column Test - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Resonant Column Test - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "RESD",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "RESD",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/deprecated"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: DEPRECATED\nAGS 4.1: Group Added\nAGS 4.1: Headings Added - LOCA_ID, SAMP_TOP, SAMP_REF, SAMP_TYPE, SAMP_ID, SPEC_REF, SPEC_DPTH, RESD_TESN, RESD_MNUM, RESD_CNDS, RESD_SDIA, RESD_HIGH, RESD_CELL, RESD_BP, RESD_AXL, RESD_BPWP, RESD_MPWP, RESD_PPR, RESD_PWPM, RESD_EAS, RESD_VOL, RESD_DEV, RESD_MEES, RESD_MIPS, RESD_MAPS, RESD_AVSS, RESD_SM, RESD_DMP, RESD_REM, FILE_FSET\nAGS 4.2.0: Group Deprecated - Resonant Column Test - Data"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_AVSS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_AXL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_BP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_BPWP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_CELL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_CNDS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_DEV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_DMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_EAS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_HIGH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MAPS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MEES"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MIPS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MPWP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_PPR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_PWPM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_SDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_SM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_VOL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MNUM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "None",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/RESD"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESG"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Resonant Column Test - Data",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Resonant Column Test - Data",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_AVSS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_AVSS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_AVSS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Average Shear Strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Average Shear Strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_AXL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_AXL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_AXL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Axial Stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Axial Stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_BP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_BP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_BP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Back Pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Back Pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_BPWP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_BPWP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_BPWP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Base Pore Water Pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Base Pore Water Pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_CELL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_CELL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_CELL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cell Pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cell Pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_CNDS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_CNDS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_CNDS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test Conditions",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test Conditions",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_DEV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_DEV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_DEV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Principal Stress Difference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Principal Stress Difference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_DMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_DMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_DMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Damping",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Damping",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_EAS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_EAS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_EAS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "External Axial Strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "External Axial Strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_HIGH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_HIGH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_HIGH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen Height",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen Height",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MAPS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_MAPS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_MAPS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Major Principal Stress (sigma 1)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Major Principal Stress (sigma 1)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MEES",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_MEES"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_MEES"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mean Effective Stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mean Effective Stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MIPS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_MIPS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_MIPS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Minor Principal Stress (sigma 3)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Minor Principal Stress (sigma 3)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MNUM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_MNUM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_MNUM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Measurement Number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Measurement Number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_MPWP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_MPWP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_MPWP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mid-height Pore Water Pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mid-height Pore Water Pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_PPR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_PPR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_PPR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pore Pressure Ratio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pore Pressure Ratio",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_PWPM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_PWPM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_PWPM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Maximum Excess Pore Water Pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Maximum Excess Pore Water Pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_SDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_SDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_SDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen Diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen Diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_SM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_SM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_SM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear Modulus",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear Modulus",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESD_VOL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESD_VOL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESD_VOL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Volumetric Strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Volumetric Strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  }
+]

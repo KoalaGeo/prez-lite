@@ -1,0 +1,929 @@
+[
+  {
+    "@id": "_:n3-957",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "In Situ Seismic Test - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "In Situ Seismic Test - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "ISTG",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ISTG",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - In Situ Seismic Test - General\nAGS 4.2.0: Headings Added - In Situ Seismic Test - General; LOCA_ID, ISTG_TESN, ISTG_TYPE, ISTG_LINK, ISTG_STAR, ISTG_END, ISTG_REF, ISTG_RECC, ISTG_RECD, ISTG_SOUR, ISTG_RORD, ISTG_SHOF, ISTG_ORNT, ISTG_SVOF, ISTG_OTOP, ISTG_OBOT, ISTG_BHCP, ISTG_MTO, ISTG_OPER, ISTG_ANBY, ISTG_REM, ISTG_ENV, ISTG_METH, ISTG_CONT, ISTG_CRED, TEST_STAT, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_ANBY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_BHCP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_END"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_ENV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_LINK"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_MTO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_OBOT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_OPER"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_ORNT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_OTOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_RECC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_RECD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_RORD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_SHOF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_SOUR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_STAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_SVOF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Group rules: If the test is related to a CPT or DMT ISTG_LINK must be defined.",
+        "@language": "en"
+      },
+      {
+        "@value": "The IST set of groups is intended for seismic CPT, seismic DMT, and down hole seismic tests.\nThis group is intended for the definition of the general equipment setup.\nISTG_TESN is used to define an equipment setup.\nUse PIPE and CDIA to define the borehole construction.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/ISTG"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "In Situ Seismic Test - General",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "In Situ Seismic Test - General",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_ANBY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_ANBY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_ANBY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of analyser/ person responsible for data QAQC",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of analyser/ person responsible for data QAQC",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_BHCP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_BHCP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_BHCP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Borehole, how receiver is clamped in place",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Borehole, how receiver is clamped in place",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Subcontractors name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Subcontractors name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_END",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_END"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_END"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time at the end of seismic setup reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time at the end of seismic setup reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_ENV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_ENV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_ENV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_LINK",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_LINK"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_LINK"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Record Link to pushing test, such as CPT",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Record Link to pushing test, such as CPT",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_MTO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_MTO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_MTO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method of determination of trigger time latency",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method of determination of trigger time latency",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_OBOT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_OBOT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_OBOT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Offset between centre of the bottom receiver and the pushing device (CPT/DMT) tip. (Only use this entry for DUAL receiver setup.)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Offset between centre of the bottom receiver and the pushing device (CPT/DMT) tip. (Only use this entry for DUAL receiver setup.)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_OPER",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_OPER"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_OPER"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_ORNT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_ORNT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_ORNT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Orientation of source relative to the receivers in plan view. Ideally 90 deg, such that the waves are directed at the receivers",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Orientation of source relative to the receivers in plan view. Ideally 90 deg, such that the waves are directed at the receivers",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_OTOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_OTOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_OTOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Offset between centre of the top receiver and the pushing device (CPT/DMT) tip. (Use this entry for both SINGLE and DUAL receiver setup.)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Offset between centre of the top receiver and the pushing device (CPT/DMT) tip. (Use this entry for both SINGLE and DUAL receiver setup.)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_RECC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_RECC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_RECC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seismic receiver configuration. SINGLE for single receiver, DUAL for dual receiver test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Seismic receiver configuration. SINGLE for single receiver, DUAL for dual receiver test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_RECD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_RECD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_RECD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seismic receiver details, such as model",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Seismic receiver details, such as model",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seismic receiver module reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Seismic receiver module reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks, including borehole state at time of test if needed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks, including borehole state at time of test if needed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_RORD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_RORD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_RORD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Recording equipment details",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Recording equipment details",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_SHOF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_SHOF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_SHOF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Horizontal offset between centre of hole and source",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Horizontal offset between centre of hole and source",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_SOUR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_SOUR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_SOUR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Source, such as Hammer system",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Source, such as Hammer system",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_STAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_STAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_STAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time at the beginning of seismic setup reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time at the beginning of seismic setup reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_SVOF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_SVOF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_SVOF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Source measured vertical offset from ground level/seafloor (positive down)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Source measured vertical offset from ground level/seafloor (positive down)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Setup reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Setup reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ISTG_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ISTG_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ISTG_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seismic test type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Seismic test type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]

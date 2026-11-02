@@ -1,0 +1,864 @@
+[
+  {
+    "@id": "_:n3-734",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Drilling/Advancement Observations & Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Drilling/Advancement Observations & Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DOBS",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DOBS",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_DHRS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_DHRT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_DURN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_ETIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_FMCR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_FMPO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_FMRR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_HAMM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_HAMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_PENR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_RESP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_REST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_SET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_SPEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_STIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_THRP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_THST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_TORP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_TORQ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "DOBS is to be used to record information on hole advancement and drilling parameters, for example open hole rotary drilling information.\nDOBS records are data relating to the drilling parameters over a depth range. Where instrumentation on drilling rigs provides point readings of these parameters, this data should either be collated to summarise parameters over appropriate depth ranges, or reported with the start and end of each depth range to represent a point reading.\nDOBS_SET allows for multiple readings to be included in the group in circumstances for example where a hole depth section is re-drilled.\nFLSH shall be used to record other flushing related information.\nIt is suggested that DOBS can be used to transfer information recorded from instrumented drilling rigs. Additional fields maybe required to fully transfer the information.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/DOBS"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Drilling/Advancement Observations & Parameters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Drilling/Advancement Observations & Parameters",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of reported section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of reported section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_DHRS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_DHRS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_DHRS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Drill head rotational speed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Drill head rotational speed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_DHRT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_DHRT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_DHRT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Drill head rotational torque",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Drill head rotational torque",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_DURN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_DURN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_DURN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Duration to advance reported section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Duration to advance reported section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_ETIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_ETIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_ETIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time at end of reported section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time at end of reported section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_FMCR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_FMCR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_FMCR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flushing medium circulation rate (input) over flush zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flushing medium circulation rate (input) over flush zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_FMPO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_FMPO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_FMPO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flushing medium pressure at the output of the pump over flush zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flushing medium pressure at the output of the pump over flush zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_FMRR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_FMRR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_FMRR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flushing medium recovery rate over flush zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flushing medium recovery rate over flush zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_HAMM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_HAMM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_HAMM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Hammering used during section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Hammering used during section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_HAMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_HAMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_HAMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Supply pressure to downhole hammer",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Supply pressure to downhole hammer",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Measurement method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Measurement method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_PENR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_PENR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_PENR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Penetration rate",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Penetration rate",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_RESP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_RESP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_RESP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pressure of restraining (holdback) system",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pressure of restraining (holdback) system",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_REST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_REST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_REST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Restraining (holdback) force",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Restraining (holdback) force",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_SET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_SET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_SET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Readings set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Readings set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_SPEN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_SPEN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_SPEN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specific energy",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specific energy",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_STIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_STIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_STIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time of start of reported section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time of start of reported section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_THRP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_THRP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_THRP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pressure of downthrust system",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pressure of downthrust system",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_THST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_THST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_THST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Downward thrust on bit",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Downward thrust on bit",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of reported section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of reported section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_TORP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_TORP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_TORP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Torque pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Torque pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DOBS_TORQ",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DOBS_TORQ"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DOBS_TORQ"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Torque applied to top of drill rods",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Torque applied to top of drill rods",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  }
+]

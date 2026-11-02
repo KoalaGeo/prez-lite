@@ -1,0 +1,841 @@
+[
+  {
+    "@id": "_:n3-1618",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTG_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTG_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTG_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth of test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth of test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Pressuremeter Test Results - Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Pressuremeter Test Results - Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "PMTP",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "PMTP",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - Pressuremeter Test Results - Parameters\nAGS 4.2.0: Headings added - Pressuremeter Test Results - Parameters; LOCA_ID, PMTG_DPTH, PMTG_TESN, PMTP_U0, PMTP_STO, PMTP_HO, PMTP_HOM, PMTP_GI, PMTP_SU, PMTP_SUM, PMTP_AF, PMTP_AD, PMTP_AFDM, PMTP_AFCV, PMTP_DC, PMTP_DCM, PMTP_PL, PMTP_PF, PMTP_PFM, PMTP_YM, PMTP_YMM, PMTP_MU, PMTP_REM, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AFCV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AFDM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_DC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_DCM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_GI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_HO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_HOM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_MU"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_PF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_PFM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_PL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_STO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_SU"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_SUM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_U0"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_YM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_YMM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTG_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to transfer calculated engineering parameters for standard pressuremeter testing.\nThe requirement for this information as part of ground investigation reporting shall be fully specified at the outset of the investigation. The specification may need to detail the interpretative method(s) to be used.\nHeadings with suffix of M are intended for details of the correlation methods/references used to carry out calculations.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/PMTP"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTG"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pressuremeter Test Results - Parameters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pressuremeter Test Results - Parameters",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_AD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_AD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Angle of dilation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Angle of dilation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_AF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_AF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Peak angle of friction",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Peak angle of friction",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AFCV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_AFCV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_AFCV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Angle of friction at constant volume (*cv) used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Angle of friction at constant volume (*cv) used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_AFDM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_AFDM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_AFDM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method remark for Peak angle of friction and Angle of dilation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method remark for Peak angle of friction and Angle of dilation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_DC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_DC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_DC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Drained cohesion",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Drained cohesion",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_DCM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_DCM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_DCM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method remark for Drained cohesion",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method remark for Drained cohesion",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_GI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_GI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_GI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear modulus from first loading",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear modulus from first loading",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_HO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_HO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_HO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Estimated in situ horizontal stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Estimated in situ horizontal stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_HOM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_HOM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_HOM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method remark for Estimated in situ horizontal stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method remark for Estimated in situ horizontal stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_MU",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_MU"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_MU"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Poisson's ratio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Poisson's ratio",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_PF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_PF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_PF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Total yield stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Total yield stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_PFM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_PFM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_PFM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method remark for Total yield stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method remark for Total yield stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_PL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_PL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_PL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Total limit pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Total limit pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_STO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_STO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_STO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Strain origin",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Strain origin",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_SU",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_SU"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_SU"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Undrained shear strength",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Undrained shear strength",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_SUM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_SUM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_SUM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method remark for Undrained Shear Strength (s_u)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method remark for Undrained Shear Strength (s_u)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_U0",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_U0"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_U0"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "In situ pore water pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "In situ pore water pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_YM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_YM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_YM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Yield modulus",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Yield modulus",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/PMTP_YMM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:PMTP_YMM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:PMTP_YMM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method remark for Yield modulus",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method remark for Yield modulus",
+        "@language": "en"
+      }
+    ]
+  }
+]

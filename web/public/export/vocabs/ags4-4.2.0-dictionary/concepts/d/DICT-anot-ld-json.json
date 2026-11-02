@@ -1,0 +1,476 @@
+[
+  {
+    "@id": "_:n3-2427",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "User Defined Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "User Defined Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DICT",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DICT",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: Required in all files which include user defined groups and/or headings (Rule 18)\nAGS 4.1: Group Rule Added - • If the DICT_TYPE is HEADING, there shall be data variables present for DICT_GRP, DICT_HDNG, DICT_STAT, DICT_UNIT, DICT_DTYP and DICT_DESC. • If the DICT_TYPE is GROUP, there shall be data variables present for DICT_GRP and DICT_DESC and the DICT_HDNG, DICT_STAT, DICT_DTYP and DICT_UNIT headings shall contain NULL values. • Data type for data field heading DICT_UNIT shall not be changed from PU."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_DESC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_DTYP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_EXMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_GRP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_HDNG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_PGRP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_STAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT_UNIT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "DICT is required in all AGS4 files where user defined groups and/or headings are specified (Rule 18).\nDICT_STAT defines the status of the heading. This shall contain the data 'KEY', 'REQUIRED', 'KEY+REQUIRED' or 'OTHER', where OTHER denotes the data field is neither key nor required (Rule 10).\nDICT_PGRP allows for inclusion of the parent group name when the DICT_TYPE is \"GROUP\". This permits data integrity checking where data files include user defined groups.",
+        "@language": "en"
+      },
+      {
+        "@value": "Group rules: If the DICT_TYPE is HEADING, there shall be data variables present for DICT_GRP, DICT_HDNG, DICT_STAT, DICT_UNIT, DICT_DTYP and DICT_DESC.\nIf the DICT_TYPE is GROUP, there shall be data variables present for DICT_GRP and DICT_DESC and the DICT_HDNG, DICT_STAT, DICT_DTYP and DICT_UNIT headings shall contain NULL values.\nData type for data field heading DICT_UNIT shall not be changed from PU.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/DICT"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "User Defined Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "User Defined Groups and Headings",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_DESC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_DESC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_DESC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_DTYP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_DTYP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_DTYP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of data and format (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of data and format (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_EXMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_EXMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_EXMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Example",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Example",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_GRP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_GRP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_GRP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Group name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Group name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_HDNG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_HDNG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_HDNG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Heading name (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Heading name (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_PGRP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_PGRP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_PGRP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Parent group name (Note: This data is REQUIRED where DICT_TYPE='GROUP')",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Parent group name (Note: This data is REQUIRED where DICT_TYPE='GROUP')",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Heading status KEY, REQUIRED or OTHER (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Heading status KEY, REQUIRED or OTHER (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flag to indicate definition is a GROUP or HEADING (i.e. can be either of GROUP or HEADING)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flag to indicate definition is a GROUP or HEADING (i.e. can be either of GROUP or HEADING)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DICT_UNIT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DICT_UNIT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DICT_UNIT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Units (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Units (Note: This data is REQUIRED where DICT_TYPE='HEADING')",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  }
+]

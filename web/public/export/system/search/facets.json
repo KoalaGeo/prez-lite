@@ -1,6 +1,36 @@
 {
   "schemes": [
     {
+      "iri": "https://w3id.org/ags4/voc/dictionary",
+      "label": "AGS 4.2.0 Groups and Headings",
+      "count": 2491
+    },
+    {
+      "iri": "https://w3id.org/ags4/voc/abbreviations",
+      "label": "AGS 4.2.0 Abbreviations",
+      "count": 1043
+    },
+    {
+      "iri": "https://w3id.org/ags4/voc/units",
+      "label": "AGS 4.2.0 Units",
+      "count": 158
+    },
+    {
+      "iri": "https://w3id.org/ags4/voc/rules",
+      "label": "AGS 4.2.0 Rules",
+      "count": 32
+    },
+    {
+      "iri": "https://w3id.org/ags4/voc/contaminant-codes",
+      "label": "AGS 4.2.0 Contaminant and Determinand Codes",
+      "count": 26
+    },
+    {
+      "iri": "https://w3id.org/ags4/voc/data-types",
+      "label": "AGS 4.2.0 Data Types",
+      "count": 26
+    },
+    {
       "iri": "https://linked.data.gov.au/def/alteration-form",
       "label": "Alteration form",
       "count": 24
@@ -23,9 +53,9 @@
   ],
   "publishers": [
     {
-      "iri": "https://linked.data.gov.au/org/gswa",
-      "label": "gswa",
-      "count": 24
+      "iri": "https://github.com/KoalaGeo",
+      "label": "KoalaGeo",
+      "count": 3776
     }
   ]
 }

@@ -1,0 +1,668 @@
+[
+  {
+    "@id": "_:n3-2311",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CHOC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CHOC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CHOC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Chain of custody reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Chain of custody reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBSG_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBSG_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBSG_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Schedule reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Schedule reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Testing Schedule Details",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Testing Schedule Details",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "LBST",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LBST",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DEPN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DETL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DONE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DUE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_PREP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_STAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_TEST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST_TTYP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CHOC_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBSG_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "The LBST group is used to describe instructions and requirements to be passed to the laboratory regarding testing on samples.\nEach data row represents a test on a sample. Therefore sample details will be repeated for each test scheduled on that sample.\nLBSG_REF provides the link between the test and the test schedule details.\nLBST_TEST is the specific code or name of the particular test required on the sample. Whilst these will be drawn from standards, the test names are typically unique to laboratories or maybe linked to a particular contract specification. At the outset of scheduling testing the list of test names that are particular to a project or contract should ascertained and used as a pick-list in any information system generating LBST data. It is envisaged that laboratories or contract specifications can provide coded lists for test details that would be suitable for LBST_TEST data.\nThe headings of LBST_TTYP, LBST_METH, LBST_PREP, LBST_DEPN allow for descriptions of the test name/method or standard, specific method details or test parameters, test specimen preparation and dependent options or comments. For any test some or all of these data items may be required to fully define the test. An example of the type of information that could be included under these headings could be:\nLBST_TEST = CBR\nLBST_TTYP = California Bearing Ratio. BS1377 : 1990 : Part 4 , Section 7\nLBST_METH = Top and Base. Surcharge mass 100 kPa\nLBST_PREP = Recompacted (see Remarks for compaction details), Soaked\nLBST_DEPN = Advise if sample unsuitable\nThe group also includes headings that can be used by the testing laboratory to report testing progress or highlight problems with carrying out the instructed testing; LBST_STAT, LBST_DETL and LBST_DONE. If data is provided under these headings to the organization that schedules the tests, they can use the information to track progress and monitor completion\nLBST_STAT is used to describe the status of testing. Typically this would include standard phrases rather than detailed descriptions such as Scheduled , Restricted , In progress , Completed .\nDetails of testing restrictions, for example insufficient or unsuitable sample, should be included under LBST_DETL. The transfer of LBST could provide a suitable method for laboratories to advise on testing restrictions, for example, returning a file containing all LBST records with an LBST_STAT of Restricted .",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/LBST"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBSG"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Testing Schedule Details",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Testing Schedule Details",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DEPN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_DEPN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_DEPN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Dependent test options",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dependent test options",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DETL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_DETL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_DETL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of testing carried out or reasons for no testing possible",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of testing carried out or reasons for no testing possible",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DONE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_DONE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_DONE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date test completed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date test completed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_DUE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_DUE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_DUE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test results due date",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test results due date",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method and test parameters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method and test parameters",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_PREP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_PREP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_PREP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Preparation requirements",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Preparation requirements",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Status of laboratory test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Status of laboratory test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_TEST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_TEST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_TEST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test Name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test Name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LBST_TTYP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LBST_TTYP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LBST_TTYP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Full test method or standard",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Full test method or standard",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  }
+]

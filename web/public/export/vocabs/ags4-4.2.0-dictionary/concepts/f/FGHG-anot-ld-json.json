@@ -1,0 +1,981 @@
+[
+  {
+    "@id": "_:n3-826",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Field Geohydraulic Testing - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Field Geohydraulic Testing - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "FGHG",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FGHG",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New\nAGS 4.1: Group Added - Replaces IPRG and IPRT\nAGS 4.1: Headings Added - LOCA_ID, FGHG_TOP, FGHG_BASE, FGHG_TESN, FGHG_TDIA, FGHG_SDIA, FGHG_ODIA, FGHG_HBAS, FGHG_CAS, FGHG_SFAC, FGHG_SFRF, FGHG_DATE, FGHG_TYPE, FGHG_CNFG, FGHG_METH, FGHG_PRWL, FGHG_AWL, FGHG_HEAD, FGHG_FLOW, FGHG_IPRM, FGHG_ILUG, FGHG_FTYP, FGHG_REM, FGHG_ENV, FGHG_CONT, FGHG_OPER, FGHG_CRED, TEST_STAT, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_AWL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CAS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CNFG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_DATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_ENV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_FLOW"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_FTYP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_HBAS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_HEAD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_ILUG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_IPRM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_ODIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_OPER"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_PRWL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_SDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_SFAC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_SFRF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "The FGHG and related groups are for reporting the results of field geohydraulic permeability tests carried out in general accordance with BS EN ISO 22282-2 (Water permeability tests in a borehole using open systems) and -3 (Water pressure tests in rock), and the General rules of Part 1. These cover the variable head test methods (rising and falling head) and constant head/constant flow-rate methods in boreholes and installations, and 'packer tests' (now referred to in the standard as water pressure tests).\nThe FGHG groups allow reporting of additional information required by the standards and in particular the data from test instrumentation using flowmeters, pressure transducers, etc which were not included in the AGS4.0 IPRT group.\nThe FGHG groups shall not be used for Pumping tests covered in Part 4 of the standard nor Infiltrometer tests in Part 5. (N.B. Infiltrometer tests here are not the same as 'soakaway' tests covered elsewhere.)\nAll reported depths are assumed to relate to ground level at the time of test, as used elsewhere and recorded in LOCA_GL\nFor tests in boreholes FGHG_TOP and FGHG_BASE are defined by depths of borehole, casing, packers, etc. For tests in standpipe type installations FGHG_TOP and FGHG_BASE are defined by the installation response zone, and correspond to MONG_TRZ and MONG_BRZ. However, for response zones in non-homogenous materials of different permeability it may be appropriate to use a different depth range for interpretation.\nFGHG_TDIA is the diameter of the borehole for tests in both boreholes and installations (where the response zone diameter corresponds to the borehole diameter in the latter).\nFGHG_SDIA is the diameter of rising/falling cylinder of water used in volume change calculation for variable head tests only. This heading is not required for constant head or constant flow-rate tests.\nFGHG_HBAS is the base depth of a test in a borehole, for example, double packer configurations where the test section base does not correspond to the base of the borehole.\nFGHG_SFAC and FGHG_SFRF are to report shape (or intake) factors in BS EN ISO 22282-1, Hvorslev (1951) or other reference stated.\nFGHG_CNFG is to report test configuration e.g. borehole, standpipe, standpipe piezometer, well, single packer, double packer, single instrumented packer, double instrumented packer.\nFGHG_PRWL and FGHG_AWL are expressed as depths to water in metres, but may be calculated values obtained from pressure measurement devices in the test section.\nFGHG_PRWL refers to the depth to water prior to any changes made to initiate the test.\nFGHG_HEAD is the applied head of water in the test section in excess of the ambient head due to the assumed equilibrium groundwater level. It may be calculated from pressure measurement devices in the test section. This applies only to single stage constant head/flow tests with a corresponding value for FGHG_FLOW.\nFGHG_IPRM is used to report the assessed permeability from non-multistage type tests (e.g. VHT) and the representative permeability from analysis of multistage tests (e.g. water pressure/'packer' tests) where this has been assessed. See FGHS for reporting results for separate stages of multistage tests.\nFGHG_FTYP is the flow type identified during a water pressure test in accordance with Annex B of BS EN ISO 22282-3, or other specification.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/FGHG"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geohydraulic Testing - General",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Field Geohydraulic Testing - General",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_AWL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_AWL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_AWL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to assumed standing water level used for calculations of head during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to assumed standing water level used for calculations of head during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of test zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of test zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CAS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_CAS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_CAS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth of casing during test (excluding tests in installations)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth of casing during test (excluding tests in installations)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CNFG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_CNFG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_CNFG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test configuration",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test configuration",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of testing organization",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of testing organization",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_DATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_DATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_DATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test date",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test date",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_ENV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_ENV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_ENV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_FLOW",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_FLOW"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_FLOW"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Average flow rate during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Average flow rate during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_FTYP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_FTYP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_FTYP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flow type for water pressure test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flow type for water pressure test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_HBAS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_HBAS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_HBAS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth of borehole during test (excluding tests in installations)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth of borehole during test (excluding tests in installations)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_HEAD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_HEAD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_HEAD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Applied total head of water at centre of test zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Applied total head of water at centre of test zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_ILUG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_ILUG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_ILUG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Representative Lugeon value for water pressure test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Representative Lugeon value for water pressure test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_IPRM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_IPRM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_IPRM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Representative permeability for test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Representative permeability for test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_ODIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_ODIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_ODIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Outside diameter of installation standpipe or borehole casing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Outside diameter of installation standpipe or borehole casing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_OPER",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_OPER"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_OPER"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_PRWL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_PRWL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_PRWL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to water in borehole or installation prior to test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to water in borehole or installation prior to test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_SDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_SDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_SDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Inside diameter of installation standpipe or borehole casing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Inside diameter of installation standpipe or borehole casing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_SFAC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_SFAC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_SFAC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shape factor for test zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shape factor for test zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_SFRF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_SFRF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_SFRF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shape factor reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shape factor reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_TDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_TDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Diameter of test zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Diameter of test zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FGHG_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FGHG_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FGHG_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]

@@ -1,0 +1,528 @@
+[
+  {
+    "@id": "_:n3-829",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Field Geological Descriptions",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Field Geological Descriptions",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "GEOL",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GEOL",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_BGS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_BNDF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_DESC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_FORM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_GEO2"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_GEOL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_LEG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "GEOL is used to transfer the field descriptions of geological materials required by EN ISO 14688-1 and 14689, and as described in guidance including BS 5930. Stratum descriptions recorded by the driller should be recorded in DLOG. This information will not need to be duplicated wholesale in GEOL\nGEOL_GEOL and GEOL_GEO2 can contain codes that are defined by the organization supervising the investigation and may be an organization or project based classification of the strata. The codification is typically determined by the investigation supervisor, designer or consultant. The inclusion of the codification by a ground investigation contractor and provision in the AGS Format files has to be specified in full in the investigation specification as codification is typically not a requirement of investigation standards.\nA suggested use of the GEOL_GEOL and GEOL_GEO2 codes is as follows:\na) The geology code GEOL_GEOL relates to the Geological Name of each geological unit, for example:\nRA as an abbreviation for Recent Alluvium\nLC as an abbreviation for London Clay\nb) The second geology code GEOL_GEO2 is an abbreviation for the material type of each stratum, for example:\nCS as an abbreviation for sandy CLAY\nC as an abbreviation for CLAY\nThe BGS classification system (http://nora.nerc.ac.uk/9179/) could be a suitable classification for use on particular projects.\nThe stratum code GEOL_STAT may be used as the reference letter or number of each stratum on a trial pit log. Its sole purpose is to link the stratum shown on the face sketch of the trial pit to the stratum description given elsewhere on the log. It is therefore not used on borehole logs and it is not used on simple trial pit logs which are presented in borehole log format, without a face sketch. GEOL_STAT is usually just the numbers 1, 2, 3 etc or the letters A, B, C etc.\nGEOL_STAT also appears in the SAMP Group and several of the in situ testing Groups so that it is possible to indicate which stratum on a trial pit face a sample was taken from, or an in situ test carried out in.\nGEOL_BGS can be included if required to contain the abbreviations from the British Geological Survey (BGS) lexicon of strata that is associated with the stratum. There is a list of these abbreviations provided and maintained on the BGS website: www.bgs.ac.uk/lexicon/home.html.\nBS 5930 states that the geological formation may also be named. Typically this information is presented as part of the exploratory hole log at the end of stratum description. If this is required, this data must be specified and the data is not included in GEOL_DESC but transferred in an additional heading GEOL_FORM. There is a link between GEOL_FORM and GEOL_BGS, however, the use of GEOL_FORM will include for strata that do not have BGS Lexicon codes; for example, types of ANTHROPOGENIC GROUND such as embankment fill.\nIf more detailed information on material weathering grades is required then these details are to be included in the WETH group.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/GEOL"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Field Geological Descriptions",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Field Geological Descriptions",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to the base of description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to the base of description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_BGS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_BGS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_BGS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "BGS Lexicon code",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "BGS Lexicon code",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_BNDF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_BNDF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_BNDF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geology base boundary definition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Geology base boundary definition",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_DESC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_DESC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_DESC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "General description of stratum",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "General description of stratum",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_FORM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_FORM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_FORM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geological unit or stratum name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Geological unit or stratum name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_GEO2",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_GEO2"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_GEO2"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Second geology code",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Second geology code",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_GEOL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_GEOL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_GEOL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geology code",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Geology code",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_LEG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_LEG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_LEG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Legend code",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Legend code",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Stratum reference shown on trial pit or traverse sketch",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stratum reference shown on trial pit or traverse sketch",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to the top of stratum",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to the top of stratum",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  }
+]

@@ -1,0 +1,901 @@
+[
+  {
+    "@id": "_:n3-772",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Effective Stress Consolidation Tests - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Effective Stress Consolidation Tests - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "ESCT",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ESCT",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "AGS 4.1: Group Rule Added - • ESCT_INK should generally be numeric data. A text form shall only be used by addition of a prefixing operator to denote greater than or less than conditions i.e. >200 when readings are above the reporting limit of the testing equipment."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_CVME"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_DISS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_DSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_DVOL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INK"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INMV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INSC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_PWP0"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_PWPF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_TEMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_VR0"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_VRE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "ESCT_DVOL - consolidation (flow of water out of specimen) to be reported as positive and dilatancy or swelling (flow of water into specimen) to be reported as negative.",
+        "@language": "en"
+      },
+      {
+        "@value": "Group rules: ESCT_INK shall generally be numeric data. A text form shall only be used by addition of a prefixing operator to denote greater than or less than conditions i.e. >N when readings are above the reporting limit (N) of the testing equipment.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/ESCT"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCG"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Effective Stress Consolidation Tests - Data",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Effective Stress Consolidation Tests - Data",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_CVME",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_CVME"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_CVME"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method used for deriving Cv",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method used for deriving Cv",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_DISS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_DISS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_DISS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Percentage pore pressure dissipation at end of stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Percentage pore pressure dissipation at end of stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_DSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_DSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_DSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Settlement measured during consolidation stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Settlement measured during consolidation stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_DVOL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_DVOL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_DVOL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Volume change measured during consolidation stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Volume change measured during consolidation stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INCB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INCB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Back pressure applied during stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Back pressure applied during stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INCC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INCC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cell or diaphragm pressure applied during stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cell or diaphragm pressure applied during stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INCF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INCF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Effective stress at end of consolidation stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Effective stress at end of consolidation stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INCN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INCN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Consolidation stage number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Consolidation stage number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INCV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INCV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INCV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Reported coefficient of consolidation over stress increment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Reported coefficient of consolidation over stress increment",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INK",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INK"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INK"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Permeability over stress increment (t90)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Permeability over stress increment (t90)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INMV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INMV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INMV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Reported coefficient of volume compressibility over stress increment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Reported coefficient of volume compressibility over stress increment",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_INSC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_INSC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_INSC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Coefficient of secondary compression over stress increment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Coefficient of secondary compression over stress increment",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_PWP0",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_PWP0"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_PWP0"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pore pressure at end of undrained loading",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pore pressure at end of undrained loading",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_PWPF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_PWPF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_PWPF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pore pressure at end of consolidation stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pore pressure at end of consolidation stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Additional stage specific details",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Additional stage specific details",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_TEMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_TEMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_TEMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Average temperature over stress increment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Average temperature over stress increment",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_VR0",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_VR0"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_VR0"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Voids ratio at start of increment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Voids ratio at start of increment",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/ESCT_VRE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:ESCT_VRE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:ESCT_VRE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Voids ratio at end of stress increment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Voids ratio at end of stress increment",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  }
+]

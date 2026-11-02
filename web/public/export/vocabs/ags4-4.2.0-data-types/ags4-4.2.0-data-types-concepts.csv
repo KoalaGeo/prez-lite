@@ -1,0 +1,27 @@
+iri,broader,prefLabel
+https://w3id.org/ags4/voc/data-types/0DP,https://w3id.org/ags4/voc/data-types/nDP,0DP: 0 decimal places
+https://w3id.org/ags4/voc/data-types/1DP,https://w3id.org/ags4/voc/data-types/nDP,1DP: 1 decimal place
+https://w3id.org/ags4/voc/data-types/1SCI,https://w3id.org/ags4/voc/data-types/nSCI,1SCI: scientific notation with 1 decimal place
+https://w3id.org/ags4/voc/data-types/1SF,https://w3id.org/ags4/voc/data-types/nSF,1SF: 1 significant figure
+https://w3id.org/ags4/voc/data-types/2DP,https://w3id.org/ags4/voc/data-types/nDP,2DP: 2 decimal places
+https://w3id.org/ags4/voc/data-types/2SCI,https://w3id.org/ags4/voc/data-types/nSCI,2SCI: scientific notation with 2 decimal places
+https://w3id.org/ags4/voc/data-types/2SF,https://w3id.org/ags4/voc/data-types/nSF,2SF: 2 significant figures
+https://w3id.org/ags4/voc/data-types/3DP,https://w3id.org/ags4/voc/data-types/nDP,3DP: 3 decimal places
+https://w3id.org/ags4/voc/data-types/3SF,https://w3id.org/ags4/voc/data-types/nSF,3SF: 3 significant figures
+https://w3id.org/ags4/voc/data-types/4DP,https://w3id.org/ags4/voc/data-types/nDP,4DP: 4 decimal places
+https://w3id.org/ags4/voc/data-types/MC,,British Standard BS1377 : Part 2 reported moisture content
+https://w3id.org/ags4/voc/data-types/DT,,Date time in international format
+https://w3id.org/ags4/voc/data-types/DMS,,Degrees: Minutes: Seconds
+https://w3id.org/ags4/voc/data-types/T,,Elapsed Time
+https://w3id.org/ags4/voc/data-types/RL,,Record Link
+https://w3id.org/ags4/voc/data-types/nSCI,,Scientific Notation with required number of decimal places
+https://w3id.org/ags4/voc/data-types/X,,Text
+https://w3id.org/ags4/voc/data-types/PA,,Text listed in ABBR Group
+https://w3id.org/ags4/voc/data-types/PT,,Text listed in TYPE Group
+https://w3id.org/ags4/voc/data-types/PU,,Text listed in UNIT Group
+https://w3id.org/ags4/voc/data-types/XN,,Text/numeric
+https://w3id.org/ags4/voc/data-types/ID,,Unique Identifier
+https://w3id.org/ags4/voc/data-types/U,,Value with a variable format
+https://w3id.org/ags4/voc/data-types/nDP,,Value with required number of decimal places
+https://w3id.org/ags4/voc/data-types/nSF,,Value with required number of significant figures
+https://w3id.org/ags4/voc/data-types/YN,,Yes or No

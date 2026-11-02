@@ -1,0 +1,1097 @@
+[
+  {
+    "@id": "_:n3-916",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Geotechnical Chemistry Testing",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Geotechnical Chemistry Testing",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "GCHM",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "GCHM",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: This group is reserved for soil/water chemistry testing associated with geotechnical design assessments. Environmental contamination testing should be recorded in Group ELRG\nAGS 4.1: Headings Added - SPEC_BASE, GCHM_DEV, GCHM_SGRP, GCHM_LSID, GCHM_RDEV, GCHM_RDAT, GCHM_DTIM, GCHM_TEST, GCHM_IREF, GCHM_ITYP\nAGS 4.1: Group Rule Added - • Where a reading has no unit, the GCHM_UNIT data shall be set to 'UNITLESS' • Units included in GCHM_UNIT shall be fully defined in the UNIT group (Rule 15), the unit group is case sensitive. • Data type for data field heading GCHM_UNIT shall not be changed from PU."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_CODE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_DEV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_DLM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_DTIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_IREF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_ITYP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_LAB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_LSID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_NAME"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_PERP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_RDAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_RESL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_RTXT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_SGRP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_SIZE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_TEST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_TTYP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_UNIT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DESC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_PREP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "GCHM_RDEV included in error in AGS 4.1.0 Dec 2020, this heading shall not be used and shall be regarded as deleted. Correct heading is GCHM_DEV.\nGCHM is used to report chemical testing carried out for geotechnical design and shall not be transferred or duplicated within ELRG.\nGCHM is to be used for testing in accordance with BS 1377, BS EN 1744-1+A1, testing for use in the assessment described in BRE Special Digest 1 and/or buried steel testing described in the Design Manual for Roads and Bridges; CD 375. Chemical testing for contamination or water quality testing is reported in ELRG. Laboratory resistivity test results should be reported using the LRES Group.\nThe GCHM_CODE abbreviations to report testing to BRE Special Digest 1 and BS 1377-3 would be:\nPH = Acidity/alkalinity (pH value to nearest 0.1)\nWS = Water-soluble sulfate (as mg/l SO4)\nAS = Acid-soluble sulfate (as % SO4)\nTS = Total sulfur (as % S)\nWMG = Water/soil extract Magnesium (as mg/l)\nNH4 = Ammonium ion (as mg/l)\nCL = Chloride (as mg/l)\nNO3 = Nitrate (as mg/l)\nACO2 = Aggressive Carbon dioxide (as mg/l)\nCO2 = Carbonate content (as %CO2)\nLOI = Loss on ignition (as %)\nOGM = Organic matter content (as %)\nTDS = Total dissolved solids (in mg/l to 2SF)\nCACO3 = Chalk content (as %CaCO3)\nThe GCHM_CODE abbreviations to report testing of buried steel would be:\nREDOX = Redox Potential (as mV)\nAll GCHM_CODE abbreviations reported in this group are to be listed in the ABBR group.\nThe GCHM_TTYP abbreviations would be limited to SOLID_21WAT, SOLID_ACID, SOLID_TOT and WATER to report testing to BRE Special Digest 1 and BS 1377-3.\nGCHM_UNIT is a REQUIRED field (Rule 10b) which enforces the inclusion of units for all test results. Where a test result has no unit, the GCHM_UNIT data shall be set to \"UNITLESS\".\nUnits reported in GCHM_UNIT must be fully defined in the UNIT group (Rule 15). It is possible that units require conversion when the data is received and amalgamated into project databases to ensure that data are consistent across testing tranches and appropriate for the assessment.\nFor a chalk content test carried out to BS1377-3, it would be good practice to report both a Carbonate content (as CO2) and the chalk content (as %CaCO3).",
+        "@language": "en"
+      },
+      {
+        "@value": "Group rules: Where a reading has no unit, the GCHM_UNIT data shall be set to \"UNITLESS\".\nUnits included in GCHM_UNIT shall be fully defined in the UNIT group (Rule 15), the unit group is case sensitive.\nData type for data field heading GCHM_UNIT shall not be changed from PU.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/GCHM"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geotechnical Chemistry Testing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Geotechnical Chemistry Testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_CODE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_CODE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_CODE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Determinand",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Determinand",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_DEV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_DEV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_DEV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviations from the test method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviations from the test method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_DLM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_DLM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_DLM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Lower detection limit",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Lower detection limit",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_DTIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_DTIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_DTIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Analysis date and time",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Analysis date and time",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_IREF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_IREF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_IREF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Instrument reference no or identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Instrument reference no or identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_ITYP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_ITYP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_ITYP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Instrument type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Instrument type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_LAB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_LAB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_LAB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of testing laboratory/organization",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of testing laboratory/organization",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_LSID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_LSID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_LSID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Laboratory sample ID",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Laboratory sample ID",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_NAME",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_NAME"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_NAME"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Client/laboratory preferred name of determinand",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Client/laboratory preferred name of determinand",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_PERP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_PERP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_PERP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Percentage of material removed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Percentage of material removed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_RDAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_RDAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_RDAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample receipt date/time at laboratory",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample receipt date/time at laboratory",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks on test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks on test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_RESL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_RESL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_RESL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test result",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test result",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_RTXT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_RTXT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_RTXT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Reported result",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Reported result",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_SGRP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_SGRP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_SGRP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample delivery or batch code",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample delivery or batch code",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_SIZE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_SIZE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_SIZE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Size of material removed prior to test; value given indicates lowest sized material removed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Size of material removed prior to test; value given indicates lowest sized material removed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_TEST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_TEST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_TEST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test of Suite name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test of Suite name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_TTYP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_TTYP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_TTYP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GCHM_UNIT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GCHM_UNIT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GCHM_UNIT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test result units",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test result units",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DESC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DESC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DESC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_PREP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_PREP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_PREP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of specimen preparation including time between preparation and testing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of specimen preparation including time between preparation and testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]

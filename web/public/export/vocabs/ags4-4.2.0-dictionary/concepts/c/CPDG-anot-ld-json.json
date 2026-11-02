@@ -1,0 +1,785 @@
+[
+  {
+    "@id": "_:n3-1591",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Pore Pressure Dissipation Tests (PPDT) - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Pore Pressure Dissipation Tests (PPDT) - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "CPDG",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "CPDG",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - Pore Pressure Dissipation Tests (PPDT) - General\nAGS 4.2.0: Headings Added - Pore Pressure Dissipation Tests (PPDT) - General; LOCA_ID, CPTG_TESN, CPDG_DPTH, CPDG_IR, CPDG_RCMP, CPDG_UI, CPDG_UIP, CPDG_M, CPDG_UEQ, CPDG_UEP, CPDG_DDIS, CPDG_T, CPDG_CH, CPDG_CHMT, CPDG_CV, CPDG_CVMT, CPDG_REM, CPDG_DATE, CPDG_OPER, CPDG_ANBY, TEST_STAT, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_ANBY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CHMT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CVMT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_DATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_DDIS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_IR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_M"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_OPER"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_RCMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_T"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UEP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UEQ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UIP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "CPDG is to be used to record the general information relating to dissipation tests carried out during static cone penetrometer testing.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/CPDG"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pore Pressure Dissipation Tests (PPDT) - General",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pore Pressure Dissipation Tests (PPDT) - General",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_ANBY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_ANBY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_ANBY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name(s) of analyser / person responsible for data quality and correctness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name(s) of analyser / person responsible for data quality and correctness",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_CH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_CH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Coefficient of consolidation (horizontal), c_h",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Coefficient of consolidation (horizontal), c_h",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CHMT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_CHMT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_CHMT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method(s) used to determine horizontal coefficient of consolidation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method(s) used to determine horizontal coefficient of consolidation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_CV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_CV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Coefficient of consolidation (vertical), c_v",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Coefficient of consolidation (vertical), c_v",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_CVMT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_CVMT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_CVMT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method(s) used to determine vertical coefficient of consolidation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method(s) used to determine vertical coefficient of consolidation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_DATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_DATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_DATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test date and time",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test date and time",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_DDIS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_DDIS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_DDIS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Degree of dissipation for analysis",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Degree of dissipation for analysis",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Inclination corrected depth of dissipation test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Inclination corrected depth of dissipation test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_IR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_IR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_IR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rigidity index used in analysis",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Rigidity index used in analysis",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_M",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_M"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_M"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Gradient of extrapolation line on square root time graph",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Gradient of extrapolation line on square root time graph",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_OPER",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_OPER"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_OPER"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_RCMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_RCMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_RCMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Were the rods clamped during test?",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Were the rods clamped during test?",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks, note if data is recorded as whole seconds",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks, note if data is recorded as whole seconds",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_T",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_T"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_T"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Time to achieve degree of dissipation stated in CPDG_DDIS",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Time to achieve degree of dissipation stated in CPDG_DDIS",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UEP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_UEP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_UEP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Procedure to define equilibrium pore water",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Procedure to define equilibrium pore water",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UEQ",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_UEQ"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_UEQ"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Measured or assumed equilibrium pore water pressure (u_o)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Measured or assumed equilibrium pore water pressure (u_o)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_UI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_UI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Measured, corrected or assumed initial pore water pressure (u_i)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Measured, corrected or assumed initial pore water pressure (u_i)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPDG_UIP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPDG_UIP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPDG_UIP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Procedure to define initial pore water pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Procedure to define initial pore water pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference or push number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference or push number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]
