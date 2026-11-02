@@ -1,0 +1,481 @@
+PREFIX agsrule: <https://w3id.org/ags4/voc/rules/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://github.com/KoalaGeo>
+    a schema:Organization ;
+    schema:name "KoalaGeo" ;
+    schema:url "https://github.com/KoalaGeo"^^xsd:anyURI ;
+.
+
+agsrule:rule-1
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "The data file shall be entirely composed of ASCII characters."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "1"^^xsd:token ;
+    skos:prefLabel "Rule 1"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-10a
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-10 ;
+    skos:definition "In every GROUP, certain HEADINGs are defined as KEY. There shall not be more than one row of data in each GROUP with the same combination of KEY field entries. KEY fields must appear in each GROUP, but may contain null data (see Rule 12)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "10a"^^xsd:token ;
+    skos:prefLabel "Rule 10a"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-10b
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-10 ;
+    skos:definition "Some HEADINGs are marked as REQUIRED. REQUIRED fields must appear in the data GROUPs where they are indicated in the AGS FORMAT DATA DICTIONARY. These fields require data entry and cannot be null (i.e. left blank or empty)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "10b"^^xsd:token ;
+    skos:prefLabel "Rule 10b"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-10c
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-10 ;
+    skos:definition "Links are made between data rows in GROUPs by the KEY fields. Every entry made in the KEY fields in any GROUP must have an equivalent entry in its PARENT GROUP. The PARENT GROUP must be included within the data file."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "10c"^^xsd:token ;
+    skos:prefLabel "Rule 10c"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-11a
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-11 ;
+    skos:definition "Each GROUP/KEY FIELD shall be separated by a delimiter character. This single delimiter character shall be defined in TRAN_DLIM. The default being \"|\" (ASCII character 124)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "11a"^^xsd:token ;
+    skos:prefLabel "Rule 11a"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-11b
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-11 ;
+    skos:definition """A heading of data TYPE 'Record Link' can refer to more than one combination of GROUP and KEY FIELDs.
+The combination shall be separated by a defined concatenation character. This single concatenation character shall be defined in TRAN_RCON. The default being "+" (ASCII character 43)."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "11b"^^xsd:token ;
+    skos:prefLabel "Rule 11b"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-11c
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-11 ;
+    skos:definition "Any heading of data TYPE 'Record Link' included in a data file shall cross-reference to the KEY FIELDs of data rows in the GROUP referred to by the heading contents."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "11c"^^xsd:token ;
+    skos:prefLabel "Rule 11c"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-12
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "Data does not have to be included against each HEADING unless REQUIRED (Rule 10b). The data FIELD can be null; a null entry is defined as \"\" (two quotes together)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "12"^^xsd:token ;
+    skos:prefLabel "Rule 12"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-13
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "Each data file shall contain the PROJ GROUP which shall contain only one data row and, as a minimum, shall contain data under the headings defined as REQUIRED (Rule 10b)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "13"^^xsd:token ;
+    skos:prefLabel "Rule 13"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-14
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "Each data file shall contain the TRAN GROUP which shall contain only one data row and, as a minimum, shall contain data under the headings defined as REQUIRED (Rule 10b)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "14"^^xsd:token ;
+    skos:prefLabel "Rule 14"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-15
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """Each data file shall contain the UNIT GROUP to list all units used within the data file.
+Every unit of measurement entered in the UNIT row of a GROUP or data entered in a FIELD where the field TYPE is defined as "PU" (for example ELRG_RUNI, GCHM_UNIT or MOND_UNIT FIELDs) shall be listed and defined in the UNIT GROUP."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "15"^^xsd:token ;
+    skos:prefLabel "Rule 15"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-16a
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-16 ;
+    skos:definition """Where multiple abbreviations are required to fully codify a FIELD, the abbreviations shall be separated by a defined concatenation character. This single concatenation character shall be defined in TRAN_RCON. The default being "+" (ASCII character 43).
+Each abbreviation used in such combinations shall be listed separately in the ABBR GROUP. e.g. "CP+RC" must have entries for both "CP" and "RC" in ABBR GROUP, together with their full definition."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "16a"^^xsd:token ;
+    skos:prefLabel "Rule 16a"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-17
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """Each data file shall contain the TYPE GROUP to define the field TYPEs used within the data file.
+Every data type entered in the TYPE row of a GROUP shall be listed and defined in the TYPE GROUP."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "17"^^xsd:token ;
+    skos:prefLabel "Rule 17"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-18a
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-18 ;
+    skos:definition """The order in which the user-defined HEADINGs are listed in the DICT GROUP shall define the order in which these HEADINGS are appended to an existing GROUP or appear in a user-defined GROUP.
+This order also defines the sequence in which such HEADINGS are used in a heading of data TYPE 'Record Link' (Rule 11)."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "18a"^^xsd:token ;
+    skos:prefLabel "Rule 18a"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-19a
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-19 ;
+    skos:definition "A HEADING name shall not be more than 9 characters long and shall consist of uppercase letters, numbers or the underscore character only."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "19a"^^xsd:token ;
+    skos:prefLabel "Rule 19a"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-19b
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-19 ;
+    skos:definition """HEADING names shall start with the GROUP name followed by an underscore character.e.g. "NGRP_HED1"
+Where a HEADING refers to an existing HEADING within another GROUP, the HEADING name added to the group shall bear the same name. e.g. "CMPG_TESN" in the "CMPT" GROUP."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "19b"^^xsd:token ;
+    skos:prefLabel "Rule 19b"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-20
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """Additional computer files (e.g. digital images) can be included within a data submission. Each such file shall be defined in a FILE GROUP.
+The additional files shall be transferred in a sub-folder named FILE. This FILE sub-folder shall contain additional sub-folders each named by the FILE_FSET reference. Each FILE_FSET named folder will contain the files listed in the FILE GROUP."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "20"^^xsd:token ;
+    skos:prefLabel "Rule 20"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-2a
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-2 ;
+    skos:definition "Each row is located on a separate line, delimited by a new line consisting of a carriage return (ASCII character 13) and a line feed (ASCII character 10)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "2a"^^xsd:token ;
+    skos:prefLabel "Rule 2a"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-2b
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:broader agsrule:rule-2 ;
+    skos:definition "The GROUP HEADER rows fully define the data presented within the DATA rows for that group (Rule 8). As a minimum, the GROUP HEADER rows comprise GROUP, HEADING, UNIT and TYPE rows presented in that order."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "2b"^^xsd:token ;
+    skos:prefLabel "Rule 2b"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """Each row in the data file must start with a DATA DESCRIPTOR that defines the contents of that row. The following Data Descriptors are used as described below:
+• Each GROUP row shall be preceded by the "GROUP" Data Descriptor.
+• Each HEADING row shall be preceded by the "HEADING" Data Descriptor.
+• Each UNIT row shall be preceded by the "UNIT" Data Descriptor.
+• Each TYPE row shall be preceded by the "TYPE" Data Descriptor.
+• Each DATA row shall be preceded by the "DATA" Data Descriptor."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "3"^^xsd:token ;
+    skos:prefLabel "Rule 3"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-4
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """Within each GROUP, the DATA items are contained in data FIELDs. Each data FIELD contains a single data VARIABLE in each row. Each DATA row of a data file will contain one or more data FIELDs.
+The GROUP row contains only one DATA item, the GROUP name, in addition to the Data Descriptor (Rule 3). All other rows in the GROUP have a number of DATA items defined by the HEADING row."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "4"^^xsd:token ;
+    skos:prefLabel "Rule 4"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-5
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "DATA DESCRIPTORS, GROUP names, data field HEADINGs, data field UNITs, data field TYPEs, and data VARIABLEs shall be enclosed in double quotes (\"...\"). Any quotes within a data item must be defined with a second quote e.g. \"he said \"\"hello\"\"\"."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "5"^^xsd:token ;
+    skos:prefLabel "Rule 5"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-6
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "The DATA DESCRIPTORS, GROUP names, data field HEADINGs, data field UNITs, data field TYPEs, and data VARIABLEs in each line of the data file shall be separated by a comma (,). No carriage returns (ASCII character 13) or line feeds (ASCII character 10) are allowed in or between data VARIABLEs within a DATA row."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "6"^^xsd:token ;
+    skos:prefLabel "Rule 6"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-7
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "The order of data FIELDs in each line within a GROUP is defined at the start of each GROUP in the HEADING row. HEADINGs shall be in the order described in the AGS FORMAT DATA DICTIONARY."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "7"^^xsd:token ;
+    skos:prefLabel "Rule 7"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-8
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "Data VARIABLEs shall be presented in the units of measurement and type that are described by the appropriate data field UNIT and data field TYPE defined at the start of the GROUP within the GROUP HEADER rows."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "8"^^xsd:token ;
+    skos:prefLabel "Rule 8"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-9
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "Data HEADING and GROUP names shall be taken from the AGS FORMAT DATA DICTIONARY. In cases where there is no suitable entry, a user-defined GROUP and/or HEADING may be used in accordance with Rule 18. Any user-defined HEADINGs shall be included at the end of the HEADING row after the standard HEADINGs in the order defined in the DICT group (see Rule 18a)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:notation "9"^^xsd:token ;
+    skos:prefLabel "Rule 9"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-16
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """Each data file shall contain the ABBR GROUP when abbreviations have been included in the data file.
+The abbreviations listed in the ABBR GROUP shall include definitions for all abbreviations entered in a FIELD where the data TYPE is defined as "PA" or any abbreviation needing definition used within any other heading data type."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:narrower agsrule:rule-16a ;
+    skos:notation "16"^^xsd:token ;
+    skos:prefLabel "Rule 16"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-18
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "Each data file shall contain the DICT GROUP where non-standard GROUP and HEADING names have been included in the data file."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:narrower agsrule:rule-18a ;
+    skos:notation "18"^^xsd:token ;
+    skos:prefLabel "Rule 18"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+<https://www.ags.org.uk/>
+    a schema:Organization ;
+    schema:name "Association of Geotechnical and Geoenvironmental Specialists (AGS)" ;
+    schema:url "https://www.ags.org.uk/"^^xsd:anyURI ;
+.
+
+agsrule:rule-19
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "A GROUP name shall not be more than 4 characters long and shall consist of uppercase letters and numbers only."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:narrower
+        agsrule:rule-19a ,
+        agsrule:rule-19b ;
+    skos:notation "19"^^xsd:token ;
+    skos:prefLabel "Rule 19"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition "Each data file shall contain one or more data GROUPs. Each data GROUP shall comprise a number of GROUP HEADER rows and must have one or more DATA rows."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:narrower
+        agsrule:rule-2a ,
+        agsrule:rule-2b ;
+    skos:notation "2"^^xsd:token ;
+    skos:prefLabel "Rule 2"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-10
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """HEADINGs are defined as KEY, REQUIRED or OTHER.
+• KEY fields are necessary to uniquely define the data.
+• REQUIRED fields are necessary to allow interpretation of the data file.
+• OTHER fields are included depending on the scope of the data file and availability of data to be included."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:narrower
+        agsrule:rule-10a ,
+        agsrule:rule-10b ,
+        agsrule:rule-10c ;
+    skos:notation "10"^^xsd:token ;
+    skos:prefLabel "Rule 10"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+agsrule:rule-11
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/rules> ;
+    skos:definition """HEADINGs defined as a data TYPE of 'Record Link' (RL) can be used to link data rows to entries in GROUPs outside of the defined hierarchy (Rule 10c) or DICT group for user defined GROUPs.
+The GROUP name followed by the KEY FIELDs defining the cross-referenced data row, in the order presented in the AGS4 DATA DICTIONARY."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/rules> ;
+    skos:narrower
+        agsrule:rule-11a ,
+        agsrule:rule-11b ,
+        agsrule:rule-11c ;
+    skos:notation "11"^^xsd:token ;
+    skos:prefLabel "Rule 11"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/rules> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:status status:stable ;
+.
+
+<https://w3id.org/ags4/voc/rules>
+    a skos:ConceptScheme ;
+    dcterms:rights "Content of the AGS Data Format data dictionary (AGS 4.2.0), © Association of Geotechnical and Geoenvironmental Specialists (AGS). Reuse is subject to the AGS's terms; see https://www.ags.org.uk/data-format/. No licence is stated in the source repository." ;
+    reg:status status:stable ;
+    owl:versionIRI agsrule:4.2.0 ;
+    owl:versionInfo "4.2.0" ;
+    skos:definition "The rules of the AGS 4.2.0 data format. Sub-rules (e.g. 10a) are narrower than their main rule (10)."@en ;
+    skos:hasTopConcept
+        agsrule:rule-1 ,
+        agsrule:rule-10 ,
+        agsrule:rule-11 ,
+        agsrule:rule-12 ,
+        agsrule:rule-13 ,
+        agsrule:rule-14 ,
+        agsrule:rule-15 ,
+        agsrule:rule-16 ,
+        agsrule:rule-17 ,
+        agsrule:rule-18 ,
+        agsrule:rule-19 ,
+        agsrule:rule-2 ,
+        agsrule:rule-20 ,
+        agsrule:rule-3 ,
+        agsrule:rule-4 ,
+        agsrule:rule-5 ,
+        agsrule:rule-6 ,
+        agsrule:rule-7 ,
+        agsrule:rule-8 ,
+        agsrule:rule-9 ;
+    skos:historyNote "Generated by ags-rdf 0.1.0 from the AGS 4.2.0 data dictionary JSON (AGS4/AGS4_2/rules.json) published in https://gitlab.com/AGS-DFWG-Web/ASG4 at commit 710b1f080972 (2026-10-08). The JSON files are treated as the authoritative source; values are only cleaned of formatting artefacts." ;
+    skos:prefLabel "AGS 4.2.0 Rules"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/rules.json> ;
+    schema:citation "https://www.ags.org.uk/data-format/"^^xsd:anyURI ;
+    schema:copyrightHolder <https://www.ags.org.uk/> ;
+    schema:creator <https://www.ags.org.uk/> ;
+    schema:dateCreated "2020-10-29"^^xsd:date ;
+    schema:dateModified "2022-11-22"^^xsd:date ;
+    schema:publisher <https://github.com/KoalaGeo> ;
+    schema:status status:stable ;
+    schema:version "4.2.0" ;
+.
