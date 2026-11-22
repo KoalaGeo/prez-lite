@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Lightweight static vocabulary publishing system",
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@12.21.0",
   "engines": {
-    "node": ">=22.5.0"
+    "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
   },
   "scripts": {
     "build:vocabs": "node packages/data-processing/scripts/process-vocab.js --profiles data/config/profiles.ttl --sourceDir data/vocabs --outputBase web/public/export/vocabs --systemDir web/public/export/system --pattern \"*.ttl\" --backgroundDir data/background --validators data/validators",
@@ -30,9 +30,9 @@
     "ai-assess": "node --env-file=.env scripts/ai-assess-vocabs.js"
   },
   "dependencies": {
-    "@fast-csv/format": "^5.0.2",
-    "jsonld": "^8.3.3",
-    "n3": "^2.0.1",
-    "rdf-validate-shacl": "^0.6.5"
+    "@fast-csv/format": "^5.0.8",
+    "jsonld": "^9.0.0",
+    "n3": "^2.13.12",
+    "rdf-validate-shacl": "^0.7.0"
   }
 }

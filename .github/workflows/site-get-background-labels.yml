@@ -14,7 +14,7 @@ on:
       node-version:
         description: 'Node.js version'
         type: string
-        default: '22'
+        default: '26'
       vocab-source-dir:
         description: 'Directory containing vocabulary TTL files'
         type: string
@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Fetch prez-lite tools
         id: tools
@@ -46,9 +46,9 @@ jobs:
           node-version: ${{ inputs.node-version }}
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.12'
+          python-version: '3.14'
 
       - name: Ensure data directory
         run: |

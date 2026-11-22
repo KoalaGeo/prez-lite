@@ -11,7 +11,7 @@ inputs:
     default: 'Kurrawong/prez-lite'
   node-version:
     description: 'Node.js version'
-    default: '22'
+    default: '26'
 
 outputs:
   tools-dir:
@@ -28,12 +28,12 @@ runs:
   using: 'composite'
   steps:
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v7
       with:
         node-version: ${{ inputs.node-version }}
 
     - name: Setup pnpm
-      uses: pnpm/action-setup@v4
+      uses: pnpm/action-setup@v6
 
     - name: Sparse-checkout prez-lite tools
       id: fetch

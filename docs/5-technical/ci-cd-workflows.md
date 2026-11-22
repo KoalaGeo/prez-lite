@@ -69,7 +69,7 @@ flowchart LR
   check --> pass["feat: fix: docs: chore: ..."]
 ```
 
-Uses `amannn/action-semantic-pull-request@v5`. Scope not required.
+Uses `amannn/action-semantic-pull-request@v6`. Scope not required.
 
 ---
 
@@ -114,7 +114,7 @@ flowchart LR
   release --> docker["Docker Image (versioned tags)"]
 ```
 
-Uses `googleapis/release-please-action@v4`. When a release is created, the `docker` job calls [Docker Image](#docker-image) with the new tag. Tags created with `GITHUB_TOKEN` don't trigger workflows on their own.
+Uses `googleapis/release-please-action@v5`. When a release is created, the `docker` job calls [Docker Image](#docker-image) with the new tag. Tags created with `GITHUB_TOKEN` don't trigger workflows on their own.
 
 ---
 
@@ -176,7 +176,7 @@ Uses OIDC role assumption for AWS credentials. Requires `AWS_ROLE_ARN` secret an
 |---|---|
 | **File** | `.github/workflows/build-site.yml` |
 | **Trigger** | `workflow_call` (reusable workflow) |
-| **Inputs** | `prez-lite-version` (default: `main`), `node-version` (default: `22`) |
+| **Inputs** | `prez-lite-version` (default: `main`), `node-version` (default: `26`) |
 
 ```mermaid
 flowchart TD

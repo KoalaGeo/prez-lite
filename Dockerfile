@@ -11,7 +11,7 @@
 #
 # See docs/5-technical/docker.md for configuration and custom images.
 
-ARG NODE_VERSION=22
+ARG NODE_VERSION=26
 
 # -----------------------------------------------------------------------------
 # Stage 1: build the static site and assemble the processing pipeline.
@@ -24,11 +24,11 @@ FROM --platform=$BUILDPLATFORM node:${NODE_VERSION}-alpine AS build
 
 ENV CI=true \
     NUXT_TELEMETRY_DISABLED=1 \
-    npm_config_store_dir=/pnpm/store
+    pnpm_config_store_dir=/pnpm/store
 WORKDIR /app
 
 # Install the pnpm version pinned by the root package.json "packageManager" field
-COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN npm install --global --no-fund --no-audit \
       "$(node -p "require('./package.json').packageManager")"
 

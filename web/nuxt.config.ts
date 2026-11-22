@@ -29,6 +29,14 @@ export default defineNuxtConfig({
     },
   },
 
+  // @nuxt/fonts (installed by @nuxt/ui) fails production builds since 1.0 when it
+  // can't resolve a font family, e.g. when its providers are unreachable on an
+  // offline or restricted network. The site uses system font stacks, so keep the
+  // pre-1.0 behaviour: warn and carry on.
+  fonts: {
+    throwOnError: false,
+  },
+
   // Nuxt UI configuration
   ui: {
     theme: {

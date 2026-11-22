@@ -10,6 +10,7 @@ export default defineVitestConfig({
     },
     dir: 'tests',
     include: ['unit/**/*.test.ts', 'components/**/*.test.ts'],
+    setupFiles: ['tests/setup/clipboard-item.ts'],
     coverage: {
       provider: 'v8',
       include: ['app/utils/**', 'app/composables/**'],

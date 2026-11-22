@@ -10,7 +10,7 @@ on:
       node-version:
         description: 'Node.js version'
         type: string
-        default: '22'
+        default: '26'
       vocab-source-dir:
         description: 'Directory containing vocabulary TTL files'
         type: string
@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 2
 

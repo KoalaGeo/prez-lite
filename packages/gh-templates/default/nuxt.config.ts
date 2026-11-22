@@ -15,7 +15,8 @@ const layer = useLocalLayer
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   extends: [layer],
-  css: ['~/assets/css/main.css'],
+  // `~~` is the project root (`~` is app/ in Nuxt 4), where the README puts main.css
+  css: ['~~/assets/css/main.css'],
 
   // n3 depends on the buffer polyfill (CJS) — ensure Vite pre-bundles it correctly
   vite: {

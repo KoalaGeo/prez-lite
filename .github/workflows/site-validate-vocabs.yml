@@ -18,7 +18,7 @@ on:
       node-version:
         description: 'Node.js version'
         type: string
-        default: '22'
+        default: '26'
 permissions:
   contents: write
 
@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Fetch prez-lite tools
         id: tools
