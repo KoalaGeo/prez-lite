@@ -14,8 +14,10 @@ import { Store, Parser, DataFactory } from 'n3'
 const { namedNode, literal, quad: makeQuad } = DataFactory
 
 const ROOT = resolve(__dirname, '../../../')
-const PROFILES = join(ROOT, 'data/config/profiles.ttl')
-const COLOURS_TTL = join(ROOT, 'data/vocabs/colours.ttl')
+// Fixture copies of the demo data, so a site's own data/ can't change the test
+const FIXTURE_DATA = join(ROOT, 'web/tests/fixtures/data')
+const PROFILES = join(FIXTURE_DATA, 'config/profiles.ttl')
+const COLOURS_TTL = join(FIXTURE_DATA, 'vocabs/colours.ttl')
 const PROCESS_SCRIPT = join(ROOT, 'packages/data-processing/scripts/process-vocab.js')
 
 // SKOS namespace constants
