@@ -140,27 +140,42 @@ jobs:
             curl -fsS "http://127.0.0.1:$1/export/system/vocabularies/index.json" \
               | jq -r '[.vocabularies[].slug] | sort | join(",")'
           }
+          check() {
+            local what=$1; shift
+            if "$@"; then echo "ok: $what"; else echo "::error::smoke test failed: $what"; return 1; fi
+          }
+          expect_eq() {
+            [ "$2" = "$3" ] || { echo "::error::$1: expected '$3', got '$2'"; return 1; }
+            echo "ok: $1"
+          }
+
+          # The image bundles data/ as its demo data, so derive the expected
+          # vocabularies from it (slug = TTL file name) rather than hard-coding them.
+          expected_slugs=$(for f in data/vocabs/*.ttl; do basename "$f" .ttl; done | LC_ALL=C sort | paste -sd, -)
+          first_slug=${expected_slugs%%,*}
 
           echo "::group::Bundled demo data"
           docker run -d --name demo -p 8081:8080 prez-lite:smoke-test
           wait_healthy 8081 || { docker logs demo; exit 1; }
           docker logs demo
-          curl -fsS http://127.0.0.1:8081/ | grep -i '<html' >/dev/null
-          curl -fsS http://127.0.0.1:8081/vocabs | grep -i '<html' >/dev/null
-          curl -fsS -o /dev/null http://127.0.0.1:8081/web-components/prez-lite.min.js
-          test "$(vocab_slugs 8081)" = "alteration-form,australian-states,colours,project-status"
-          curl -fsSI http://127.0.0.1:8081/export/vocabs/colours/colours-turtle.ttl | grep -i 'content-type: text/turtle' >/dev/null
-          curl -fsSI http://127.0.0.1:8081/export/system/vocabularies/index.json | grep -i 'access-control-allow-origin: \*' >/dev/null
-          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8081/export/missing.json)" = "404"
+          check "home page is HTML" sh -c "curl -fsS http://127.0.0.1:8081/ | grep -i '<html' >/dev/null"
+          check "/vocabs is HTML" sh -c "curl -fsS http://127.0.0.1:8081/vocabs | grep -i '<html' >/dev/null"
+          check "web component bundle served" curl -fsS -o /dev/null http://127.0.0.1:8081/web-components/prez-lite.min.js
+          expect_eq "vocabularies in index" "$(vocab_slugs 8081)" "$expected_slugs"
+          check "Turtle served as text/turtle" sh -c "curl -fsSI http://127.0.0.1:8081/export/vocabs/$first_slug/$first_slug-turtle.ttl | grep -i 'content-type: text/turtle' >/dev/null"
+          check "CORS header on exports" sh -c "curl -fsSI http://127.0.0.1:8081/export/system/vocabularies/index.json | grep -i 'access-control-allow-origin: \*' >/dev/null"
+          expect_eq "missing export returns 404" "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8081/export/missing.json)" "404"
           echo "::endgroup::"
 
           echo "::group::Volume-mounted data"
+          # Mount just the smallest vocabulary, to prove /data replaces the demo data
+          mounted_file=$(find data/vocabs -maxdepth 1 -name '*.ttl' -printf '%s %p\n' | sort -n | head -n 1 | cut -d' ' -f2-)
           mkdir -p "$RUNNER_TEMP/vocab-data/vocabs"
-          cp data/vocabs/colours.ttl "$RUNNER_TEMP/vocab-data/vocabs/"
+          cp "$mounted_file" "$RUNNER_TEMP/vocab-data/vocabs/"
           docker run -d --name mounted -p 8082:8080 -v "$RUNNER_TEMP/vocab-data:/data:ro" prez-lite:smoke-test
           wait_healthy 8082 || { docker logs mounted; exit 1; }
           docker logs mounted
-          test "$(vocab_slugs 8082)" = "colours"
+          expect_eq "mounted vocabulary replaces demo data" "$(vocab_slugs 8082)" "$(basename "$mounted_file" .ttl)"
           echo "::endgroup::"
 
           docker rm -f demo mounted
