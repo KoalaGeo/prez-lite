@@ -113,8 +113,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build vocabulary data
-        run: pnpm build:all-export
+      # The e2e tests assert on the demo vocabularies in web/tests/fixtures/data,
+      # so build from those rather than from whatever this repo publishes in data/.
+      - name: Build vocabulary data (test fixtures)
+        run: |
+          rm -rf data
+          cp -r web/tests/fixtures/data data
+          pnpm build:all-export
 
       - name: Generate static site
         run: npx nuxt generate

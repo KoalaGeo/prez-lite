@@ -1,6 +1,6 @@
 /**
  * Test data constants for E2E tests.
- * Values match the actual export data in web/public/export/.
+ * Values match the exports built from web/tests/fixtures/data (see its README).
  */
 
 export const VOCABS = {
