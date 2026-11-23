@@ -1,0 +1,433 @@
+PREFIX agselrg: <https://w3id.org/ags4/voc/contaminant-codes/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://github.com/KoalaGeo>
+    a schema:Organization ;
+    schema:name "KoalaGeo" ;
+    schema:url "https://github.com/KoalaGeo"^^xsd:anyURI ;
+.
+
+agselrg:101043-37-2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "101043-37-2"@en ;
+    skos:definition "Microcystin-LR"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (25/09/2026). Accepted 25/09/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "101043-37-2"^^xsd:token ;
+    skos:prefLabel "Microcystin-LR"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:103582-29-2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "103582-29-2"@en ;
+    skos:definition "1,2,3,4,6,7,8,9-Octabromodibenzofuran"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "103582-29-2"^^xsd:token ;
+    skos:prefLabel "1,2,3,4,6,7,8,9-Octabromodibenzofuran"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:107555-93-1
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "107555-93-1"@en ;
+    skos:definition "1,2,3,7,8-Pentabromodibenzofuran"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "107555-93-1"^^xsd:token ;
+    skos:prefLabel "1,2,3,7,8-Pentabromodibenzofuran"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:109333-34-8
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "109333-34-8"@en ;
+    skos:definition "1,2,3,7,8-Pentabromodibenzo-p-dioxin"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "109333-34-8"^^xsd:token ;
+    skos:prefLabel "1,2,3,7,8-Pentabromodibenzo-p-dioxin"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:110999-46-7
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "110999-46-7"@en ;
+    skos:definition "1,2,3,7,8,9-Hexabromodibenzo-p-dioxin"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "110999-46-7"^^xsd:token ;
+    skos:prefLabel "1,2,3,7,8,9-Hexabromodibenzo-p-dioxin"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:110999-47-8
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "110999-47-8"@en ;
+    skos:definition "1,2,3,4,6,7,8-Heptabromodibenzo-p-dioxin"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "110999-47-8"^^xsd:token ;
+    skos:prefLabel "1,2,3,4,6,7,8-Heptabromodibenzo-p-dioxin"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:111-92-2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "111-92-2"@en ;
+    skos:definition "Dibutylamine"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "111-92-2"^^xsd:token ;
+    skos:prefLabel "Dibutylamine"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:117704-25-3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "117704-25-3"@en ;
+    skos:definition "Doramectin"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "117704-25-3"^^xsd:token ;
+    skos:prefLabel "Doramectin"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:123-07-9
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "123-07-9"@en ;
+    skos:definition "4-Ethylphenol"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "123-07-9"^^xsd:token ;
+    skos:prefLabel "4-Ethylphenol"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:129880-08-6
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "129880-08-6"@en ;
+    skos:definition "1,2,3,4,7,8-Hexabromodibenzofuran"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "129880-08-6"^^xsd:token ;
+    skos:prefLabel "1,2,3,4,7,8-Hexabromodibenzofuran"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:1303-28-2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "1303-28-2"@en ;
+    skos:definition "Arsenic Pentoxide"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "1303-28-2"^^xsd:token ;
+    skos:prefLabel "Arsenic Pentoxide"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:131166-92-2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "131166-92-2"@en ;
+    skos:definition "2,3,4,7,8-Pentabromodibenzofuran"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "131166-92-2"^^xsd:token ;
+    skos:prefLabel "2,3,4,7,8-Pentabromodibenzofuran"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:14998-27-7
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "14998-27-7"@en ;
+    skos:definition "Chlorite"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (25/09/2026). Accepted 25/09/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "14998-27-7"^^xsd:token ;
+    skos:prefLabel "Chlorite"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:161880-51-9
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "161880-51-9"@en ;
+    skos:definition "1,2,3,4,7,8,9-Heptabromodibenzofuran"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "161880-51-9"^^xsd:token ;
+    skos:prefLabel "1,2,3,4,7,8,9-Heptabromodibenzofuran"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:2170-45-8
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "2170-45-8"@en ;
+    skos:definition "1,2,3,4,6,7,8,9-Octabromodibenzo-p-dioxin"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "2170-45-8"^^xsd:token ;
+    skos:prefLabel "1,2,3,4,6,7,8,9-Octabromodibenzo-p-dioxin"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:22739-76-0
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "22739-76-0"@en ;
+    skos:definition "2-Propanol-d8"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "22739-76-0"^^xsd:token ;
+    skos:prefLabel "2-Propanol-d8"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:50585-41-6
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "50585-41-6"@en ;
+    skos:definition "2,3,7,8-Tetrabromodibenzo-p-dioxin"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "50585-41-6"^^xsd:token ;
+    skos:prefLabel "2,3,7,8-Tetrabromodibenzo-p-dioxin"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:5278-95-5
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "5278-95-5"@en ;
+    skos:definition "Chlorodibromoacetic"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (25/09/2026). Accepted 25/09/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "5278-95-5"^^xsd:token ;
+    skos:prefLabel "Chlorodibromoacetic"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:540-59-0
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "540-59-0"@en ;
+    skos:definition "1,2-Dichloroethene"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "540-59-0"^^xsd:token ;
+    skos:prefLabel "1,2-Dichloroethene"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:631-64-1
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "631-64-1"@en ;
+    skos:definition "Dibromoacetic Acid"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (25/09/2026). Accepted 25/09/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "631-64-1"^^xsd:token ;
+    skos:prefLabel "Dibromoacetic Acid"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:634-90-2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "634-90-2"@en ;
+    skos:definition "1,2,3,5-Tetrachlorobenzene"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "634-90-2"^^xsd:token ;
+    skos:prefLabel "1,2,3,5-Tetrachlorobenzene"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:67733-57-7
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "67733-57-7"@en ;
+    skos:definition "2,3,7,8-Tetrabromodibenzofuran"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "67733-57-7"^^xsd:token ;
+    skos:prefLabel "2,3,7,8-Tetrabromodibenzofuran"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:75-96-7
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "75-96-7"@en ;
+    skos:definition "Tribromoacetic Acid"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (25/09/2026). Accepted 25/09/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "75-96-7"^^xsd:token ;
+    skos:prefLabel "Tribromoacetic Acid"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:76-03-9
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "76-03-9"@en ;
+    skos:definition "Trichloroacetic Acid"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (25/09/2026). Accepted 25/09/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "76-03-9"^^xsd:token ;
+    skos:prefLabel "Trichloroacetic Acid"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:76-05-1
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "76-05-1"@en ;
+    skos:definition "Trifluoroacetic acid"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (28/08/2026). Accepted 28/08/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "76-05-1"^^xsd:token ;
+    skos:prefLabel "Trifluoroacetic acid"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+agselrg:79-08-3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:altLabel "79-08-3"@en ;
+    skos:definition "Bromoacetic Acid"@en ;
+    skos:historyNote "Status in the AGS register: Accepted (25/09/2026). Accepted 25/09/26" ;
+    skos:inScheme <https://w3id.org/ags4/voc/contaminant-codes> ;
+    skos:notation "79-08-3"^^xsd:token ;
+    skos:prefLabel "Bromoacetic Acid"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/contaminant-codes> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:status status:accepted ;
+.
+
+<https://www.ags.org.uk/>
+    a schema:Organization ;
+    schema:name "Association of Geotechnical and Geoenvironmental Specialists (AGS)" ;
+    schema:url "https://www.ags.org.uk/"^^xsd:anyURI ;
+.
+
+<https://w3id.org/ags4/voc/contaminant-codes>
+    a skos:ConceptScheme ;
+    dcterms:rights "Content of the AGS Data Format data dictionary (AGS 4.2.0), © Association of Geotechnical and Geoenvironmental Specialists (AGS). Reuse is subject to the AGS's terms; see https://www.ags.org.uk/data-format/. No licence is stated in the source repository." ;
+    reg:status status:stable ;
+    owl:versionIRI agselrg:4.2.0 ;
+    owl:versionInfo "4.2.0" ;
+    skos:definition "Codes for chemical contaminants and determinands used in ELRG_CODE (AGS 4.1 onwards) and ERES_CODE (AGS 4.0). Only entries with status Approved, Accepted, Deprecated are included."@en ;
+    skos:hasTopConcept
+        agselrg:101043-37-2 ,
+        agselrg:103582-29-2 ,
+        agselrg:107555-93-1 ,
+        agselrg:109333-34-8 ,
+        agselrg:110999-46-7 ,
+        agselrg:110999-47-8 ,
+        agselrg:111-92-2 ,
+        agselrg:117704-25-3 ,
+        agselrg:123-07-9 ,
+        agselrg:129880-08-6 ,
+        agselrg:1303-28-2 ,
+        agselrg:131166-92-2 ,
+        agselrg:14998-27-7 ,
+        agselrg:161880-51-9 ,
+        agselrg:2170-45-8 ,
+        agselrg:22739-76-0 ,
+        agselrg:50585-41-6 ,
+        agselrg:5278-95-5 ,
+        agselrg:540-59-0 ,
+        agselrg:631-64-1 ,
+        agselrg:634-90-2 ,
+        agselrg:67733-57-7 ,
+        agselrg:75-96-7 ,
+        agselrg:76-03-9 ,
+        agselrg:76-05-1 ,
+        agselrg:79-08-3 ;
+    skos:historyNote "Generated by ags-rdf 0.1.0 from the AGS 4.2.0 data dictionary JSON (AGS4/AGS4_1/ELRG.json) published in https://gitlab.com/AGS-DFWG-Web/ASG4 at commit 710b1f080972 (2026-10-08). The JSON files are treated as the authoritative source; values are only cleaned of formatting artefacts." ;
+    skos:prefLabel "AGS 4.2.0 Contaminant and Determinand Codes"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_1/ELRG.json> ;
+    schema:citation "https://www.ags.org.uk/data-format/"^^xsd:anyURI ;
+    schema:copyrightHolder <https://www.ags.org.uk/> ;
+    schema:creator <https://www.ags.org.uk/> ;
+    schema:dateCreated "2018-04-01"^^xsd:date ;
+    schema:dateModified "2026-09-25"^^xsd:date ;
+    schema:publisher <https://github.com/KoalaGeo> ;
+    schema:status status:stable ;
+    schema:version "4.2.0" ;
+.

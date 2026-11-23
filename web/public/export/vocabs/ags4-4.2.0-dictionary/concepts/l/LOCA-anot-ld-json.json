@@ -1,0 +1,1489 @@
+[
+  {
+    "@id": "_:n3-1113",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Location Details",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Location Details",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "LOCA",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "LOCA",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "AGS 4.1: Group Rule Added - • For the transfer of proposed exploratory locations, the designer shall use the LOCA group with LOCA_STAT = 'PROPOSED', noting that the LOCA group does not accommodate both proposed and as-built data for a single position (such as co-ordinates), this is considered a data management issue."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ALID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_CLST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_CNGE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_DATM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ELAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ELON"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ENDD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ETRV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_FDEP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_GL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_GLDT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_GREF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LETT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LLSI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LLZ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCZ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LON"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LREF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LSRI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LTRV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NATD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NATN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NSRI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NTRV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_OFFS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ORCO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ORID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ORJO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_PURP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_STAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_STAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_TERM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_TRAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_VSSL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_XTRL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_YTRL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ZTRL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Group rules: For the transfer of proposed exploratory locations, the designer shall use the LOCA group with LOCA_STAT = 'PROPOSED', noting that the LOCA group does not accommodate both proposed and as-built data for a single position (such as co-ordinates), this is considered a data management issue.",
+        "@language": "en"
+      },
+      {
+        "@value": "LOCA is used to transfer the spatial location of all exploratory locations where data has been recorded. This includes the location of exploratory holes, sampling points or other locations where an observation / test has been made, or a sample / measurement taken.\nThe LOCA_TYPE code is used to categorise the type of activity that has occurred at the location.\nThe details of exploratory hole construction are contained in the HDPH group. If LOCA_TYPE codes are used that represent the type of exploratory hole construction then they must be correlated with the code or combinations of codes in HDPH_TYPE. Alternatively the code 'EH' could be used to represent an Exploratory Hole the details of which are contained in HDPH.\nIf the AGS data file includes information on construction items, then LOCA would also include references to these locations.\nLOCA_ID must be unique for the project and should be unique for the site to allow for consolidation of data. Consideration of this needs to be made at the outset of the project. Typically the consulting engineer or designer allows for this in specifying hole or location identifiers.\nLOCA_FDEP will generally be null for location points other than exploratory holes, pits, piles or other below ground constructed elements.\nTwo headings, LOCA_LOCA and LOCA_CLST, provide a heading for tags of hole groupings. These groupings would typically be specified by the Investigation Supervisor/Designer rather than the Ground Investigation Contractor. LOCA_LOCA should be used to define the grouping of a hole by site location, whereas LOCA_CLST is typically used to indicate investigation phase. If codes are used to define these location or phase data, then the codes shall be defined in the ABBR group.\nLOCA_OFFS, LOCA_CNGE and LOCA_ALID allow location data to be presented by chainage and offset to an alignment as typically used for location on road and rail projects. The data included in these headings will probably be expressed in project related units. For example, offset can be defined as positive or negative (e.g. +10 or -12). Chainage on UK railway projects may well be expressed in miles and chains (e.g. 10 mi 1 ch).\nLOCA_NATE and LOCA NATN can include recognised international, state or regional projected coordinate systems. The relevant system used should be included in LOCA_GREF.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/LOCA"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PROJ"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location Details",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location Details",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ALID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ALID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ALID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Alignment Identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Alignment Identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_CLST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_CLST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_CLST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Investigation phase grouping code or description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Investigation phase grouping code or description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_CNGE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_CNGE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_CNGE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Chainage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Chainage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_DATM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_DATM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_DATM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local vertical datum referencing system used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local vertical datum referencing system used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ELAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ELAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ELAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Latitude of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Latitude of end of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ELON",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ELON"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ELON"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Longitude of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Longitude of end of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ENDD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ENDD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ENDD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "End date of activity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "End date of activity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ETRV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ETRV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ETRV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "National Grid Easting of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "National Grid Easting of end of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_FDEP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_FDEP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_FDEP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Final depth",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Final depth",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_GL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_GL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_GL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Ground level relative to datum of location or start of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Ground level relative to datum of location or start of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_GLDT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_GLDT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_GLDT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date time of LOCA_GL measurement",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date time of LOCA_GL measurement",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_GREF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_GREF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_GREF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "National grid referencing system used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "National grid referencing system used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Latitude of location or start of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Latitude of location or start of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LETT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LETT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LETT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "OSGB letter grid reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "OSGB letter grid reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LLSI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LLSI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LLSI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Spatial reference identifier for latitude and longitude referencing system used (EPSG code)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Spatial reference identifier for latitude and longitude referencing system used (EPSG code)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LLZ",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LLZ"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LLZ"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geodetic datum",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Geodetic datum",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LOCA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LOCA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Site location sub division (within project) code or description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Site location sub division (within project) code or description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LOCM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LOCM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method of location",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method of location",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LOCX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LOCX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local grid x co-ordinate or start of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local grid x co-ordinate or start of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LOCY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LOCY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local grid y co-ordinate or start of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local grid y co-ordinate or start of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LOCZ",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LOCZ"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LOCZ"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Level or start of traverse to local datum",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Level or start of traverse to local datum",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LON",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LON"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LON"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Longitude of location or start of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Longitude of location or start of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LREF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LREF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LREF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local grid referencing system used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local grid referencing system used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LSRI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LSRI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LSRI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Spatial reference identifier for local grid referencing system used (EPSG code)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Spatial reference identifier for local grid referencing system used (EPSG code)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_LTRV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_LTRV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_LTRV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Ground level relative to datum of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Ground level relative to datum of end of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NATD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_NATD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_NATD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "National vertical datum referencing system used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "National vertical datum referencing system used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_NATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_NATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "National Grid Easting of location or start of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "National Grid Easting of location or start of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NATN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_NATN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_NATN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "National Grid Northing of location or start of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "National Grid Northing of location or start of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NSRI",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_NSRI"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_NSRI"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Spatial reference identifier for national grid referencing system used (EPSG code)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Spatial reference identifier for national grid referencing system used (EPSG code)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_NTRV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_NTRV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_NTRV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "National Grid Northing of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "National Grid Northing of end of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_OFFS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_OFFS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_OFFS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Offset",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Offset",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ORCO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ORCO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ORCO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Originating Company",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Originating Company",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ORID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ORID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ORID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Original Hole ID",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Original Hole ID",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ORJO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ORJO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ORJO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Original Job Reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Original Job Reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_PURP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_PURP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_PURP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Purpose of activity at this location",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Purpose of activity at this location",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "General remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "General remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_STAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_STAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_STAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date of start of activity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date of start of activity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Status of information relating to this position",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Status of information relating to this position",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_TERM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_TERM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_TERM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Reason for activity termination",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Reason for activity termination",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_TRAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_TRAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_TRAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Reference to or details of algorithm used to calculate local grid reference, local ground levels or chainage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Reference to or details of algorithm used to calculate local grid reference, local ground levels or chainage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of activity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of activity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_VSSL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_VSSL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_VSSL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Survey vessel",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Survey vessel",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_XTRL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_XTRL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_XTRL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local grid easting of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local grid easting of end of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_YTRL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_YTRL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_YTRL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local grid northing of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local grid northing of end of traverse",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ZTRL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ZTRL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ZTRL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local elevation of end of traverse",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local elevation of end of traverse",
+        "@language": "en"
+      }
+    ]
+  }
+]

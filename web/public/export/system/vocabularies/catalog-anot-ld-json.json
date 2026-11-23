@@ -1,32 +1,5 @@
 [
   {
-    "@id": "https://example.com/def/australian-states",
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@value": "Australian States and Territories",
-        "@language": "en"
-      }
-    ]
-  },
-  {
-    "@id": "https://example.com/def/colours",
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@value": "Colour",
-        "@language": "en"
-      }
-    ]
-  },
-  {
-    "@id": "https://example.com/def/project-status",
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@value": "Project Status",
-        "@language": "en"
-      }
-    ]
-  },
-  {
     "@id": "https://example.org/catalogue/vocabularies",
     "@type": [
       "https://schema.org/DataCatalog"
@@ -45,22 +18,28 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@value": "2026-03-04",
+        "@value": "2026-11-02",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
       }
     ],
     "https://schema.org/hasPart": [
       {
-        "@id": "https://linked.data.gov.au/def/alteration-form"
+        "@id": "https://w3id.org/ags4/voc/abbreviations"
       },
       {
-        "@id": "https://example.com/def/australian-states"
+        "@id": "https://w3id.org/ags4/voc/contaminant-codes"
       },
       {
-        "@id": "https://example.com/def/colours"
+        "@id": "https://w3id.org/ags4/voc/data-types"
       },
       {
-        "@id": "https://example.com/def/project-status"
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/rules"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/units"
       }
     ],
     "https://prez.dev/type": [
@@ -97,10 +76,55 @@
     ]
   },
   {
-    "@id": "https://linked.data.gov.au/def/alteration-form",
+    "@id": "https://w3id.org/ags4/voc/abbreviations",
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "Alteration form",
+        "@value": "AGS 4.2.0 Abbreviations",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/contaminant-codes",
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "AGS 4.2.0 Contaminant and Determinand Codes",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/data-types",
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "AGS 4.2.0 Data Types",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/rules",
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "AGS 4.2.0 Rules",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/units",
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "AGS 4.2.0 Units",
         "@language": "en"
       }
     ]

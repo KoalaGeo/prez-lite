@@ -1,0 +1,757 @@
+[
+  {
+    "@id": "_:n3-875",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Flat Dilatometer Test - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Flat Dilatometer Test - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DMTT",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DMTT",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - Flat Dilatometer Test - Data\nAGS 4.2.0: Headings Added - Flat Dilatometer Test - Data; LOCA_ID, DMTG_TESN, DMTT_DPTH, DMTT_MTH, DMTT_BCVA, DMTT_BCVB, DMTT_TMST, DMTT_A, DMTT_TMA, DMTT_B, DMTT_TMB, DMTT_C, DMTT_TMC, DMTT_P0, DMTT_P1, DMTT_P2, DMTT_INCX, DMTT_INCY, DMTT_RATE, DMTT_REM, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_A"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_B"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_BCVA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_BCVB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_C"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_INCX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_INCY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_MTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_P0"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_P1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_P2"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_RATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "DMTT is used to include the readings from the measurement data using any required calibration factors and other mathematical formulae employed by the measurement contractor in accordance with the specification.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/DMTT"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flat Dilatometer Test - Data",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flat Dilatometer Test - Data",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_A",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_A"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_A"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "A-pressure test reading",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A-pressure test reading",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_B",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_B"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_B"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "B-pressure test reading",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "B-pressure test reading",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_BCVA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_BCVA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_BCVA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Blade calibration value for specific depth record, delta A",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Blade calibration value for specific depth record, delta A",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_BCVB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_BCVB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_BCVB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Blade calibration value for specific depth record, delta B",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Blade calibration value for specific depth record, delta B",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_C",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_C"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_C"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "C-pressure test reading",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "C-pressure test reading",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth of result",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth of result",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_INCX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_INCX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_INCX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Inclination 1 (the axis through the membrane)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Inclination 1 (the axis through the membrane)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_INCY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_INCY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_INCY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Inclination 2 (the axis across the width of the blade)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Inclination 2 (the axis across the width of the blade)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_MTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_MTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_MTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Thrust",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Thrust",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_P0",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_P0"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_P0"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Corrected test reading A, p_0",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Corrected test reading A, p_0",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_P1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_P1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_P1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Corrected test reading B, p_1",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Corrected test reading B, p_1",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_P2",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_P2"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_P2"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Corrected test reading C, p_2",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Corrected test reading C, p_2",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_RATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_RATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_RATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Penetration rate",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Penetration rate",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks on specific depth readings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks on specific depth readings",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_TMA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_TMA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "A-position time since start of pressurisation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "A-position time since start of pressurisation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_TMB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_TMB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "B-position time since start of pressurisation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "B-position time since start of pressurisation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_TMC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_TMC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "C-position time since start of pressurisation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "C-position time since start of pressurisation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTT_TMST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTT_TMST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTT_TMST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pressurisation start time",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pressurisation start time",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  }
+]

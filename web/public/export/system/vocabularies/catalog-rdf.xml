@@ -16,22 +16,30 @@
     <rdf:type rdf:resource="https://schema.org/DataCatalog"/>
     <sdo:name xml:lang="en">Vocabularies</sdo:name>
     <sdo:description xml:lang="en">Published vocabularies.</sdo:description>
-    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-04</sdo:dateModified>
-    <sdo:hasPart rdf:resource="https://linked.data.gov.au/def/alteration-form"/>
-    <sdo:hasPart rdf:resource="https://example.com/def/australian-states"/>
-    <sdo:hasPart rdf:resource="https://example.com/def/colours"/>
-    <sdo:hasPart rdf:resource="https://example.com/def/project-status"/>
+    <sdo:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-02</sdo:dateModified>
+    <sdo:hasPart rdf:resource="https://w3id.org/ags4/voc/abbreviations"/>
+    <sdo:hasPart rdf:resource="https://w3id.org/ags4/voc/contaminant-codes"/>
+    <sdo:hasPart rdf:resource="https://w3id.org/ags4/voc/data-types"/>
+    <sdo:hasPart rdf:resource="https://w3id.org/ags4/voc/dictionary"/>
+    <sdo:hasPart rdf:resource="https://w3id.org/ags4/voc/rules"/>
+    <sdo:hasPart rdf:resource="https://w3id.org/ags4/voc/units"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://linked.data.gov.au/def/alteration-form">
-    <skos:prefLabel xml:lang="en">Alteration form</skos:prefLabel>
+  <rdf:Description rdf:about="https://w3id.org/ags4/voc/abbreviations">
+    <skos:prefLabel xml:lang="en">AGS 4.2.0 Abbreviations</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://example.com/def/australian-states">
-    <skos:prefLabel xml:lang="en">Australian States and Territories</skos:prefLabel>
+  <rdf:Description rdf:about="https://w3id.org/ags4/voc/contaminant-codes">
+    <skos:prefLabel xml:lang="en">AGS 4.2.0 Contaminant and Determinand Codes</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://example.com/def/colours">
-    <skos:prefLabel xml:lang="en">Colour</skos:prefLabel>
+  <rdf:Description rdf:about="https://w3id.org/ags4/voc/data-types">
+    <skos:prefLabel xml:lang="en">AGS 4.2.0 Data Types</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://example.com/def/project-status">
-    <skos:prefLabel xml:lang="en">Project Status</skos:prefLabel>
+  <rdf:Description rdf:about="https://w3id.org/ags4/voc/dictionary">
+    <skos:prefLabel xml:lang="en">AGS 4.2.0 Groups and Headings</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ags4/voc/rules">
+    <skos:prefLabel xml:lang="en">AGS 4.2.0 Rules</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/ags4/voc/units">
+    <skos:prefLabel xml:lang="en">AGS 4.2.0 Units</skos:prefLabel>
   </rdf:Description>
 </rdf:RDF>

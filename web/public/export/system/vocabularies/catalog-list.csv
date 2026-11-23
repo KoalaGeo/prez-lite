@@ -1,5 +1,7 @@
 iri,label,link
-https://linked.data.gov.au/def/alteration-form,Alteration form,/catalogs/catalogue:gswa-vocabs/collections/alteration-form
-https://example.com/def/australian-states,Australian States and Territories,/catalogs/catalogue:gswa-vocabs/collections/australian-states
-https://example.com/def/colours,Colour,/catalogs/catalogue:gswa-vocabs/collections/colours
-https://example.com/def/project-status,Project Status,/catalogs/catalogue:gswa-vocabs/collections/project-status
+https://w3id.org/ags4/voc/abbreviations,AGS 4.2.0 Abbreviations,/catalogs/catalogue:gswa-vocabs/collections/abbreviations
+https://w3id.org/ags4/voc/contaminant-codes,AGS 4.2.0 Contaminant and Determinand Codes,/catalogs/catalogue:gswa-vocabs/collections/contaminant-codes
+https://w3id.org/ags4/voc/data-types,AGS 4.2.0 Data Types,/catalogs/catalogue:gswa-vocabs/collections/data-types
+https://w3id.org/ags4/voc/dictionary,AGS 4.2.0 Groups and Headings,/catalogs/catalogue:gswa-vocabs/collections/dictionary
+https://w3id.org/ags4/voc/rules,AGS 4.2.0 Rules,/catalogs/catalogue:gswa-vocabs/collections/rules
+https://w3id.org/ags4/voc/units,AGS 4.2.0 Units,/catalogs/catalogue:gswa-vocabs/collections/units

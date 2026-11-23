@@ -1,0 +1,981 @@
+[
+  {
+    "@id": "_:n3-354",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - Correlated Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - Correlated Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "CPTP",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "CPTP",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - Cone Penetration Test (CPT/CPTu) - Correlated Parameters\nAGS 4.2.0: Headings Added - Cone Penetration Test (CPT/CPTu) - Correlated Parameters; LOCA_ID, CPTP_DPTH, CPTP_BASE, CPTP_SBT1, CPTP_SU1, CPTP_SU2, CPTP_DR1, CPTP_DR2, CPTP_PHI1, CPTP_IC1, CPTP_N601, CPTP_E1, CPTP_MV1, CPTP_G01, CPTP_VS1, CPTP_DUW1, CPTP_SUW1, CPTP_M1, CPTP_CC1, CPTP_P01, CPTP_ST1, CPTP_K01, CPTP_IR1, CPTP_K1, CPTP_FC1, CPTP_CSR1, CPTP_CRR1, CPTP_REM, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_CC1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_CRR1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_CSR1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DR1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DR2"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DUW1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_E1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_FC1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_G01"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_IC1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_IR1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_K01"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_K1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_M1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_MV1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_N601"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_P01"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_PHI1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SBT1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_ST1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SU1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SU2"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SUW1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_VS1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "CPTP is list of optional headings for correlations, and some are not applicable for all soil types.\nThe CPTP group is to be used to transfer derived soil parameters determined from CPT test data. The requirement for this information as part of ground investigation reporting shall be fully specified at the outset of the investigation. The specification may need to detail the interpretative method(s) to be used.\nDetails of the standards and methods used to carry out calculations shall be included in CPTM group.\nWhere soil type interpretation leading to borehole style stratum descriptions is carried out the information should be entered in GEOL.\nThe coefficient of consolidation is calculated from dissipation testing data which is included in CPDG and CPDT.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/CPTP"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - Correlated Parameters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - Correlated Parameters",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of layer, optional",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of layer, optional",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_CC1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_CC1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_CC1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Compression index, C_C",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Compression index, C_C",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_CRR1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_CRR1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_CRR1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cyclic resistance ratio, CRR",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cyclic resistance ratio, CRR",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_CSR1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_CSR1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_CSR1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cyclic stress ratio, CSR",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cyclic stress ratio, CSR",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth of each reading (CPTT_DPTH) or depth to top of layer",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth of each reading (CPTT_DPTH) or depth to top of layer",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DR1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_DR1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_DR1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Relative density (D_r) 1, could be used for lower estimate; coarse soils",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relative density (D_r) 1, could be used for lower estimate; coarse soils",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DR2",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_DR2"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_DR2"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Relative density (D_r) 2, could be used for upper estimate; coarse soils",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relative density (D_r) 2, could be used for upper estimate; coarse soils",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_DUW1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_DUW1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_DUW1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Dry unit weight, gamma_d",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dry unit weight, gamma_d",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_E1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_E1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_E1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Young's Modulus, E",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Young's Modulus, E",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_FC1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_FC1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_FC1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Fines content, FC",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Fines content, FC",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_G01",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_G01"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_G01"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Small strain shear modulus, G_0",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Small strain shear modulus, G_0",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_IC1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_IC1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_IC1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soil Behaviour Type Index (I_c)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soil Behaviour Type Index (I_c)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_IR1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_IR1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_IR1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rigidity index, I_r",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Rigidity index, I_r",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_K01",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_K01"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_K01"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Coefficient of lateral earth pressure, K_0",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Coefficient of lateral earth pressure, K_0",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_K1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_K1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_K1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Permeability, k",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Permeability, k",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_M1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_M1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_M1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Constrained modulus, M",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Constrained modulus, M",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_MV1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_MV1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_MV1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Coefficient of Volume Change, m_v",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Coefficient of Volume Change, m_v",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_N601",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_N601"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_N601"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Equivalent SPT N_60 value",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Equivalent SPT N_60 value",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_P01",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_P01"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_P01"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Preconsolidation stress, p_0'",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Preconsolidation stress, p_0'",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_PHI1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_PHI1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_PHI1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Internal Friction Angle; coarse soils",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Internal Friction Angle; coarse soils",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SBT1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_SBT1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_SBT1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Soil Behaviour Type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Soil Behaviour Type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_ST1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_ST1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_ST1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sensitivity, S_t",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sensitivity, S_t",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SU1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_SU1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_SU1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Undrained Shear Strength (s_u) 1, could be used for lower estimate; fine soils",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Undrained Shear Strength (s_u) 1, could be used for lower estimate; fine soils",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SU2",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_SU2"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_SU2"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Undrained Shear Strength (s_u) 2, could be used for upper estimate; fine soils",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Undrained Shear Strength (s_u) 2, could be used for upper estimate; fine soils",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_SUW1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_SUW1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_SUW1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Saturated unit weight, gamma_s",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Saturated unit weight, gamma_s",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTP_VS1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTP_VS1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTP_VS1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear wave velocity (correlated), V_s",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear wave velocity (correlated), V_s",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  }
+]

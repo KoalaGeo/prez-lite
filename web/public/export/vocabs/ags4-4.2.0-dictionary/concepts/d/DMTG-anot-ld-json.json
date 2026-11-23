@@ -1,0 +1,1149 @@
+[
+  {
+    "@id": "_:n3-877",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Flat Dilatometer Test - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Flat Dilatometer Test - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DMTG",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DMTG",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - Flat Dilatometer Test - General\nAGS 4.2.0: Headings Added - Flat Dilatometer Test - General; LOCA_ID, DMTG_TESN, DMTG_DATE, DMTG_ORNT, DMTG_PED, DMTG_WAT, DMTG_WATA, DMTG_TYPE, DMTG_REFB, DMTG_REFA, DMTG_MAN, DMTG_RIG, DMTG_EQPT, DMTG_COT, DMTG_TDR, DMTG_DIMS, DMTG_PRSG, DMTG_FRIC, DMTG_DITH, DMTG_BCVA, DMTG_BCVB, DMTG_FAED, DMTG_FAS0, DMTG_TERM, DMTG_CORR, DMTG_REM, DMTG_OPER, DMTG_ANBY, DMTG_ENV, DMTG_METH, DMTG_DEV, DMTG_CONT, DMTG_CRED, TEST_STAT, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_ANBY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_BCVA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_BCVB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_CORR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_COT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DEV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DIMS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DITH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_ENV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_EQPT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_FAED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_FAS0"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_FRIC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_MAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_OPER"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_ORNT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_PED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_PRSG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_REFA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_REFB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_RIG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TDR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TERM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_WAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_WATA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "DMTG is used to record the general information about flat dilatometer tests.\nDMTG_WATA is required to clarify the origin of water level recorded in DMTG_WAT.\nFlat dilatometer testing is frequently carried out by specialist sub-contractors. DMTG_CONT is included to record the name of the specialist sub-contractor.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/DMTG"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Flat Dilatometer Test - General",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Flat Dilatometer Test - General",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_ANBY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_ANBY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_ANBY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name(s) of analyser / person responsible for data quality and correctness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name(s) of analyser / person responsible for data quality and correctness",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_BCVA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_BCVA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_BCVA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Blade calibration value used, delta A",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Blade calibration value used, delta A",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_BCVB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_BCVB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_BCVB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Blade calibration value used, delta B",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Blade calibration value used, delta B",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Subcontractors name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Subcontractors name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_CORR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_CORR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_CORR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Corrections applied during data processing (e.g. depth corrections, zeros)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Corrections applied during data processing (e.g. depth corrections, zeros)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_COT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_COT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_COT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method and calibration of thrust measurement",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method and calibration of thrust measurement",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_DATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_DATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test date and time",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test date and time",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DEV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_DEV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_DEV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviations from the standard followed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviations from the standard followed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DIMS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_DIMS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_DIMS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Geometry and dimensions of the dilatometer, as measured",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Geometry and dimensions of the dilatometer, as measured",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_DITH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_DITH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_DITH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Membrane thickness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Membrane thickness",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_ENV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_ENV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_ENV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_EQPT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_EQPT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_EQPT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mass, reaction and equipment geometry",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mass, reaction and equipment geometry",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_FAED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_FAED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_FAED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Dilatometer modulus (Ed) factor",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dilatometer modulus (Ed) factor",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_FAS0",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_FAS0"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_FAS0"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Membrane displacement",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Membrane displacement",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_FRIC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_FRIC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_FRIC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of any rod friction reducer, including diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of any rod friction reducer, including diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_MAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_MAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_MAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Manufacturer of the dilatometer",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Manufacturer of the dilatometer",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Standard followed for testing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Standard followed for testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_OPER",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_OPER"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_OPER"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_ORNT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_ORNT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_ORNT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Angle that the membrane is pointing to",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Angle that the membrane is pointing to",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_PED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_PED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_PED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pre-drilled depth",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pre-drilled depth",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_PRSG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_PRSG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_PRSG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Measuring range of the pressure gauges and zero offset when vented",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Measuring range of the pressure gauges and zero offset when vented",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_REFA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_REFA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_REFA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Serial number of the acquisition unit (if applicable)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Serial number of the acquisition unit (if applicable)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_REFB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_REFB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_REFB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Serial number of blade (if applicable)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Serial number of blade (if applicable)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Note on set up conditions, comments on testing, types of materials encountered if possible",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Note on set up conditions, comments on testing, types of materials encountered if possible",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_RIG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_RIG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_RIG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of penetration rig",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of penetration rig",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TDR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_TDR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_TDR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type and diameter of penetration rods",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type and diameter of penetration rods",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TERM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_TERM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_TERM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Termination reason(s)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Termination reason(s)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specific details on type of DMT equipment",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specific details on type of DMT equipment",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_WAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_WAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_WAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to groundwater level, z_w at time of test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to groundwater level, z_w at time of test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DMTG_WATA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DMTG_WATA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DMTG_WATA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Origin of groundwater level in DMTG_WAT",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Origin of groundwater level in DMTG_WAT",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]

@@ -1,0 +1,424 @@
+PREFIX agsdt: <https://w3id.org/ags4/voc/data-types/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://github.com/KoalaGeo>
+    a schema:Organization ;
+    schema:name "KoalaGeo" ;
+    schema:url "https://github.com/KoalaGeo"^^xsd:anyURI ;
+.
+
+agsdt:0DP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "0DP"@en ;
+    skos:broader agsdt:nDP ;
+    skos:definition "Data type 0DP: 0 decimal places. A specific form of the generic type nDP (Value with required number of decimal places)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "0DP"^^xsd:token ;
+    skos:prefLabel "0DP: 0 decimal places"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:1DP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "1DP"@en ;
+    skos:broader agsdt:nDP ;
+    skos:definition "Data type 1DP: 1 decimal place. A specific form of the generic type nDP (Value with required number of decimal places)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "1DP"^^xsd:token ;
+    skos:prefLabel "1DP: 1 decimal place"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:1SCI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "1SCI"@en ;
+    skos:broader agsdt:nSCI ;
+    skos:definition "Data type 1SCI: scientific notation with 1 decimal place. A specific form of the generic type nSCI (Scientific Notation with required number of decimal places)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "1SCI"^^xsd:token ;
+    skos:prefLabel "1SCI: scientific notation with 1 decimal place"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:1SF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "1SF"@en ;
+    skos:broader agsdt:nSF ;
+    skos:definition "Data type 1SF: 1 significant figure. A specific form of the generic type nSF (Value with required number of significant figures)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "1SF"^^xsd:token ;
+    skos:prefLabel "1SF: 1 significant figure"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:2DP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "2DP"@en ;
+    skos:broader agsdt:nDP ;
+    skos:definition "Data type 2DP: 2 decimal places. A specific form of the generic type nDP (Value with required number of decimal places)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "2DP"^^xsd:token ;
+    skos:prefLabel "2DP: 2 decimal places"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:2SCI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "2SCI"@en ;
+    skos:broader agsdt:nSCI ;
+    skos:definition "Data type 2SCI: scientific notation with 2 decimal places. A specific form of the generic type nSCI (Scientific Notation with required number of decimal places)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "2SCI"^^xsd:token ;
+    skos:prefLabel "2SCI: scientific notation with 2 decimal places"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:2SF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "2SF"@en ;
+    skos:broader agsdt:nSF ;
+    skos:definition "Data type 2SF: 2 significant figures. A specific form of the generic type nSF (Value with required number of significant figures)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "2SF"^^xsd:token ;
+    skos:prefLabel "2SF: 2 significant figures"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:3DP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "3DP"@en ;
+    skos:broader agsdt:nDP ;
+    skos:definition "Data type 3DP: 3 decimal places. A specific form of the generic type nDP (Value with required number of decimal places)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "3DP"^^xsd:token ;
+    skos:prefLabel "3DP: 3 decimal places"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:3SF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "3SF"@en ;
+    skos:broader agsdt:nSF ;
+    skos:definition "Data type 3SF: 3 significant figures. A specific form of the generic type nSF (Value with required number of significant figures)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "3SF"^^xsd:token ;
+    skos:prefLabel "3SF: 3 significant figures"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:4DP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "4DP"@en ;
+    skos:broader agsdt:nDP ;
+    skos:definition "Data type 4DP: 4 decimal places. A specific form of the generic type nDP (Value with required number of decimal places)."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "4DP"^^xsd:token ;
+    skos:prefLabel "4DP: 4 decimal places"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:DMS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "DMS"@en ;
+    skos:definition "Degrees: Minutes: Seconds. e.g. 51: 28: 52.498"@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "DMS"^^xsd:token ;
+    skos:prefLabel "Degrees: Minutes: Seconds"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:DT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "DT"@en ;
+    skos:definition """Date time in international format. yyyy-mm-ddThh:mm:ss.sssZ(+hh:mm) or yyyy-mm-dd or hh:mm:ss or yyyy
+This format may be used in full or part based on user requirements"""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "DT"^^xsd:token ;
+    skos:prefLabel "Date time in international format"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:ID
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "ID"@en ;
+    skos:definition """Unique Identifier. An ID is a unique identifier used across the project.
+The ID shall be unique in the parent group but may be repeated in child groups i.e. SAMP (parent) vs ELRG (child), LOCA (parent) vs SAMP (child)."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "ID"^^xsd:token ;
+    skos:prefLabel "Unique Identifier"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:MC
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "MC"@en ;
+    skos:definition "British Standard BS1377 : Part 2 reported moisture content. This data type is included for legacy reasons and not used in AGS 4.2"@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "MC"^^xsd:token ;
+    skos:prefLabel "British Standard BS1377 : Part 2 reported moisture content"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:PA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "PA"@en ;
+    skos:definition """Text listed in ABBR Group. Abbreviations listed in ABBR group. Rule 16 refers.
+The list of standard abbreviations and descriptions are presented on the AGS website and shall not be redefined.
+Other abbreviations may be defined as required within a project, but shall not match/impersonate existing standard abbreviations
+e.g. "CP" for 'Cable percussion' in LOCA_TYPE shall not be given a non-standard abbreviation defined as "CH" for 'Cable hole'; likewise "SCP" (Static cone penetrometer) shall not be replaced by a non-standard abbreviation of "CPT" (Cone penetration test).
+Multiple abbreviations can be used in a data VARIABLE. Where this occurs, abbreviations are joined using the concatenation character defined in TRAN_RCON (a "+" character by default)."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "PA"^^xsd:token ;
+    skos:prefLabel "Text listed in ABBR Group"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:PT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "PT"@en ;
+    skos:definition "Text listed in TYPE Group. Abbreviations listed in TYPE group. Rule 17 refers."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "PT"^^xsd:token ;
+    skos:prefLabel "Text listed in TYPE Group"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:PU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "PU"@en ;
+    skos:definition """Text listed in UNIT Group. Abbreviations listed in UNIT group. Rule 15 refers.
+The list of standard units and descriptions are presented on the AGS website and shall not be redefined.
+This list is case sensitive."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "PU"^^xsd:token ;
+    skos:prefLabel "Text listed in UNIT Group"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:RL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "RL"@en ;
+    skos:definition """Record Link. Rule 11 refers.
+Text in specified format that refers to one or more records in other Groups by Key fields."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "RL"^^xsd:token ;
+    skos:prefLabel "Record Link"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:T
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "T"@en ;
+    skos:definition "Elapsed Time. e.g. hh:mm:ss"@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "T"^^xsd:token ;
+    skos:prefLabel "Elapsed Time"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:U
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "U"@en ;
+    skos:definition "Value with a variable format. This is used for fields that contain values with differing accuracy; e.g. AGS 4.1 = ELRG_RVAL (AGS 4.0 = ERES_RVAL)."@en ;
+    skos:historyNote "data_types.json does not define U for AGS 4.2, but the dictionary uses it; definition taken from the entry for 4.1." ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "U"^^xsd:token ;
+    skos:prefLabel "Value with a variable format"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:X
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "X"@en ;
+    skos:definition "Text. Abbreviations used in text data are to be listed in ABBR group. Rule 16 refers."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "X"^^xsd:token ;
+    skos:prefLabel "Text"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:XN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "XN"@en ;
+    skos:definition """Text/numeric. There are some measured parameters that are typically numeric but can have a valid result that is text; examples include plastic limit (34 or NP) and depth of water in a borehole (2.34 or dry).
+Abbreviations used in text data are to be listed in ABBR group. Rule 16 refers."""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "XN"^^xsd:token ;
+    skos:prefLabel "Text/numeric"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:YN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "YN"@en ;
+    skos:definition """Yes or No. Data in the file will be either a Y or N or Null (Rule 12)
+e.g. Y"""@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:notation "YN"^^xsd:token ;
+    skos:prefLabel "Yes or No"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+<https://www.ags.org.uk/>
+    a schema:Organization ;
+    schema:name "Association of Geotechnical and Geoenvironmental Specialists (AGS)" ;
+    schema:url "https://www.ags.org.uk/"^^xsd:anyURI ;
+.
+
+agsdt:nSCI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "nSCI"@en ;
+    skos:definition "Scientific Notation with required number of decimal places. e.g. 73100 as 2SCI = 7.31E4; 73100 as 1SCI = 7.3E4"@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:narrower
+        agsdt:1SCI ,
+        agsdt:2SCI ;
+    skos:notation "nSCI"^^xsd:token ;
+    skos:prefLabel "Scientific Notation with required number of decimal places"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:nSF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "nSF"@en ;
+    skos:definition "Value with required number of significant figures. e.g. 2SF = 2 significant figures = 1.2, 10"@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:narrower
+        agsdt:1SF ,
+        agsdt:2SF ,
+        agsdt:3SF ;
+    skos:notation "nSF"^^xsd:token ;
+    skos:prefLabel "Value with required number of significant figures"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+agsdt:nDP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/data-types> ;
+    skos:altLabel "nDP"@en ;
+    skos:definition "Value with required number of decimal places. e.g. 2DP = 2 decimal places = 2.34"@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/data-types> ;
+    skos:narrower
+        agsdt:0DP ,
+        agsdt:1DP ,
+        agsdt:2DP ,
+        agsdt:3DP ,
+        agsdt:4DP ;
+    skos:notation "nDP"^^xsd:token ;
+    skos:prefLabel "Value with required number of decimal places"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/data-types> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:status status:stable ;
+.
+
+<https://w3id.org/ags4/voc/data-types>
+    a skos:ConceptScheme ;
+    dcterms:rights "Content of the AGS Data Format data dictionary (AGS 4.2.0), © Association of Geotechnical and Geoenvironmental Specialists (AGS). Reuse is subject to the AGS's terms; see https://www.ags.org.uk/data-format/. No licence is stated in the source repository." ;
+    reg:status status:stable ;
+    owl:versionIRI agsdt:4.2.0 ;
+    owl:versionInfo "4.2.0" ;
+    skos:definition "The data TYPEs of AGS 4.2.0. Generic types such as nDP are top concepts; the specific types used in the dictionary (e.g. 2DP) are narrower concepts."@en ;
+    skos:hasTopConcept
+        agsdt:DMS ,
+        agsdt:DT ,
+        agsdt:ID ,
+        agsdt:MC ,
+        agsdt:PA ,
+        agsdt:PT ,
+        agsdt:PU ,
+        agsdt:RL ,
+        agsdt:T ,
+        agsdt:U ,
+        agsdt:X ,
+        agsdt:XN ,
+        agsdt:YN ,
+        agsdt:nDP ,
+        agsdt:nSCI ,
+        agsdt:nSF ;
+    skos:historyNote "Generated by ags-rdf 0.1.0 from the AGS 4.2.0 data dictionary JSON (AGS4/data_types.json, AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json) published in https://gitlab.com/AGS-DFWG-Web/ASG4 at commit 710b1f080972 (2026-10-08). The JSON files are treated as the authoritative source; values are only cleaned of formatting artefacts." ;
+    skos:prefLabel "AGS 4.2.0 Data Types"@en ;
+    prov:wasDerivedFrom
+        <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json> ,
+        <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json> ;
+    schema:citation "https://www.ags.org.uk/data-format/"^^xsd:anyURI ;
+    schema:copyrightHolder <https://www.ags.org.uk/> ;
+    schema:creator <https://www.ags.org.uk/> ;
+    schema:dateCreated "2020-08-28"^^xsd:date ;
+    schema:dateModified "2026-03-16"^^xsd:date ;
+    schema:publisher <https://github.com/KoalaGeo> ;
+    schema:status status:stable ;
+    schema:version "4.2.0" ;
+.

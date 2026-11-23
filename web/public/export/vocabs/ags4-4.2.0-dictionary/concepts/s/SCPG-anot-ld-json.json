@@ -1,0 +1,701 @@
+[
+  {
+    "@id": "_:n3-2083",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Static Cone Penetration Tests - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Static Cone Penetration Tests - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "SCPG",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "SCPG",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/deprecated"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: DEPRECATED"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CSA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_ENV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_FILT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_FRIC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_OPER"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_RATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_SLAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_WAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_WATA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "SCPG is used to record the general information about static cone penetration tests.\nPressuremeter tests using CPT equipment (e.g. cone or driven pressuremeter) shall be recorded in the PMTG and associated groups.\nSCPG_FILT and SCPG_FRIC are included as they are reporting requirements of BS1377 and BS EN ISO 22476-1.\nSCPG_WATA is required to clarify origin of water level recorded in SCPG_WAT.\nSCPG_REM is used to transfer comments on the test and any interpreted parameters. SCPG_REM may refer to the STND group where full information on standards and references could be provided.\nCPT testing is frequently carried out by specialist sub-contractors. SCPG_CONT is included to record name of specialist sub-contractor.\nSCPG_CAR and SCPG_SLAR are included to transfer information used to calculate qt and ft.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/SCPG"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Static Cone Penetration Tests - General",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Static Cone Penetration Tests - General",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_CAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_CAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone area ratio used to calculate qt",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone area ratio used to calculate qt",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Subcontractors name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Subcontractors name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_CSA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_CSA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_CSA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Surface area of cone tip",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Surface area of cone tip",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_ENV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_ENV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_ENV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_FILT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_FILT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_FILT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of filter material used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of filter material used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_FRIC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_FRIC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_FRIC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Friction reducer used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Friction reducer used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Standard followed for testing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Standard followed for testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_OPER",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_OPER"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_OPER"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_RATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_RATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_RATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nominal rate of penetration of the cone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Nominal rate of penetration of the cone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Comments on testing and basis of any interpreted parameters included in SCPT and SCPP",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Comments on testing and basis of any interpreted parameters included in SCPT and SCPP",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_SLAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_SLAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_SLAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sleeve area ratio used to calculate ft",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sleeve area ratio used to calculate ft",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference or push number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference or push number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone test type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone test type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_WAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_WAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_WAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Groundwater level at time of test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Groundwater level at time of test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SCPG_WATA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SCPG_WATA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SCPG_WATA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Origin of water level in SCPG_WAT",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Origin of water level in SCPG_WAT",
+        "@language": "en"
+      }
+    ]
+  }
+]

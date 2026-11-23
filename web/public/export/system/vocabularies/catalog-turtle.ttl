@@ -13,9 +13,11 @@
 <https://example.org/catalogue/vocabularies> a sdo:DataCatalog;
     sdo:name "Vocabularies"@en;
     sdo:description "Published vocabularies."@en;
-    sdo:dateModified "2026-03-04"^^xsd:date;
-    sdo:hasPart <https://linked.data.gov.au/def/alteration-form>, <https://example.com/def/australian-states>, <https://example.com/def/colours>, <https://example.com/def/project-status>.
-<https://linked.data.gov.au/def/alteration-form> skos:prefLabel "Alteration form"@en.
-<https://example.com/def/australian-states> skos:prefLabel "Australian States and Territories"@en.
-<https://example.com/def/colours> skos:prefLabel "Colour"@en.
-<https://example.com/def/project-status> skos:prefLabel "Project Status"@en.
+    sdo:dateModified "2026-11-02"^^xsd:date;
+    sdo:hasPart <https://w3id.org/ags4/voc/abbreviations>, <https://w3id.org/ags4/voc/contaminant-codes>, <https://w3id.org/ags4/voc/data-types>, <https://w3id.org/ags4/voc/dictionary>, <https://w3id.org/ags4/voc/rules>, <https://w3id.org/ags4/voc/units>.
+<https://w3id.org/ags4/voc/abbreviations> skos:prefLabel "AGS 4.2.0 Abbreviations"@en.
+<https://w3id.org/ags4/voc/contaminant-codes> skos:prefLabel "AGS 4.2.0 Contaminant and Determinand Codes"@en.
+<https://w3id.org/ags4/voc/data-types> skos:prefLabel "AGS 4.2.0 Data Types"@en.
+<https://w3id.org/ags4/voc/dictionary> skos:prefLabel "AGS 4.2.0 Groups and Headings"@en.
+<https://w3id.org/ags4/voc/rules> skos:prefLabel "AGS 4.2.0 Rules"@en.
+<https://w3id.org/ags4/voc/units> skos:prefLabel "AGS 4.2.0 Units"@en.

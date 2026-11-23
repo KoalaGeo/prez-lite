@@ -1,0 +1,1205 @@
+[
+  {
+    "@id": "_:n3-421",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRC_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRC_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRC_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Cyclic Triaxial Tests - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Cyclic Triaxial Tests - Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "CTRD",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "CTRD",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New\nAGS 4.1: Group Added\nAGS 4.1: Headings Added - LOCA_ID, SAMP_TOP, SAMP_REF, SAMP_TYPE, SAMP_ID, SPEC_REF, SPEC_DPTH, CTRC_TESN, CTRD_CYC, CTRD_TIME, CTRD_COND, CTRD_SDIA, CTRD_HIGH, CTRD_CELL, CTRD_BPWP, CTRD_MPWP, CTRD_EAS, CTRD_LAS1, CTRD_LAS2, CTRD_VOL, CTRD_RAD, CTRD_SHSN, CTRD_SHST, CTRD_DEV, CTRD_PSD, CTRD_MEES, CTRD_SECE, CTRD_TANE, CTRD_FREQ, CTRD_CSTS, CTRD_ACVS, CTRD_DAVS, CTRD_CESR, CTRD_EMPR, CTRD_EBPR, CTRD_DIPL, CTRD_OBP, CTRD_REM, FILE_FSET\nAGS 4.2.0: Group Deprecated - Cyclic Triaxial Tests - Data"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_ACVS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_BPWP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_CELL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_CESR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_COND"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_CSTS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_DAVS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_DEV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_EAS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_EBPR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_EMPR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_FREQ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_HIGH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_LAS1"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_LAS2"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_MEES"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_MPWP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_PSD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_RAD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SECE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SHSN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SHST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_TANE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_TIME"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_VOL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CYC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRC_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Assumes axial cycles in deviator stress (constant cell pressure, controlled axial load)",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/CTRD"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cyclic Triaxial Tests - Data",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cyclic Triaxial Tests - Data",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_ACVS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_ACVS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_ACVS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Average cyclic axial stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Average cyclic axial stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_BPWP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_BPWP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_BPWP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Base porewater pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Base porewater pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_CELL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_CELL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_CELL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cell pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cell pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_CESR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_CESR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_CESR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Compression/Extension stress ratio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Compression/Extension stress ratio",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_COND",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_COND"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_COND"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test conditions",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test conditions",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_CSTS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_CSTS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_CSTS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cyclic amplitude",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cyclic amplitude",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_DAVS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_DAVS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_DAVS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Double amplitude axial strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Double amplitude axial strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_DEV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_DEV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_DEV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviatoric stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviatoric stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_EAS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_EAS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_EAS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "External axial strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "External axial strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_EBPR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_EBPR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_EBPR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Excess base pore pressure ratio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Excess base pore pressure ratio",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_EMPR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_EMPR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_EMPR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Excess mid-plane pore pressure ratio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Excess mid-plane pore pressure ratio",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_FREQ",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_FREQ"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_FREQ"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Loading frequency",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Loading frequency",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_HIGH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_HIGH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_HIGH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen height",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen height",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_LAS1",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_LAS1"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_LAS1"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local axial strain 1",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local axial strain 1",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_LAS2",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_LAS2"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_LAS2"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Local axial strain 2",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Local axial strain 2",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_MEES",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_MEES"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_MEES"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mean effective stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mean effective stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_MPWP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_MPWP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_MPWP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mid-plane porewater pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mid-plane porewater pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_PSD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_PSD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_PSD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Principal stress difference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Principal stress difference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_RAD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_RAD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_RAD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Radial strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Radial strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_SDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_SDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SECE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_SECE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_SECE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Secant Young's Modulus (Local)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Secant Young's Modulus (Local)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SHSN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_SHSN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_SHSN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_SHST",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_SHST"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_SHST"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_TANE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_TANE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_TANE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Tangent Young's Modulus",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Tangent Young's Modulus",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_TIME",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_TIME"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_TIME"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date/time of reading",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date/time of reading",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRD_VOL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRD_VOL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRD_VOL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Volumetric strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Volumetric strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CYC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_CYC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_CYC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cycle number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cycle number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  }
+]

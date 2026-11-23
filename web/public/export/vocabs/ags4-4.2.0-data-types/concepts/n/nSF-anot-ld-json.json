@@ -1,0 +1,232 @@
+[
+  {
+    "@id": "_:n3-61",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/data-types",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:data-types"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:data-types"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Data Types",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The data TYPEs of AGS 4.2.0. Generic types such as nDP are top concepts; the specific types used in the dictionary (e.g. 2DP) are narrower concepts.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:data-types/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/data-types/1SF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:1SF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:data-types/items/ns1:1SF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "1SF: 1 significant figure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Data type 1SF: 1 significant figure. A specific form of the generic type nSF (Value with required number of significant figures).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/data-types/2SF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:2SF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:data-types/items/ns1:2SF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "2SF: 2 significant figures",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Data type 2SF: 2 significant figures. A specific form of the generic type nSF (Value with required number of significant figures).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/data-types/3SF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:3SF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:data-types/items/ns1:3SF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "3SF: 3 significant figures",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Data type 3SF: 3 significant figures. A specific form of the generic type nSF (Value with required number of significant figures).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/data-types/nSF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/data-types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "nSF",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Value with required number of significant figures. e.g. 2SF = 2 significant figures = 1.2, 10",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/data-types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "nSF",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Value with required number of significant figures",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/data_types.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/data-types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/data-types/1SF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/data-types/2SF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/data-types/3SF"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:nSF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:data-types/items/ns1:nSF"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Value with required number of significant figures",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Value with required number of significant figures. e.g. 2SF = 2 significant figures = 1.2, 10",
+        "@language": "en"
+      }
+    ]
+  }
+]

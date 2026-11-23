@@ -3,12 +3,13 @@ PREFIX prez: <https://prez.dev/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX schema: <https://schema.org/>
 
+# Written by ags-rdf (prez-lite layout)
 []  a prez:Manifest ;
     prof:hasResource
         [
             prof:hasArtifact "vocabs/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:description "SKOS vocabularies in Turtle format" ;
+            schema:description "SKOS vocabularies in Turtle format, one ConceptScheme per file" ;
             schema:name "Vocabulary Data" ;
         ] ,
         [

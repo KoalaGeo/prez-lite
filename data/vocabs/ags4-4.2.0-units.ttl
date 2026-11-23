@@ -1,0 +1,2716 @@
+PREFIX agsunit: <https://w3id.org/ags4/voc/units/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+agsunit:quantity-area
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of area."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:acre ,
+        agsunit:cm2 ,
+        agsunit:ft2 ,
+        agsunit:hect ,
+        agsunit:in2 ,
+        agsunit:km2 ,
+        agsunit:m2 ,
+        agsunit:mi2 ,
+        agsunit:mm3 ,
+        agsunit:yd2 ;
+    skos:prefLabel "Area"@en ;
+.
+
+agsunit:quantity-concentration
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of concentration."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:CFU_per_g ,
+        agsunit:CFU_per_ml ,
+        agsunit:MPN_per_100ml ,
+        agsunit:MPN_per_l ,
+        agsunit:MPN_per_ml ,
+        agsunit:colonies_per_l ,
+        agsunit:colonies_per_ml ,
+        agsunit:g_per_l ,
+        agsunit:mg_per_kg ,
+        agsunit:mg_per_l ,
+        agsunit:ng_per_l ,
+        agsunit:pct ,
+        agsunit:pct_dry_weight ,
+        agsunit:pct_vol ,
+        agsunit:ppb ,
+        agsunit:ppm ,
+        agsunit:ppmv ,
+        agsunit:ug_per_kg ,
+        agsunit:ug_per_l ;
+    skos:prefLabel "Concentration"@en ;
+.
+
+agsunit:quantity-density
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of density."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:Mg_per_m3 ,
+        agsunit:g_per_cm3 ,
+        agsunit:kN_per_m3 ,
+        agsunit:kg_per_m3 ,
+        agsunit:pcf ;
+    skos:prefLabel "Density"@en ;
+.
+
+agsunit:quantity-electrical-resistivity
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of electrical resistivity."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:ohm ,
+        agsunit:ohm_m ,
+        agsunit:ohmcm ;
+    skos:prefLabel "Electrical Resistivity"@en ;
+.
+
+agsunit:quantity-flow
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of flow."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:cfs ,
+        agsunit:gpm ,
+        agsunit:l_per_hr ,
+        agsunit:l_per_min ,
+        agsunit:l_per_s ,
+        agsunit:m3_per_s ,
+        agsunit:mgd ,
+        agsunit:pct_per_hr ,
+        agsunit:pct_per_min ;
+    skos:prefLabel "Flow"@en ;
+.
+
+agsunit:quantity-force
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of force."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:MN ,
+        agsunit:N ,
+        agsunit:N_per_s ,
+        agsunit:kN ,
+        agsunit:kgf ,
+        agsunit:lbf ,
+        agsunit:tonf ;
+    skos:prefLabel "Force"@en ;
+.
+
+agsunit:quantity-frequency
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of frequency."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member agsunit:Hz ;
+    skos:prefLabel "Frequency"@en ;
+.
+
+agsunit:quantity-length
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of length."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:cm ,
+        agsunit:ft ,
+        agsunit:in ,
+        agsunit:km ,
+        agsunit:m ,
+        agsunit:mi ,
+        agsunit:mm ,
+        agsunit:mm2 ,
+        agsunit:yd ;
+    skos:prefLabel "Length"@en ;
+.
+
+agsunit:quantity-mass
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of mass."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:Mg ,
+        agsunit:g ,
+        agsunit:kg ,
+        agsunit:kips ,
+        agsunit:lb ,
+        agsunit:t ;
+    skos:prefLabel "Mass"@en ;
+.
+
+agsunit:quantity-miscellaneous
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of miscellaneous."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:API ,
+        agsunit:Bq_per_g ,
+        agsunit:MJ ,
+        agsunit:MJ_per_m3 ,
+        agsunit:MPa_per_m ,
+        agsunit:MPa_per_s ,
+        agsunit:Nm ,
+        agsunit:No ,
+        agsunit:S_per_m ,
+        agsunit:UNITLESS ,
+        agsunit:Yes ,
+        agsunit:cm3_per_MPa ,
+        agsunit:counts_per_s ,
+        agsunit:deg ,
+        agsunit:ft2_per_day ,
+        agsunit:ft2_per_t ,
+        agsunit:ft2_per_yr ,
+        agsunit:kJ_per_kg ,
+        agsunit:kPa_per_s ,
+        agsunit:kg_per_m ,
+        agsunit:m2_per_MN ,
+        agsunit:m2_per_yr ,
+        agsunit:mS_per_cm ,
+        agsunit:mV ,
+        agsunit:mol_per_kg ,
+        agsunit:nT ,
+        agsunit:nT_per_cm ,
+        agsunit:rps ,
+        agsunit:uS_per_cm ,
+        agsunit:uT ,
+        agsunit:uV ;
+    skos:prefLabel "Miscellaneous"@en ;
+.
+
+agsunit:quantity-permeability
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of permeability."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member agsunit:mD ;
+    skos:prefLabel "Permeability"@en ;
+.
+
+agsunit:quantity-pressure
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of pressure."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:GPa ,
+        agsunit:MN_per_m2 ,
+        agsunit:MPa ,
+        agsunit:bar ,
+        agsunit:kN_per_m2 ,
+        agsunit:kPa ,
+        agsunit:kg_per_cm2 ,
+        agsunit:ksf ,
+        agsunit:ksi ,
+        agsunit:mbar ,
+        agsunit:psf ,
+        agsunit:psi ,
+        agsunit:tsf ;
+    skos:prefLabel "Pressure"@en ;
+.
+
+agsunit:quantity-temperature
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of temperature."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:DegC ,
+        agsunit:DegF ;
+    skos:prefLabel "Temperature"@en ;
+.
+
+agsunit:quantity-thermal-resistance
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of thermal resistance."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:DegC_per_W ,
+        agsunit:K-cm_per_W ,
+        agsunit:K-m_per_W ,
+        agsunit:K_per_W ,
+        agsunit:W_per_DegC ,
+        agsunit:W_per_K ,
+        agsunit:W_per_K-cm ,
+        agsunit:W_per_K-m ;
+    skos:prefLabel "Thermal Resistance"@en ;
+.
+
+agsunit:quantity-time
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of time."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:day ,
+        agsunit:hh_mm ,
+        agsunit:hh_mm_ss ,
+        agsunit:hr ,
+        agsunit:min ,
+        agsunit:mm_ss ,
+        agsunit:month ,
+        agsunit:ms ,
+        agsunit:s ,
+        agsunit:us ,
+        agsunit:yr ,
+        agsunit:yyyy-mm-dd ,
+        agsunit:yyyy-mm-ddThh_mm ,
+        agsunit:yyyy-mm-ddThh_mm_ss ,
+        agsunit:yyyy-mm-ddThh_mm_ss.sss ;
+    skos:prefLabel "Time"@en ;
+.
+
+agsunit:quantity-velocity
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of velocity."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:cm_per_s ,
+        agsunit:ft_per_min ,
+        agsunit:km_per_hr ,
+        agsunit:m_per_day ,
+        agsunit:m_per_hr ,
+        agsunit:m_per_min ,
+        agsunit:m_per_s ,
+        agsunit:mm_per_min ,
+        agsunit:mm_per_s ,
+        agsunit:mph ,
+        agsunit:rpm ;
+    skos:prefLabel "Velocity"@en ;
+.
+
+agsunit:quantity-volume
+    a skos:Collection ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "AGS 4.2.0 units of volume."@en ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:member
+        agsunit:cm3 ,
+        agsunit:ft3 ,
+        agsunit:gal ,
+        agsunit:in3 ,
+        agsunit:l ,
+        agsunit:m3 ,
+        agsunit:ml ,
+        agsunit:yd3 ;
+    skos:prefLabel "Volume"@en ;
+.
+
+<https://github.com/KoalaGeo>
+    a schema:Organization ;
+    schema:name "KoalaGeo" ;
+    schema:url "https://github.com/KoalaGeo"^^xsd:anyURI ;
+.
+
+agsunit:API
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "API"@en ;
+    skos:definition "American Petroleum Institute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "API"^^xsd:token ;
+    skos:prefLabel "American Petroleum Institute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:Bq_per_g
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "Bq/g"@en ;
+    skos:definition "Becquerel per gram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (12/06/2017)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "Bq/g"^^xsd:token ;
+    skos:prefLabel "Becquerel per gram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:CFU_per_g
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "CFU/g"@en ;
+    skos:definition "colony forming units per gram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "CFU/g"^^xsd:token ;
+    skos:prefLabel "colony forming units per gram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:CFU_per_ml
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "CFU/ml"@en ;
+    skos:definition "colony forming units per millilitre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "CFU/ml"^^xsd:token ;
+    skos:prefLabel "colony forming units per millilitre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:DegC
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "DegC"@en ;
+    skos:definition "degree Celsius"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "DegC"^^xsd:token ;
+    skos:prefLabel "degree Celsius"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:DegC_per_W
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "DegC/W"@en ;
+    skos:definition "Degree Celsius per Watt"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "DegC/W"^^xsd:token ;
+    skos:prefLabel "Degree Celsius per Watt"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:DegF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "DegF"@en ;
+    skos:definition "degree Fahrenheit"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "DegF"^^xsd:token ;
+    skos:prefLabel "degree Fahrenheit"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:GPa
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "GPa"@en ;
+    skos:definition "gigaPascal"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "GPa"^^xsd:token ;
+    skos:prefLabel "gigaPascal"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:Hz
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "Hz"@en ;
+    skos:definition "hertz"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "Hz"^^xsd:token ;
+    skos:prefLabel "hertz"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:K-cm_per_W
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "(K-cm)/W"@en ;
+    skos:definition "Kelvin centimetres per Watt"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "(K-cm)/W"^^xsd:token ;
+    skos:prefLabel "Kelvin centimetres per Watt"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:K-m_per_W
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "(K-m)/W"@en ;
+    skos:definition "Kelvin metres per Watt"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "(K-m)/W"^^xsd:token ;
+    skos:prefLabel "Kelvin metres per Watt"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:K_per_W
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "K/W"@en ;
+    skos:definition "Kelvin per Watt"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "K/W"^^xsd:token ;
+    skos:prefLabel "Kelvin per Watt"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MJ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MJ"@en ;
+    skos:definition "MegaJoule"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MJ"^^xsd:token ;
+    skos:prefLabel "MegaJoule"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MJ_per_m3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MJ/m3"@en ;
+    skos:definition "MegaJoule per cubic meter"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MJ/m3"^^xsd:token ;
+    skos:prefLabel "MegaJoule per cubic meter"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MN"@en ;
+    skos:definition "megaNewton"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MN"^^xsd:token ;
+    skos:prefLabel "megaNewton"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MN_per_m2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MN/m2"@en ;
+    skos:definition "megaNewtons per square metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MN/m2"^^xsd:token ;
+    skos:prefLabel "megaNewtons per square metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MPN_per_100ml
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MPN/100ml"@en ;
+    skos:definition "most probable number per 100 millilitres"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MPN/100ml"^^xsd:token ;
+    skos:prefLabel "most probable number per 100 millilitres"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MPN_per_l
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MPN/l"@en ;
+    skos:definition "most probable number per litre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MPN/l"^^xsd:token ;
+    skos:prefLabel "most probable number per litre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MPN_per_ml
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MPN/ml"@en ;
+    skos:definition "most probable number per millilitre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MPN/ml"^^xsd:token ;
+    skos:prefLabel "most probable number per millilitre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MPa
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MPa"@en ;
+    skos:definition "megaPascal"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MPa"^^xsd:token ;
+    skos:prefLabel "megaPascal"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MPa_per_m
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MPa/m"@en ;
+    skos:definition "mega Pascals per metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020). This was erroneously described as mega Pascals per minute" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MPa/m"^^xsd:token ;
+    skos:prefLabel "mega Pascals per metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:MPa_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "MPa/s"@en ;
+    skos:definition "mega Pascals per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "MPa/s"^^xsd:token ;
+    skos:prefLabel "mega Pascals per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:Mg
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "Mg"@en ;
+    skos:definition "megagram (tonne)"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "Mg"^^xsd:token ;
+    skos:prefLabel "megagram (tonne)"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:Mg_per_m3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "Mg/m3"@en ;
+    skos:definition "megagrams per cubic metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "Mg/m3"^^xsd:token ;
+    skos:prefLabel "megagrams per cubic metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:N
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "N"@en ;
+    skos:definition "Newton"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "N"^^xsd:token ;
+    skos:prefLabel "Newton"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:N_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "N/s"@en ;
+    skos:definition "Newton-second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "N/s"^^xsd:token ;
+    skos:prefLabel "Newton-second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:Nm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "Nm"@en ;
+    skos:definition "Newton metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "Nm"^^xsd:token ;
+    skos:prefLabel "Newton metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:No
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "No"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "No"^^xsd:token ;
+    skos:prefLabel "No"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:S_per_m
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "S/m"@en ;
+    skos:definition "Siemens per metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "S/m"^^xsd:token ;
+    skos:prefLabel "Siemens per metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:UNITLESS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "UNITLESS"@en ;
+    skos:definition "No unit"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "UNITLESS"^^xsd:token ;
+    skos:prefLabel "No unit"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:W_per_DegC
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "W/DegC"@en ;
+    skos:definition "Watts per degree Celsius"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "W/DegC"^^xsd:token ;
+    skos:prefLabel "Watts per degree Celsius"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:W_per_K
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "W/K"@en ;
+    skos:definition "Watts per Kelvin"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "W/K"^^xsd:token ;
+    skos:prefLabel "Watts per Kelvin"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:W_per_K-cm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "W/(K-cm)"@en ;
+    skos:definition "Watts per Kelvin centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "W/(K-cm)"^^xsd:token ;
+    skos:prefLabel "Watts per Kelvin centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:W_per_K-m
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "W/(K-m)"@en ;
+    skos:definition "Watts per Kelvin metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "W/(K-m)"^^xsd:token ;
+    skos:prefLabel "Watts per Kelvin metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:Yes
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "Yes"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "Yes"^^xsd:token ;
+    skos:prefLabel "Yes"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:acre
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "acre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "acre"^^xsd:token ;
+    skos:prefLabel "acre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:bar
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "bar"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "bar"^^xsd:token ;
+    skos:prefLabel "bar"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:cfs
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "cfs"@en ;
+    skos:definition "cubic feet per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "cfs"^^xsd:token ;
+    skos:prefLabel "cubic feet per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:cm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "cm"@en ;
+    skos:definition "centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "cm"^^xsd:token ;
+    skos:prefLabel "centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:cm2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "cm2"@en ;
+    skos:definition "square centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "cm2"^^xsd:token ;
+    skos:prefLabel "square centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:cm3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "cm3"@en ;
+    skos:definition "cubic centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "cm3"^^xsd:token ;
+    skos:prefLabel "cubic centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:cm3_per_MPa
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "cm3/MPa"@en ;
+    skos:definition "cubic centimetre per mega Pascal"@en ;
+    skos:historyNote "Status in the AGS register: Approved (31/12/2025)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "cm3/MPa"^^xsd:token ;
+    skos:prefLabel "cubic centimetre per mega Pascal"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:cm_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "cm/s"@en ;
+    skos:definition "centimetres per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "cm/s"^^xsd:token ;
+    skos:prefLabel "centimetres per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:colonies_per_l
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "colonies/l"@en ;
+    skos:definition "colonies per litre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "colonies/l"^^xsd:token ;
+    skos:prefLabel "colonies per litre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:colonies_per_ml
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "colonies/ml"@en ;
+    skos:definition "colonies per millilitre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "colonies/ml"^^xsd:token ;
+    skos:prefLabel "colonies per millilitre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:counts_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "counts/s"@en ;
+    skos:definition "counts per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "counts/s"^^xsd:token ;
+    skos:prefLabel "counts per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:day
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "day"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "day"^^xsd:token ;
+    skos:prefLabel "day"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:deg
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "deg"@en ;
+    skos:definition "degree (angle)"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "deg"^^xsd:token ;
+    skos:prefLabel "degree (angle)"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ft
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ft"@en ;
+    skos:definition "foot"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ft"^^xsd:token ;
+    skos:prefLabel "foot"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ft2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ft2"@en ;
+    skos:definition "square foot"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ft2"^^xsd:token ;
+    skos:prefLabel "square foot"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ft2_per_day
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ft2/day"@en ;
+    skos:definition "square feet per day"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ft2/day"^^xsd:token ;
+    skos:prefLabel "square feet per day"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ft2_per_t
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ft2/t"@en ;
+    skos:definition "square feet per ton"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ft2/t"^^xsd:token ;
+    skos:prefLabel "square feet per ton"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ft2_per_yr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ft2/yr"@en ;
+    skos:definition "square feet per year"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ft2/yr"^^xsd:token ;
+    skos:prefLabel "square feet per year"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ft3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ft3"@en ;
+    skos:definition "cubic foot"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ft3"^^xsd:token ;
+    skos:prefLabel "cubic foot"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ft_per_min
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ft/min"@en ;
+    skos:definition "feet per minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ft/min"^^xsd:token ;
+    skos:prefLabel "feet per minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:g
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "g"@en ;
+    skos:definition "gram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "g"^^xsd:token ;
+    skos:prefLabel "gram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:g_per_cm3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "g/cm3"@en ;
+    skos:definition "grams per cubic centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "g/cm3"^^xsd:token ;
+    skos:prefLabel "grams per cubic centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:g_per_l
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "g/l"@en ;
+    skos:definition "grams per litre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "g/l"^^xsd:token ;
+    skos:prefLabel "grams per litre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:gal
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "gal"@en ;
+    skos:definition "gallon"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "gal"^^xsd:token ;
+    skos:prefLabel "gallon"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:gpm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "gpm"@en ;
+    skos:definition "gallons per minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "gpm"^^xsd:token ;
+    skos:prefLabel "gallons per minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:hect
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "hect"@en ;
+    skos:definition "hectare"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "hect"^^xsd:token ;
+    skos:prefLabel "hectare"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:hh_mm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "hh:mm"@en ;
+    skos:definition "hours minutes"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "hh:mm"^^xsd:token ;
+    skos:prefLabel "hours minutes"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:hh_mm_ss
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "hh:mm:ss"@en ;
+    skos:definition "hours minutes seconds"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "hh:mm:ss"^^xsd:token ;
+    skos:prefLabel "hours minutes seconds"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:hr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "hr"@en ;
+    skos:definition "hour"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "hr"^^xsd:token ;
+    skos:prefLabel "hour"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:in
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "in"@en ;
+    skos:definition "inch"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "in"^^xsd:token ;
+    skos:prefLabel "inch"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:in2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "in2"@en ;
+    skos:definition "square inch"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "in2"^^xsd:token ;
+    skos:prefLabel "square inch"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:in3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "in3"@en ;
+    skos:definition "cubic inch"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "in3"^^xsd:token ;
+    skos:prefLabel "cubic inch"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kJ_per_kg
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kJ/kg"@en ;
+    skos:definition "kiloJoules per kilogram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kJ/kg"^^xsd:token ;
+    skos:prefLabel "kiloJoules per kilogram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kN"@en ;
+    skos:definition "kiloNewton"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kN"^^xsd:token ;
+    skos:prefLabel "kiloNewton"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kN_per_m2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kN/m2"@en ;
+    skos:definition "kiloNewtons per square metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kN/m2"^^xsd:token ;
+    skos:prefLabel "kiloNewtons per square metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kN_per_m3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kN/m3"@en ;
+    skos:definition "kiloNewtons per cubic metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kN/m3"^^xsd:token ;
+    skos:prefLabel "kiloNewtons per cubic metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kPa
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kPa"@en ;
+    skos:definition "kiloPascal"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kPa"^^xsd:token ;
+    skos:prefLabel "kiloPascal"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kPa_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kPa/s"@en ;
+    skos:definition "kiloPascal per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (31/12/2025)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kPa/s"^^xsd:token ;
+    skos:prefLabel "kiloPascal per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kg
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kg"@en ;
+    skos:definition "kilogram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kg"^^xsd:token ;
+    skos:prefLabel "kilogram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kg_per_cm2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kg/cm2"@en ;
+    skos:definition "kilograms per square centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kg/cm2"^^xsd:token ;
+    skos:prefLabel "kilograms per square centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kg_per_m
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kg/m"@en ;
+    skos:definition "kilograms per metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/12/2004)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kg/m"^^xsd:token ;
+    skos:prefLabel "kilograms per metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kg_per_m3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kg/m3"@en ;
+    skos:definition "kilograms per cubic metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kg/m3"^^xsd:token ;
+    skos:prefLabel "kilograms per cubic metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kgf
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kgf"@en ;
+    skos:definition "kilograms force"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kgf"^^xsd:token ;
+    skos:prefLabel "kilograms force"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:kips
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "kips"@en ;
+    skos:definition "kilopound"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "kips"^^xsd:token ;
+    skos:prefLabel "kilopound"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:km
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "km"@en ;
+    skos:definition "kilometre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "km"^^xsd:token ;
+    skos:prefLabel "kilometre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:km2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "km2"@en ;
+    skos:definition "square kilometre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "km2"^^xsd:token ;
+    skos:prefLabel "square kilometre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:km_per_hr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "km/hr"@en ;
+    skos:definition "kilometres per hour"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "km/hr"^^xsd:token ;
+    skos:prefLabel "kilometres per hour"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ksf
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ksf"@en ;
+    skos:definition "kips per square foot"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ksf"^^xsd:token ;
+    skos:prefLabel "kips per square foot"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ksi
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ksi"@en ;
+    skos:definition "kips per square inch"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ksi"^^xsd:token ;
+    skos:prefLabel "kips per square inch"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:l
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "l"@en ;
+    skos:definition "litre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "l"^^xsd:token ;
+    skos:prefLabel "litre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:l_per_hr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "l/hr"@en ;
+    skos:definition "litres per hour"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "l/hr"^^xsd:token ;
+    skos:prefLabel "litres per hour"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:l_per_min
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "l/min"@en ;
+    skos:definition "litres per minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "l/min"^^xsd:token ;
+    skos:prefLabel "litres per minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:l_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "l/s"@en ;
+    skos:definition "litres per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "l/s"^^xsd:token ;
+    skos:prefLabel "litres per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:lb
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "lb"@en ;
+    skos:definition "pound"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "lb"^^xsd:token ;
+    skos:prefLabel "pound"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:lbf
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "lbf"@en ;
+    skos:definition "pounds force"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "lbf"^^xsd:token ;
+    skos:prefLabel "pounds force"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m"@en ;
+    skos:definition "metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m"^^xsd:token ;
+    skos:prefLabel "metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m2"@en ;
+    skos:definition "square metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m2"^^xsd:token ;
+    skos:prefLabel "square metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m2_per_MN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m2/MN"@en ;
+    skos:definition "square metres per megaNewton"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m2/MN"^^xsd:token ;
+    skos:prefLabel "square metres per megaNewton"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m2_per_yr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m2/yr"@en ;
+    skos:definition "square metres per year"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m2/yr"^^xsd:token ;
+    skos:prefLabel "square metres per year"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m3"@en ;
+    skos:definition "cubic metre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m3"^^xsd:token ;
+    skos:prefLabel "cubic metre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m3_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m3/s"@en ;
+    skos:definition "cubic metres per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m3/s"^^xsd:token ;
+    skos:prefLabel "cubic metres per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mD"@en ;
+    skos:definition "milli Darcy"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mD"^^xsd:token ;
+    skos:prefLabel "milli Darcy"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mS_per_cm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mS/cm"@en ;
+    skos:definition "milliSiemens per centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mS/cm"^^xsd:token ;
+    skos:prefLabel "milliSiemens per centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mV"@en ;
+    skos:definition "milliVolt"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mV"^^xsd:token ;
+    skos:prefLabel "milliVolt"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m_per_day
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m/day"@en ;
+    skos:definition "metres per day"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m/day"^^xsd:token ;
+    skos:prefLabel "metres per day"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m_per_hr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m/hr"@en ;
+    skos:definition "metres per hour"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m/hr"^^xsd:token ;
+    skos:prefLabel "metres per hour"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m_per_min
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m/min"@en ;
+    skos:definition "metres per minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m/min"^^xsd:token ;
+    skos:prefLabel "metres per minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:m_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "m/s"@en ;
+    skos:definition "metres per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "m/s"^^xsd:token ;
+    skos:prefLabel "metres per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mbar
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mbar"@en ;
+    skos:definition "millibars"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mbar"^^xsd:token ;
+    skos:prefLabel "millibars"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mg_per_kg
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mg/kg"@en ;
+    skos:definition "milligrams per kilogram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mg/kg"^^xsd:token ;
+    skos:prefLabel "milligrams per kilogram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mg_per_l
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mg/l"@en ;
+    skos:definition "milligrams per litre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mg/l"^^xsd:token ;
+    skos:prefLabel "milligrams per litre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mgd
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mgd"@en ;
+    skos:definition "million gallons per day"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mgd"^^xsd:token ;
+    skos:prefLabel "million gallons per day"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mi
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mi"@en ;
+    skos:definition "mile"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mi"^^xsd:token ;
+    skos:prefLabel "mile"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mi2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mi2"@en ;
+    skos:definition "square mile"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mi2"^^xsd:token ;
+    skos:prefLabel "square mile"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:min
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "min"@en ;
+    skos:definition "minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "min"^^xsd:token ;
+    skos:prefLabel "minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ml
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ml"@en ;
+    skos:definition "millilitre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ml"^^xsd:token ;
+    skos:prefLabel "millilitre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mm"@en ;
+    skos:definition "millimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mm"^^xsd:token ;
+    skos:prefLabel "millimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mm2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mm2"@en ;
+    skos:definition "square millimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (25/11/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mm2"^^xsd:token ;
+    skos:prefLabel "square millimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mm3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mm3"@en ;
+    skos:definition "cubic millimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mm3"^^xsd:token ;
+    skos:prefLabel "cubic millimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mm_per_min
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mm/min"@en ;
+    skos:definition "millimetres per minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mm/min"^^xsd:token ;
+    skos:prefLabel "millimetres per minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mm_per_s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mm/s"@en ;
+    skos:definition "millimetres per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mm/s"^^xsd:token ;
+    skos:prefLabel "millimetres per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mm_ss
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mm:ss"@en ;
+    skos:definition "minutes seconds"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mm:ss"^^xsd:token ;
+    skos:prefLabel "minutes seconds"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mol_per_kg
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mol/kg"@en ;
+    skos:definition "moles per kilogram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mol/kg"^^xsd:token ;
+    skos:prefLabel "moles per kilogram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:month
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:definition "month"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "month"^^xsd:token ;
+    skos:prefLabel "month"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:mph
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "mph"@en ;
+    skos:definition "miles per hour"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "mph"^^xsd:token ;
+    skos:prefLabel "miles per hour"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ms
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ms"@en ;
+    skos:definition "millisecond"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ms"^^xsd:token ;
+    skos:prefLabel "millisecond"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:nT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "nT"@en ;
+    skos:definition "nano Tesla"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "nT"^^xsd:token ;
+    skos:prefLabel "nano Tesla"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:nT_per_cm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "nT/cm"@en ;
+    skos:definition "nanoTesla per centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (31/12/2025)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "nT/cm"^^xsd:token ;
+    skos:prefLabel "nanoTesla per centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ng_per_l
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ng/l"@en ;
+    skos:definition "nanograms per litre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ng/l"^^xsd:token ;
+    skos:prefLabel "nanograms per litre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ohm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ohm"@en ;
+    skos:definition "Ohm"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ohm"^^xsd:token ;
+    skos:prefLabel "Ohm"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ohm_m
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ohm m"@en ;
+    skos:definition "Ohm metres"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ohm m"^^xsd:token ;
+    skos:prefLabel "Ohm metres"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ohmcm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ohmcm"@en ;
+    skos:definition "Ohm centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ohmcm"^^xsd:token ;
+    skos:prefLabel "Ohm centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:pcf
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "pcf"@en ;
+    skos:definition "pounds per cubic foot"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "pcf"^^xsd:token ;
+    skos:prefLabel "pounds per cubic foot"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:pct
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "%"@en ;
+    skos:definition "percentage"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "%"^^xsd:token ;
+    skos:prefLabel "percentage"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:pct_dry_weight
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "% dry weight"@en ;
+    skos:definition "percentage of dry weight"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "% dry weight"^^xsd:token ;
+    skos:prefLabel "percentage of dry weight"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:pct_per_hr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "%/hr"@en ;
+    skos:definition "percentage per hour"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "%/hr"^^xsd:token ;
+    skos:prefLabel "percentage per hour"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:pct_per_min
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "%/min"@en ;
+    skos:definition "percentage per minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "%/min"^^xsd:token ;
+    skos:prefLabel "percentage per minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:pct_vol
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "%vol"@en ;
+    skos:definition "percentage volume"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "%vol"^^xsd:token ;
+    skos:prefLabel "percentage volume"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ppb
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ppb"@en ;
+    skos:definition "parts per billion"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ppb"^^xsd:token ;
+    skos:prefLabel "parts per billion"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ppm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ppm"@en ;
+    skos:definition "parts per million"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ppm"^^xsd:token ;
+    skos:prefLabel "parts per million"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ppmv
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ppmv"@en ;
+    skos:definition "Parts per million volume"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/04/2005)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ppmv"^^xsd:token ;
+    skos:prefLabel "Parts per million volume"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:psf
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "psf"@en ;
+    skos:definition "pounds per square foot"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "psf"^^xsd:token ;
+    skos:prefLabel "pounds per square foot"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:psi
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "psi"@en ;
+    skos:definition "pounds per square inch"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "psi"^^xsd:token ;
+    skos:prefLabel "pounds per square inch"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:rpm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "rpm"@en ;
+    skos:definition "revolution per minute"@en ;
+    skos:historyNote "Status in the AGS register: Approved (30/04/2024)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "rpm"^^xsd:token ;
+    skos:prefLabel "revolution per minute"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:rps
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "rps"@en ;
+    skos:definition "rotations per second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "rps"^^xsd:token ;
+    skos:prefLabel "rotations per second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:s
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "s"@en ;
+    skos:definition "second"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "s"^^xsd:token ;
+    skos:prefLabel "second"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:t
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "t"@en ;
+    skos:definition "ton"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "t"^^xsd:token ;
+    skos:prefLabel "ton"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:tonf
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "tonf"@en ;
+    skos:definition "tons force"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "tonf"^^xsd:token ;
+    skos:prefLabel "tons force"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:tsf
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "tsf"@en ;
+    skos:definition "tons per square foot"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "tsf"^^xsd:token ;
+    skos:prefLabel "tons per square foot"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:uS_per_cm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "uS/cm"@en ;
+    skos:definition "microSiemens per centimetre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "uS/cm"^^xsd:token ;
+    skos:prefLabel "microSiemens per centimetre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:uT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "uT"@en ;
+    skos:definition "micro Tesla"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "uT"^^xsd:token ;
+    skos:prefLabel "micro Tesla"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:uV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "uV"@en ;
+    skos:definition "microVolt"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "uV"^^xsd:token ;
+    skos:prefLabel "microVolt"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ug_per_kg
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ug/kg"@en ;
+    skos:definition "micrograms per kilogram"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ug/kg"^^xsd:token ;
+    skos:prefLabel "micrograms per kilogram"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:ug_per_l
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "ug/l"@en ;
+    skos:definition "micrograms per litre"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "ug/l"^^xsd:token ;
+    skos:prefLabel "micrograms per litre"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:us
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "us"@en ;
+    skos:definition "microsecond"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "us"^^xsd:token ;
+    skos:prefLabel "microsecond"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yd
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yd"@en ;
+    skos:definition "yard"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yd"^^xsd:token ;
+    skos:prefLabel "yard"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yd2
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yd2"@en ;
+    skos:definition "square yard"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yd2"^^xsd:token ;
+    skos:prefLabel "square yard"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yd3
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yd3"@en ;
+    skos:definition "cubic yard"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yd3"^^xsd:token ;
+    skos:prefLabel "cubic yard"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yr
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yr"@en ;
+    skos:definition "year"@en ;
+    skos:historyNote "Status in the AGS register: Approved (01/11/1999)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yr"^^xsd:token ;
+    skos:prefLabel "year"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yyyy-mm-dd
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yyyy-mm-dd"@en ;
+    skos:definition "year month day"@en ;
+    skos:historyNote "Status in the AGS register: Approved (31/05/2010)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yyyy-mm-dd"^^xsd:token ;
+    skos:prefLabel "year month day"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yyyy-mm-ddThh_mm
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yyyy-mm-ddThh:mm"@en ;
+    skos:definition "year month day hours minutes"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yyyy-mm-ddThh:mm"^^xsd:token ;
+    skos:prefLabel "year month day hours minutes"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yyyy-mm-ddThh_mm_ss
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yyyy-mm-ddThh:mm:ss"@en ;
+    skos:definition "year month day hours minutes seconds"@en ;
+    skos:historyNote "Status in the AGS register: Approved (08/12/2020)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yyyy-mm-ddThh:mm:ss"^^xsd:token ;
+    skos:prefLabel "year month day hours minutes seconds"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+agsunit:yyyy-mm-ddThh_mm_ss.sss
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://w3id.org/ags4/voc/units> ;
+    skos:altLabel "yyyy-mm-ddThh:mm:ss.sss"@en ;
+    skos:definition "year month day hours minutes seconds millseconds"@en ;
+    skos:historyNote "Status in the AGS register: Approved (31/12/2025)" ;
+    skos:inScheme <https://w3id.org/ags4/voc/units> ;
+    skos:notation "yyyy-mm-ddThh:mm:ss.sss"^^xsd:token ;
+    skos:prefLabel "year month day hours minutes seconds millseconds"@en ;
+    skos:topConceptOf <https://w3id.org/ags4/voc/units> ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:status status:accepted ;
+.
+
+<https://www.ags.org.uk/>
+    a schema:Organization ;
+    schema:name "Association of Geotechnical and Geoenvironmental Specialists (AGS)" ;
+    schema:url "https://www.ags.org.uk/"^^xsd:anyURI ;
+.
+
+<https://w3id.org/ags4/voc/units>
+    a skos:ConceptScheme ;
+    dcterms:rights "Content of the AGS Data Format data dictionary (AGS 4.2.0), © Association of Geotechnical and Geoenvironmental Specialists (AGS). Reuse is subject to the AGS's terms; see https://www.ags.org.uk/data-format/. No licence is stated in the source repository." ;
+    reg:status status:stable ;
+    owl:versionIRI agsunit:4.2.0 ;
+    owl:versionInfo "4.2.0" ;
+    skos:definition "The standard units of measurement of AGS 4.2.0 (UNIT group), grouped by quantity type. Only entries with status Approved, Accepted, Deprecated are included."@en ;
+    skos:hasTopConcept
+        agsunit:API ,
+        agsunit:Bq_per_g ,
+        agsunit:CFU_per_g ,
+        agsunit:CFU_per_ml ,
+        agsunit:DegC ,
+        agsunit:DegC_per_W ,
+        agsunit:DegF ,
+        agsunit:GPa ,
+        agsunit:Hz ,
+        agsunit:K-cm_per_W ,
+        agsunit:K-m_per_W ,
+        agsunit:K_per_W ,
+        agsunit:MJ ,
+        agsunit:MJ_per_m3 ,
+        agsunit:MN ,
+        agsunit:MN_per_m2 ,
+        agsunit:MPN_per_100ml ,
+        agsunit:MPN_per_l ,
+        agsunit:MPN_per_ml ,
+        agsunit:MPa ,
+        agsunit:MPa_per_m ,
+        agsunit:MPa_per_s ,
+        agsunit:Mg ,
+        agsunit:Mg_per_m3 ,
+        agsunit:N ,
+        agsunit:N_per_s ,
+        agsunit:Nm ,
+        agsunit:No ,
+        agsunit:S_per_m ,
+        agsunit:UNITLESS ,
+        agsunit:W_per_DegC ,
+        agsunit:W_per_K ,
+        agsunit:W_per_K-cm ,
+        agsunit:W_per_K-m ,
+        agsunit:Yes ,
+        agsunit:acre ,
+        agsunit:bar ,
+        agsunit:cfs ,
+        agsunit:cm ,
+        agsunit:cm2 ,
+        agsunit:cm3 ,
+        agsunit:cm3_per_MPa ,
+        agsunit:cm_per_s ,
+        agsunit:colonies_per_l ,
+        agsunit:colonies_per_ml ,
+        agsunit:counts_per_s ,
+        agsunit:day ,
+        agsunit:deg ,
+        agsunit:ft ,
+        agsunit:ft2 ,
+        agsunit:ft2_per_day ,
+        agsunit:ft2_per_t ,
+        agsunit:ft2_per_yr ,
+        agsunit:ft3 ,
+        agsunit:ft_per_min ,
+        agsunit:g ,
+        agsunit:g_per_cm3 ,
+        agsunit:g_per_l ,
+        agsunit:gal ,
+        agsunit:gpm ,
+        agsunit:hect ,
+        agsunit:hh_mm ,
+        agsunit:hh_mm_ss ,
+        agsunit:hr ,
+        agsunit:in ,
+        agsunit:in2 ,
+        agsunit:in3 ,
+        agsunit:kJ_per_kg ,
+        agsunit:kN ,
+        agsunit:kN_per_m2 ,
+        agsunit:kN_per_m3 ,
+        agsunit:kPa ,
+        agsunit:kPa_per_s ,
+        agsunit:kg ,
+        agsunit:kg_per_cm2 ,
+        agsunit:kg_per_m ,
+        agsunit:kg_per_m3 ,
+        agsunit:kgf ,
+        agsunit:kips ,
+        agsunit:km ,
+        agsunit:km2 ,
+        agsunit:km_per_hr ,
+        agsunit:ksf ,
+        agsunit:ksi ,
+        agsunit:l ,
+        agsunit:l_per_hr ,
+        agsunit:l_per_min ,
+        agsunit:l_per_s ,
+        agsunit:lb ,
+        agsunit:lbf ,
+        agsunit:m ,
+        agsunit:m2 ,
+        agsunit:m2_per_MN ,
+        agsunit:m2_per_yr ,
+        agsunit:m3 ,
+        agsunit:m3_per_s ,
+        agsunit:mD ,
+        agsunit:mS_per_cm ,
+        agsunit:mV ,
+        agsunit:m_per_day ,
+        agsunit:m_per_hr ,
+        agsunit:m_per_min ,
+        agsunit:m_per_s ,
+        agsunit:mbar ,
+        agsunit:mg_per_kg ,
+        agsunit:mg_per_l ,
+        agsunit:mgd ,
+        agsunit:mi ,
+        agsunit:mi2 ,
+        agsunit:min ,
+        agsunit:ml ,
+        agsunit:mm ,
+        agsunit:mm2 ,
+        agsunit:mm3 ,
+        agsunit:mm_per_min ,
+        agsunit:mm_per_s ,
+        agsunit:mm_ss ,
+        agsunit:mol_per_kg ,
+        agsunit:month ,
+        agsunit:mph ,
+        agsunit:ms ,
+        agsunit:nT ,
+        agsunit:nT_per_cm ,
+        agsunit:ng_per_l ,
+        agsunit:ohm ,
+        agsunit:ohm_m ,
+        agsunit:ohmcm ,
+        agsunit:pcf ,
+        agsunit:pct ,
+        agsunit:pct_dry_weight ,
+        agsunit:pct_per_hr ,
+        agsunit:pct_per_min ,
+        agsunit:pct_vol ,
+        agsunit:ppb ,
+        agsunit:ppm ,
+        agsunit:ppmv ,
+        agsunit:psf ,
+        agsunit:psi ,
+        agsunit:rpm ,
+        agsunit:rps ,
+        agsunit:s ,
+        agsunit:t ,
+        agsunit:tonf ,
+        agsunit:tsf ,
+        agsunit:uS_per_cm ,
+        agsunit:uT ,
+        agsunit:uV ,
+        agsunit:ug_per_kg ,
+        agsunit:ug_per_l ,
+        agsunit:us ,
+        agsunit:yd ,
+        agsunit:yd2 ,
+        agsunit:yd3 ,
+        agsunit:yr ,
+        agsunit:yyyy-mm-dd ,
+        agsunit:yyyy-mm-ddThh_mm ,
+        agsunit:yyyy-mm-ddThh_mm_ss ,
+        agsunit:yyyy-mm-ddThh_mm_ss.sss ;
+    skos:historyNote "Generated by ags-rdf 0.1.0 from the AGS 4.2.0 data dictionary JSON (AGS4/UNIT.json) published in https://gitlab.com/AGS-DFWG-Web/ASG4 at commit 710b1f080972 (2026-10-08). The JSON files are treated as the authoritative source; values are only cleaned of formatting artefacts." ;
+    skos:prefLabel "AGS 4.2.0 Units"@en ;
+    prov:wasDerivedFrom <https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/UNIT.json> ;
+    schema:citation "https://www.ags.org.uk/data-format/"^^xsd:anyURI ;
+    schema:copyrightHolder <https://www.ags.org.uk/> ;
+    schema:creator <https://www.ags.org.uk/> ;
+    schema:dateCreated "2020-09-03"^^xsd:date ;
+    schema:dateModified "2026-01-14"^^xsd:date ;
+    schema:publisher <https://github.com/KoalaGeo> ;
+    schema:status status:stable ;
+    schema:version "4.2.0" ;
+.

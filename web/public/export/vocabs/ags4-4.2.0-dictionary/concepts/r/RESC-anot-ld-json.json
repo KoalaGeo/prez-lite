@@ -1,0 +1,1149 @@
+[
+  {
+    "@id": "_:n3-1821",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Resonant Column Test - Consolidation",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Resonant Column Test - Consolidation",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "RESC",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "RESC",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/deprecated"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: DEPRECATED\nAGS 4.1: Group Added\nAGS 4.1: Headings Added - LOCA_ID, SAMP_TOP, SAMP_REF, SAMP_TYPE, SAMP_ID, SPEC_REF, SPEC_DPTH, RESC_TESN, RESC_SDIA, RESC_HIGH, RESC_CTYP, RESC_ELAP, RESC_CHGT, RESC_CDIA, RESC_CMC, RESC_CDDN, RESC_CRD, RESC_INCE, RESC_EASC, RESC_ERSC, RESC_DEVS, RESC_SHRS, RESC_MNES, RESC_AXSN, RESC_VLSN, RESC_RDSN, RESC_BESE, RESC_BEAX, RESC_DBTE, RESC_MAT, RESC_MATM, RESC_SWV, RESC_SMGM, RESC_REM, FILE_FSET\nAGS 4.2.0: Group Deprecated - Resonant Column Test - Consolidation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_AXSN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_BEAX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_BESE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CDDN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CHGT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CMC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CRD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CTYP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_DBTE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_DEVS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_EASC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_ELAP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_ERSC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_HIGH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_INCE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_MAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_MATM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_MNES"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_RDSN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SHRS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SMGM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SWV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC_VLSN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "None",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/RESC"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESG"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Resonant Column Test - Consolidation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Resonant Column Test - Consolidation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_AXSN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_AXSN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_AXSN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Axial strain at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Axial strain at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_BEAX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_BEAX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_BEAX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Bender element axis of measurement",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Bender element axis of measurement",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_BESE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_BESE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_BESE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Bender element test sequence",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Bender element test sequence",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CDDN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_CDDN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_CDDN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Dry density at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dry density at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_CDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_CDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen diameter at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen diameter at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CHGT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_CHGT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_CHGT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen height at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen height at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CMC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_CMC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_CMC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Water content at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water content at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CRD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_CRD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_CRD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Relative density at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Relative density at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_CTYP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_CTYP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_CTYP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of consolidation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of consolidation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_DBTE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_DBTE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_DBTE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Distance between bender elements",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Distance between bender elements",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_DEVS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_DEVS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_DEVS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviatoric stress at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviatoric stress at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_EASC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_EASC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_EASC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Effective axial stress during consolidation at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Effective axial stress during consolidation at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_ELAP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_ELAP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_ELAP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Duration of stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Duration of stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_ERSC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_ERSC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_ERSC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Effective radial stress during consolidation at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Effective radial stress during consolidation at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_HIGH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_HIGH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_HIGH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen height",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen height",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_INCE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_INCE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_INCE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Voids ratio at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Voids ratio at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_MAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_MAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_MAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Measured arrival time of propagated wave",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Measured arrival time of propagated wave",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_MATM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_MATM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_MATM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method of measuring arrival time of propagated wave",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method of measuring arrival time of propagated wave",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_MNES",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_MNES"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_MNES"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mean effective stress at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mean effective stress at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_RDSN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_RDSN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_RDSN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Radial strain from measured volume change",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Radial strain from measured volume change",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_SDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_SDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SHRS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_SHRS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_SHRS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear stress at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear stress at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SMGM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_SMGM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_SMGM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shear modulus Gmax from bender elements",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shear modulus Gmax from bender elements",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_SWV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_SWV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_SWV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Calculated shear wave velocity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Calculated shear wave velocity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RESC_VLSN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RESC_VLSN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RESC_VLSN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Volumetric strain from measured volume change at end of test/stage",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Volumetric strain from measured volume change at end of test/stage",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  }
+]

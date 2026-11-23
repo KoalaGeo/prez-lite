@@ -1,0 +1,901 @@
+[
+  {
+    "@id": "_:n3-709",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Discontinuity Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Discontinuity Data",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "DISC",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "DISC",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "AGS 4.1: Group Rule Added - • DISC_APT should generally be numeric data. A text form shall only be used by addition of a prefixing operator to denote greater than or less than conditions i.e. >200\nAGS 4.1: Headings Updated - DISC_APT data type changed to XN from 0DP DISC_DIP data type changed to X from 0DP DISC_DIR data type changed to X from 0DP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_AMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_APOB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_APP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_APT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_DIP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_DIR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_FLOW"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_INFM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_JRC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_MID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_NUMB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_PERS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_PLAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_RGH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_SEEP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_STR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_TERM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_WAVE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC_WETH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FRAC_SET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "DISC is used to record detailed discontinuity logging typically carried out in rock exposures and rock core.\nDiscontinuity spacing data is recorded in the FRAC group.\nChanges have been made to bring the Group in line with BS EN ISO 14689. References to ISRM have been removed as BS EN ISO 14689 is compatible with previous standards. Terminology has been amended to reflect current requirements.\nDISC_DIP and DISC_DIR data type changed to X but care should be taken to ensure a consistent convention is used throughout the AGS file. Where possible one value should be reported but if a range is required the presence of excess spaces and inconsistent separators is discouraged e.g. 150-160 not 150 160 or 150 to 160\nREPORTING DISCONTINUITY LOGGING DATA\nDiscontinuity logging may be carried out as part of a scanline survey of a rock face, or as a detailed fracture log of borehole core.\na) The logging may take one of three forms, the first two being the commonest:\nThe recording of the nature of individual discontinuities. All discontinuity descriptions are given in the DISC Group. The FRAC Group shall not be used. The spacing between individual discontinuities may be assessed from their depths.\nThe recording of the typical nature of sets of discontinuities. The typical description for a discontinuity set is given in the DISC Group and the typical spacing is given in the FRAC Group. Individual discontinuities are not described.\nThe recording of the nature of individual discontinuities, with each discontinuity assigned to a discontinuity set. The individual discontinuity descriptions are given in the DISC Group and the typical spacing of a discontinuity set is given in the FRAC Group.\nb) If individual discontinuities have been logged along a scanline or in a borehole, then the reporting procedure is as follows:\nThe nature of the individual discontinuities is recorded in the DISC Group.\nFor scanline logging, the location of each discontinuity is given in DISC_TOP as a distance from the start of the traverse along a scanline. The DISC_BASE should be completed to allow for checks against the discontinuity dip.\nFor borehole cores, the location of each discontinuity is given as a depth in either DISC_TOP for horizontal to sub horizontal discontinuities or DISC_TOP and DISC_BASE for vertical to inclined discontinuities.\nEach discontinuity is numbered sequentially in DISC_NUMB from the top of the borehole, or from the start of the traverse.\nIf each discontinuity has been assigned to a discontinuity set, then the set reference number should be given in FRAC_SET (see c below). The use of FRAC_SET is optional when individual discontinuities are logged.\nThe orientation and nature of each discontinuity is reported using the remaining fields in DISC.\nFor borehole logs the surface nature of the discontinuity is described using a combination of DISC_RGH, DISC_PLAN, DISC_JRC, DISC_APP, DISC_STR and DISC_WETH. It is generally not reliable to measure the aperture of a discontinuity in borehole core as the effect of drilling disturbance is unknown. However, the thickness of any discontinuity infill should be given in DISC_APT, and the nature of the infill given in DISC_INFM. Discontinuity dip can be given in DISC_DIP for vertical boreholes, and inclined boreholes with orientated core. Discontinuity dip direction can only be given in DISC_DIR if the core is orientated. In an inclined borehole with unorientated core only relative discontinuity dip can be given with respect to the normal to the core axis.\nFor scanline logs all the above details of discontinuity orientation and nature can be given, together with the large scale waviness, true discontinuity aperture, discontinuity termination (using the abbreviations defined on the AGS website), and water seepage observations.\nThe format of the DISC Group is applicable to most descriptive schemes, other than ISRM (1978) ) and/or BS EN ISO 14689-1. Alternative schemes may be used on agreement between the Provider and Receiver.\nc) If sets or zones of discontinuities have been logged along a scanline or in a borehole, then the reporting procedure is as follows:\nThe discontinuity sets or zones are recorded in a combination of the DISC and FRAC Groups. The DISC Group is used to record either the typical orientation and nature of each set or zone of discontinuities, or the individual discontinuities. The FRAC Group is used to record the spacing of the discontinuities in each set or zone.\nThe start and end of each set or zone of discontinuities of similar nature is given in DISC_TOP and DISC_BASE, either as depth in a borehole, or as distance from the start of the traverse along a scanline. The start and end of each set or zone of discontinuities with a similar spacing is given in FRAC_FROM and FRAC_TO. Normally the \"nature\" and \"spacing\" zones will coincide, and, therefore, DISC_TOP and DISC_BASE will be the same as FRAC_FROM and FRAC_TO.\nDISC_NUMB data variable is null (Rule 12) when logging discontinuity sets or zones.\nEach discontinuity set or zone must be given a unique set reference number in FRAC_SET. For example, joint sets may be numbered J1, J2, J3 etc, bedding discontinuities as B1, B2 etc. The use of FRAC_SET provides the link between the DISC and FRAC Groups.\nThe typical orientation and nature of each discontinuity set or zone is reported using the remaining fields in DISC.\nThe spacing of the discontinuities within each discontinuity set or zone is reported in the FRAC Group, giving the minimum, average (typical), and maximum spacing in mm of the fractures in that set or zone, using the FRAC_IMIN, FRAC_IAVE and FRAC_IMAX fields. Alternatively, the average (typical) number of fractures per metre can be given in FRAC_FI.",
+        "@language": "en"
+      },
+      {
+        "@value": "Group rules: DISC_APT shall generally be numeric data. A text form shall only be used by addition of a prefixing operator to denote greater than or less than conditions i.e. >200",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/DISC"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity Data",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity Data",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_AMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_AMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_AMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Large scale roughness, amplitude",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Large scale roughness, amplitude",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_APOB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_APOB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_APOB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity aperture observation",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity aperture observation",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_APP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_APP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_APP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Surface appearance",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Surface appearance",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_APT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_APT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_APT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity aperture measurement",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity aperture measurement",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base in hole, or distance to end on traverse, of discontinuity zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base in hole, or distance to end on traverse, of discontinuity zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_DIP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_DIP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_DIP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Dip of discontinuity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dip of discontinuity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_DIR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_DIR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_DIR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Dip direction of discontinuity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Dip direction of discontinuity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_FLOW",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_FLOW"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_FLOW"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Water flow estimate",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water flow estimate",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_INFM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_INFM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_INFM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Infilling material",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Infilling material",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_JRC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_JRC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_JRC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Joint Roughness Coefficient",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Joint Roughness Coefficient",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_MID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_MID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_MID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to mid-point in hole, or distance to mid-point on traverse, of discontinuity zone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to mid-point in hole, or distance to mid-point on traverse, of discontinuity zone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_NUMB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_NUMB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_NUMB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_PERS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_PERS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_PERS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Persistence measurement",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Persistence measurement",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_PLAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_PLAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_PLAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Medium scale roughness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Medium scale roughness",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_RGH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_RGH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_RGH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Small scale roughness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Small scale roughness",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_SEEP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_SEEP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_SEEP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Seepage rating",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Seepage rating",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_STR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_STR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_STR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity wall strength",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity wall strength",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_TERM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_TERM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_TERM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity termination (lower, upper)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity termination (lower, upper)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top in hole, or distance to start on traverse, of discontinuity zone, or discontinuity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top in hole, or distance to start on traverse, of discontinuity zone, or discontinuity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of discontinuity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of discontinuity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_WAVE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_WAVE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_WAVE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Large scale roughness, wavelength",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Large scale roughness, wavelength",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/DISC_WETH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:DISC_WETH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:DISC_WETH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity wall weathering",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity wall weathering",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FRAC_SET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FRAC_SET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FRAC_SET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Discontinuity set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Discontinuity set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  }
+]

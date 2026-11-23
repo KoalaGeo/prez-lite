@@ -1,0 +1,1149 @@
+[
+  {
+    "@id": "_:n3-1841",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Rock Uniaxial Compressive Strength and Deformability Tests",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Rock Uniaxial Compressive Strength and Deformability Tests",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "RUCS",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "RUCS",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "AGS 4.1: Headings Added - SPEC_BASE, RUCS_DEV, RUCS_ESEC, RUCS_ETAN, RUCS_EAVG, RUCS_SSEC, RUCS_STAN, RUCS_SAVG, RUCS_MUS, RUCS_MUT, RUCS_MUAV\nAGS 4.1: Headings Deprecated - RUCS_E, RUCS_MU, RUCS_ESTR, RUCS_ETYP\nAGS 4.1: Headings Updated - RUCS_MODE data type changed to PA from X"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_COND"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_DEV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_DURN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_EAVG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_ESEC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_ETAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_LAB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_LEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MACH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MODE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MUAV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MUS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MUT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_SAVG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_SDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_SSEC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_STAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_STRA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_UCS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DESC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_PREP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "The units and accuracy for UCS are not prescribed in ISRM and the conventional MPa to 3SF is adopted here. ISRM defines GPa to 3SF for Young s modulus and as such this is also adopted.\nISRM specifies stress rate MPa/s but most tests are performed at a rate of loading kN/s or kN/min, and sometimes under strain controlled conditions for deformability. The results should always be converted and reported as MPa/s where necessary.\nRUCS_E, RUCS_ESTR and RUCS_ETYP have been deprecated to allow for reporting of Young s modulus secant, tangent and average simultaneously.\nRUCS_MU has been deprecated to allow for reporting of Poisson's ratio secant, tangent and average simultaneously.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/RUCS"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Rock Uniaxial Compressive Strength and Deformability Tests",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Rock Uniaxial Compressive Strength and Deformability Tests",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_COND",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_COND"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_COND"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Condition of specimen as tested",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Condition of specimen as tested",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_DEV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_DEV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_DEV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviation from the specified procedure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviation from the specified procedure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_DURN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_DURN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_DURN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test duration",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test duration",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_EAVG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_EAVG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_EAVG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Young's modulus, average (mean)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Young's modulus, average (mean)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_ESEC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_ESEC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_ESEC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Young's modulus, secant",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Young's modulus, secant",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_ETAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_ETAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_ETAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Young's modulus, tangent",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Young's modulus, tangent",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_LAB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_LAB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_LAB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of testing laboratory/organization",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of testing laboratory/organization",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_LEN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_LEN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_LEN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen length",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen length",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MACH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_MACH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_MACH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of testing machine",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of testing machine",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_MC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_MC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Water content of specimen tested",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Water content of specimen tested",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MODE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_MODE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_MODE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mode of failure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mode of failure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MUAV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_MUAV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_MUAV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Poisson's ratio, average (mean)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Poisson's ratio, average (mean)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MUS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_MUS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_MUS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Poisson's ratio, secant",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Poisson's ratio, secant",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_MUT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_MUT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_MUT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Poisson's ratio, tangent",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Poisson's ratio, tangent",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_SAVG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_SAVG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_SAVG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Stress level at which average (mean) Young's modulus has been measured",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stress level at which average (mean) Young's modulus has been measured",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_SDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_SDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_SDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_SSEC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_SSEC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_SSEC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Stress level at which secant Young's modulus has been measured",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stress level at which secant Young's modulus has been measured",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_STAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_STAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_STAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Stress level at which tangent Young's modulus has been measured",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stress level at which tangent Young's modulus has been measured",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_STRA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_STRA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_STRA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Stress rate",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stress rate",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/RUCS_UCS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:RUCS_UCS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:RUCS_UCS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Uniaxial compressive strength",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Uniaxial compressive strength",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DESC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DESC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DESC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_PREP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_PREP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_PREP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of specimen preparation including time between preparation and testing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of specimen preparation including time between preparation and testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]

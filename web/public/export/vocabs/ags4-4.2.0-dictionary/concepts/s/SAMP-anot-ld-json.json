@@ -1,0 +1,1144 @@
+[
+  {
+    "@id": "_:n3-1869",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:GEOL_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:GEOL_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Stratum reference shown on trial pit or traverse sketch",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stratum reference shown on trial pit or traverse sketch",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Sample Information",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Sample Information",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "SAMP",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "SAMP",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_BAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_CAPT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_CLSS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_COND"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DESC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DESD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DTIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DURN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ETIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_FLOW"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_LINK"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_LOG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_MATX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_PREP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_PRES"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_RECL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_RECV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_SDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TECH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TEMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_UBLO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_WDEP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_WHO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_WHY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "The SAMP group is used to record all samples; e.g. those taken during field sampling or monitoring or sub-samples created in the laboratory.\nSAMP_ID has been added to the sample key set. Unique sample identifiers can be used to enhance the process of reintegration of testing results from subcontract laboratories and/or used to contain barcode or pre-made label references. The addition of the SAMP_ID heading into the SAMP group provides greater flexibility for accommodating different process methodologies. A full explanation of example uses of SAMP_ID are given in on the AGS website.\nSAMP_ID does not have to be used and can be NULL (Rule 12). The remaining descriptive key/label headings can be used on their own.\nSAMP_LINK has been added to permit the source of samples to be fully detailed. The SAMP_LINK field is a Record Link (RL) format as defined in Rule 11 and accompanying Note v.\nIn selecting abbreviations for use in SAMP_TYPE, allowance should be made for use of additional codification or suffixes to standard abbreviations to reflect the sample types and collection methods applying to measurement / payment purposes.\nSAMP_PREP allow details of the sample preparation to be included. This would typically be used to detail the precautions taken with samples for further chemical or environmental testing.\nSAMP_LOG and SAMP_DESD allow inclusion of the name of the person describing the sample and date this was carried out as required in BS EN ISO 14688-1, Section 6 and BS EN ISO 14689, Section 5.\nSAMP_COND has been included to provide for any comments on condition, representativeness and reliability of the sample which are requirements of EN ISO 14688-1 (Section 6) and BS 5930. This heading together with the sample recovery SAMP_RECV provide useful data to those specifying laboratory scheduling. Data included if not 100%.\nThe requirement of BS EN ISO 14688-1 (Section 6) and BS EN ISO 14689 (Section 5) to record the details of origin, collection and handling of samples are included in the associated groups.\nSAMP_ETIM and SAMP_DURN allow for data that describes the duration of sampling event if that is required. This can be important in environmental sampling applications.\nSAMP_CAPT provides for description of sample composition in the case of an amalgamated sample.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/SAMP"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample Information",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample Information",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_BAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_BAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_BAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Barometric pressure at time of sampling",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Barometric pressure at time of sampling",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_CAPT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_CAPT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_CAPT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Caption used to describe sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Caption used to describe sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_CLSS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_CLSS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_CLSS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample classification as required by EN ISO 14688-1",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample classification as required by EN ISO 14688-1",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_COND",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_COND"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_COND"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Condition and representativeness of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Condition and representativeness of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample container",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample container",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DESC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_DESC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_DESC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample/specimen description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample/specimen description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DESD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_DESD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_DESD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date sample described",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date sample described",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DTIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_DTIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_DTIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time sample taken",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time sample taken",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_DURN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_DURN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_DURN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sampling duration",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sampling duration",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ETIM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ETIM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ETIM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time sampling completed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time sampling completed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_FLOW",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_FLOW"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_FLOW"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Gas flow rate",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Gas flow rate",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_LINK",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_LINK"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_LINK"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample record link",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample record link",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_LOG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_LOG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_LOG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Person responsible for sample/specimen description",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Person responsible for sample/specimen description",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_MATX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_MATX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_MATX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample matrix",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample matrix",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_PREP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_PREP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_PREP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of sample preparation at time of sampling",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of sample preparation at time of sampling",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_PRES",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_PRES"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_PRES"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Gas pressure (above barometric)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Gas pressure (above barometric)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_RECL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_RECL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_RECL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Length of sample recovered",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Length of sample recovered",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_RECV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_RECV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_RECV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Percentage of sample recovered",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Percentage of sample recovered",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_SDIA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_SDIA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_SDIA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TECH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TECH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TECH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sampling technique/method",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sampling technique/method",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TEMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TEMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TEMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample temperature at time of sampling",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample temperature at time of sampling",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample QA type (Normal, blank or spike)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample QA type (Normal, blank or spike)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_UBLO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_UBLO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_UBLO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Number of blows required to drive sampler",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Number of blows required to drive sampler",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_WDEP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_WDEP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_WDEP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to water below ground surface at time of sampling",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to water below ground surface at time of sampling",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_WHO",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_WHO"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_WHO"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Samplers initials or name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Samplers initials or name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_WHY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_WHY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_WHY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Reason for sampling",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Reason for sampling",
+        "@language": "en"
+      }
+    ]
+  }
+]

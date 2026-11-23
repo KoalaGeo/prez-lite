@@ -1,0 +1,670 @@
+[
+  {
+    "@id": "_:n3-833",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "FILE_FSET",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ECTN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ELRG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/IFID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/IPID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DETL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DISC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DLOG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FRAC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GEOL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/WETH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/WGPG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/WGPT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPDT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTZ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DCPG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMDG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMDT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DMTZ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DPRB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DPRG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FGHT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ICBR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/IDEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/IPEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/IRDX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/IRES"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISPT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ISTS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ITCH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/IVAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PLTG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PLTT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMMC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMMD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMMG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PMTZ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PUMG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PUMT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCDG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCDT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SCPT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CBRG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CBRT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CMPG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CMPT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CONG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CONS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ESCT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FRST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GCHM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GRAG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/GRAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LDEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LDYN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LFCN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LLIN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LLPL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LNMC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LPDN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LPEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LRES"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LSLT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LSTG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LSTT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LSWL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LTCH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LUCT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LVAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/MCVG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/MCVT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PTST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RCAG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RCAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RCCV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RDEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RELD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RESS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RPLT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RSCH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RSHR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RTEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RUCS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/RWCO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SHBG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SHBT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SUCT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TREG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TRET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TRIG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TRIT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/BKFL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CHIS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CORE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DOBS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DREM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FLSH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDIA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HORN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PTIM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TREM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/WADD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/WINS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/WSTD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/WSTG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/AAVT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ACVT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/AELO"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/AFLK"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/AIVT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ALOS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/APSV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ARTW"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ASDI"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ASNS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/AWAD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TNPC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/MOND"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/MONG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/MONS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PIPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/ABBR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/DICT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PREM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/PROJ"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/STND"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TRAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/UNIT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CHOC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBSG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LBST"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#example": [
+      {
+        "@value": "FS128"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "FILE_FSET",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "https://w3id.org/ags4/ont/dataType": [
+      {
+        "@id": "https://w3id.org/ags4/voc/data-types/X"
+      }
+    ],
+    "https://w3id.org/ags4/ont/property": [
+      {
+        "@id": "https://w3id.org/ags4/def/FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "AGS 4.1: Heading Added in CTRC\nAGS 4.1: Heading Added in CTRD\nAGS 4.1: Heading Added in CTRG\nAGS 4.1: Heading Added in CTRP\nAGS 4.1: Heading Added in CTRS\nAGS 4.1: Heading Added in DLOG\nAGS 4.1: Heading Added in ECTN\nAGS 4.1: Heading Added in ELRG\nAGS 4.1: Heading Added in FGHG\nAGS 4.1: Heading Added in FGHI\nAGS 4.1: Heading Added in FGHS\nAGS 4.1: Heading Added in FGHT\nAGS 4.1: Heading Added in LFCN\nAGS 4.1: Heading Added in LTCH\nAGS 4.1: Heading Added in LUCT\nAGS 4.1: Heading Added in RCAG\nAGS 4.1: Heading Added in RCAT\nAGS 4.1: Heading Added in RESC\nAGS 4.1: Heading Added in RESD\nAGS 4.1: Heading Added in RESG\nAGS 4.1: Heading Added in RESP\nAGS 4.1: Heading Added in RESS\nAGS 4.1: Heading Added in WGPG\nAGS 4.1: Heading Added in WGPT\nAGS 4.1.1: Description change in ELRG - \"Associated file reference\" to \"Associated file reference (e.g. test result sheets)\"\nAGS 4.1.1: Description change in FGHT - \"Associated file reference (e.g. test result sheets)\" to \"Associated file reference (e.g. equipment calibrations)\"\nAGS 4.1.1: Description change in LFCN - \"Associated file reference (e.g. test result sheets)\" to \"Associated file reference (e.g. equipment calibrations)\"\nAGS 4.1.1: Description change in LTCH - \"Associated file reference\" to \"Associated file reference (e.g. equipment calibrations)\"\nAGS 4.1.1: Example change in ELRG - \"FS10\" to \"FS13\"\nAGS 4.1.1: Example change in LFCN - \"FS10\" to \"FS7\"\nAGS 4.1.1: Example change in LTCH - \"FS26\" to \"FS7\"\nAGS 4.1.1: Miscellaneous in CTRD - Website display order incorrect\nAGS 4.1.1: Miscellaneous in CTRP - Heading missing from website\nAGS 4.1.1: Miscellaneous in ELRG - Website display order incorrect\nAGS 4.1.1: Miscellaneous in ESCG - Website display order incorrect\nAGS 4.1.1: Miscellaneous in LFCN - Website display order incorrect\nAGS 4.2.0: Heading Added in CPDG\nAGS 4.2.0: Heading Added in CPDT\nAGS 4.2.0: Heading Added in CPTG\nAGS 4.2.0: Heading Added in CPTM\nAGS 4.2.0: Heading Added in CPTP\nAGS 4.2.0: Heading Added in CPTT\nAGS 4.2.0: Heading Added in CPTY\nAGS 4.2.0: Heading Added in CPTZ\nAGS 4.2.0: Heading Added in DMDG\nAGS 4.2.0: Heading Added in DMDT\nAGS 4.2.0: Heading Added in DMTG\nAGS 4.2.0: Heading Added in DMTP\nAGS 4.2.0: Heading Added in DMTT\nAGS 4.2.0: Heading Added in DMTZ\nAGS 4.2.0: Heading Added in ISTA\nAGS 4.2.0: Heading Added in ISTG\nAGS 4.2.0: Heading Added in ISTR\nAGS 4.2.0: Heading Added in ISTS\nAGS 4.2.0: Heading Added in ITCH\nAGS 4.2.0: Heading Added in MONS\nAGS 4.2.0: Heading Added in PMMC\nAGS 4.2.0: Heading Added in PMMD\nAGS 4.2.0: Heading Added in PMMG\nAGS 4.2.0: Heading added in PMTP\nAGS 4.2.0: Heading added in PMTZ"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  }
+]

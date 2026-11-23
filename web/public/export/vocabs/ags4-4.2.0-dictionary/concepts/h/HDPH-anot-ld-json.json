@@ -1,0 +1,808 @@
+[
+  {
+    "@id": "_:n3-508",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Depth Related Exploratory Hole Construction Information",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Depth Related Exploratory Hole Construction Information",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "HDPH",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "HDPH",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BASE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BCON"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BLEN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BTYP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_CREW"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_DBIT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_DIML"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_DIMW"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_ENDD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_ENV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_EXC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_LOG"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_LOGD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_SHOR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_STAB"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_STAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "HDPH is used to record information regarding exploratory hole construction. The HDPH group subdivides the hole development by depth such that the differing methods used to advance a hole or pit (or holes developed using combined methods) are explicitly described. As a minimum, one record will exist in HDPH for each record in the LOCA group if the AGS file is transferring hole construction details.\nRecords of orientation and inclination of the exploratory hole shall be included in the HORN group.\nRecords in HDPH shall be continuous and non-overlapping.\nHDPH_LOG and HDPH_LOGD have been added to include the name of the person describing the strata in this section of the exploratory hole and date as required in BS EN ISO 14688-1 (Section 6) and BS EN ISO 14689 (Section 5). It is not deemed necessary to detail this information further for example in the GEOL group.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/HDPH"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth Related Exploratory Hole Construction Information",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth Related Exploratory Hole Construction Information",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BASE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_BASE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_BASE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to base of section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to base of section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BCON",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_BCON"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_BCON"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Bit condition",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Bit condition",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BLEN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_BLEN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_BLEN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Barrel length",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Barrel length",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_BTYP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_BTYP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_BTYP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Barrel type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Barrel type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Drilling contractor",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Drilling contractor",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_CREW",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_CREW"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_CREW"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of rig/drill crew/operator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of rig/drill crew/operator",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_DBIT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_DBIT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_DBIT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Drill bit used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Drill bit used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_DIML",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_DIML"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_DIML"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Trial pit / trial trench or logged traverse length",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Trial pit / trial trench or logged traverse length",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_DIMW",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_DIMW"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_DIMW"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Trial pit / trial trench or logged traverse width",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Trial pit / trial trench or logged traverse width",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_ENDD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_ENDD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_ENDD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time of end of section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time of end of section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_ENV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_ENV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_ENV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of weather and environmental conditions during hole section construction",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of weather and environmental conditions during hole section construction",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_EXC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_EXC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_EXC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Plant used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Plant used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_LOG",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_LOG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_LOG"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Definitive person responsible for logging the section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Definitive person responsible for logging the section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_LOGD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_LOGD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_LOGD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Start date of hole section logging",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Start date of hole section logging",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of method of hole section construction",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of method of hole section construction",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_SHOR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_SHOR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_SHOR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shoring/support used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shoring/support used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_STAB",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_STAB"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_STAB"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Stability of trial pit / trial trench or logged traverse length",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Stability of trial pit / trial trench or logged traverse length",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_STAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_STAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_STAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date and time of start of section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date and time of start of section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of section",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of section",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/HDPH_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:HDPH_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:HDPH_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of depth related information",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of depth related information",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  }
+]

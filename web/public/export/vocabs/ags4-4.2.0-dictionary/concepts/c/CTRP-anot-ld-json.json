@@ -1,0 +1,1121 @@
+[
+  {
+    "@id": "_:n3-418",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRC_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRC_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRC_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test / Stage Number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Cyclic Triaxial Test - Derived Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Cyclic Triaxial Test - Derived Parameters",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "CTRP",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "CTRP",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New\nAGS 4.1: Group Added\nAGS 4.1: Headings Added - LOCA_ID, SAMP_TOP, SAMP_REF, SAMP_TYPE, SAMP_ID, SPEC_REF, SPEC_DPTH, CTRC_TESN, CTRD_CYC, CTRP_CYCF, CTRP_PWPM, CTRP_MNPP, CTRP_MXSS, CTRP_MNSS, CTRP_AVSS, CTRP_CSS, CTRP_ACVS, CTRP_ASF, CTRP_FPWP, CTRP_QMAX, CTRP_QMIN, CTRP_MNES, TRP_EAMX, CTRP_EAMN, CTRP_FVR, CTRP_QEMX, CTRP_QEMN, CTRP_ESEC, CTRP_DAMP, CTRP_MODE, CTRP_REM, FILE_FSET\nAGS 4.2.0: Group Deprecated - Cyclic Triaxial Test - Derived Parameters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_ACVS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_ASF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_AVSS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CSS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CYCF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_DAMP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_DIPL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_EAMN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_EAMX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_ESEC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_FPWP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_FVR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MNES"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MNPP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MNSS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MODE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MXSS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_OBP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_PWPM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QEMN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QEMX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QMAX"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QMIN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CYC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRC_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "None",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/CTRP"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CTRC"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cyclic Triaxial Test - Derived Parameters",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cyclic Triaxial Test - Derived Parameters",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_ACVS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_ACVS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_ACVS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Average cyclic axial stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Average cyclic axial stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_ASF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_ASF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_ASF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Axial strain at failure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Axial strain at failure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_AVSS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_AVSS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_AVSS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mean shear stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mean shear stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CSS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_CSS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_CSS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cyclic shear stress ((Max-Min)/2)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cyclic shear stress ((Max-Min)/2)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CYC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_CYC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_CYC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cycle number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cycle number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_CYCF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_CYCF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_CYCF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cycle number of failure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cycle number of failure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_DAMP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_DAMP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_DAMP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Damping ratio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Damping ratio",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_DIPL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_DIPL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_DIPL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Percent Difference from Programmed Load",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Percent Difference from Programmed Load",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_EAMN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_EAMN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_EAMN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Minimum axial strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Minimum axial strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_EAMX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_EAMX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_EAMX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Maximum axial strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Maximum axial strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_ESEC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_ESEC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_ESEC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Secant modulus",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Secant modulus",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_FPWP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_FPWP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_FPWP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Porewater pressure at failure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Porewater pressure at failure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_FVR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_FVR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_FVR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Final voids ratio",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Final voids ratio",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MNES",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_MNES"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_MNES"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mean effective stress at end of CTRD_CYC",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mean effective stress at end of CTRD_CYC",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MNPP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_MNPP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_MNPP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Minimum excess porewater pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Minimum excess porewater pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MNSS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_MNSS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_MNSS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Minimum shear stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Minimum shear stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MODE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_MODE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_MODE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mode of failure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mode of failure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_MXSS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_MXSS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_MXSS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Maximum shear stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Maximum shear stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_OBP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_OBP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_OBP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Observed Performance (Visual)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Observed Performance (Visual)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_PWPM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_PWPM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_PWPM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Maximum excess porewater pressure",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Maximum excess porewater pressure",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QEMN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_QEMN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_QEMN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviatoric stress at minimum axial strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviatoric stress at minimum axial strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QEMX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_QEMX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_QEMX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviatoric stress at maximum axial strain",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviatoric stress at maximum axial strain",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QMAX",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_QMAX"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_QMAX"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Maximum deviatoric stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Maximum deviatoric stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_QMIN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_QMIN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_QMIN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Minimum deviatoric stress",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Minimum deviatoric stress",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CTRP_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CTRP_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CTRP_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Remarks",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample unique identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TOP",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TOP"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of sample",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SAMP_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SAMP_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sample type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_DPTH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_DPTH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to top of test specimen",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/SPEC_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:SPEC_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Specimen reference",
+        "@language": "en"
+      }
+    ]
+  }
+]

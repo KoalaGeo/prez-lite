@@ -1,0 +1,1597 @@
+[
+  {
+    "@id": "_:n3-357",
+    "https://prez.dev/currentProfile": [
+      {
+        "@id": "https://prez.dev/OGCSchemesObjectProfile"
+      }
+    ]
+  },
+  {
+    "@id": "https://linked.data.gov.au/catalogue/gswa-vocabs",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "catalogue:gswa-vocabs"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/link",
+    "https://prez.dev/label": [
+      {
+        "@value": "link"
+      }
+    ]
+  },
+  {
+    "@id": "https://prez.dev/members",
+    "https://prez.dev/label": [
+      {
+        "@value": "members"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "AGS 4.2.0 Groups and Headings",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The GROUPs and HEADINGs of the AGS 4.2.0 data dictionary (Electronic Transfer of Geotechnical and Geoenvironmental Data). Groups are top concepts and each heading is a narrower concept of every group it appears in. Group categories are collections.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/members": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - General",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "CPTG",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "CPTG",
+        "@type": "http://www.w3.org/2001/XMLSchema#token"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://gitlab.com/AGS-DFWG-Web/ASG4/-/blob/710b1f08097264e6508be1397282aece79278fc4/AGS4/AGS4_2/4_2_0/groupsandheadings4-2-0.json"
+      }
+    ],
+    "https://schema.org/status": [
+      {
+        "@id": "https://linked.data.gov.au/def/reg-statuses/stable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "Group status: New 4.2\nAGS 4.2.0: Group Added - Cone Penetration Test (CPT/CPTu) - General\nAGS 4.2.0: Headings Added - Cone Penetration Test (CPT/CPTu) - General; LOCA_ID, CPTG_TESN, CPTG_TYPE, CPTG_DATE, CPTG_PED, CPTG_RATE, CPTG_ORNT, CPTG_RLOC, CPTG_WAT, CPTG_WATA, CPTG_TERM, CPTG_REF, CPTG_MAN, CPTG_FILL, CPTG_CSA, CPTG_CSAN, CPTG_CAR, CPTG_SLA, CPTG_SLAN, CPTG_SHA, CPTG_SLAR, CPTG_CFOS, CPTG_CFOA, CPTG_TBL, CPTG_TBD, CPTG_CPC, CPTG_FPC, CPTG_UPC, CPTG_CPCL, CPTG_CRDT, CPTG_CDDT, CPTG_LCA, CPTG_FILT, CPTG_FRIC, CPTG_FRID, CPTG_FRIS, CPTG_SAT, CPTG_EQPT, CPTG_APCL, CPTG_DAZV, CPTG_CORR, CPTG_REM, CPTG_OPER, CPTG_ANBY, CPTG_ENV, CPTG_METH, CPTG_DEV, CPTG_CONT, CPTG_CRED, TEST_STAT, FILE_FSET"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_ANBY"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_APCL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CDDT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CFOA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CFOS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CONT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CORR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CPC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CPCL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CRDT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CRED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CSA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CSAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_DATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_DAZV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_DEV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_ENV"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_EQPT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FILL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FILT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FPC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FRIC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FRID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FRIS"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_LCA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_MAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_METH"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_OPER"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_ORNT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_PED"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_RATE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_REF"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_REM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_RLOC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SHA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SLA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SLAN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SLAR"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TBD"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TBL"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TERM"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TYPE"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_UPC"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_WAT"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_WATA"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TESN"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID"
+      },
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "CPTG is used to record the general information about static cone penetration tests.\nPressuremeter tests using CPT equipment (e.g. cone or driven pressuremeter) shall be recorded in the PMTG and associated groups.\nCPTG_FILT and CPTG_FRIC are included as they are reporting requirements of BS1377 and BS EN ISO 22476-1.\nCPTG_WATA is required to clarify origin of water level recorded in CPTG_WAT.\nCPTG_REM is used to transfer comments on the test and any interpreted parameters. CPTG_REM may refer to the STND group where full information on standards and references could be provided.\nCPT testing is frequently carried out by specialist sub-contractors. CPTG_CONT is included to record name of specialist sub-contractor.\nCPTG_CAR and CPTG_SLAR are included to transfer information used to calculate qt and ft.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary"
+      }
+    ],
+    "https://w3id.org/ags4/ont/groupClass": [
+      {
+        "@id": "https://w3id.org/ags4/def/CPTG"
+      }
+    ],
+    "https://w3id.org/ags4/ont/parentGroup": [
+      {
+        "@id": "https://w3id.org/ags4/voc/dictionary/LOCA"
+      }
+    ],
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG"
+      }
+    ],
+    "https://prez.dev/type": [
+      {
+        "@id": "https://prez.dev/FocusNode"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - General",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone Penetration Test (CPT/CPTu) - General",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_ANBY",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_ANBY"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_ANBY"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name(s) of analyser / person responsible for data quality and correctness",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name(s) of analyser / person responsible for data quality and correctness",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_APCL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_APCL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_APCL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test application class or category described in the standard",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test application class or category described in the standard",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone area ratio used to calculate qt, also use for Ball and T-Bar",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone area ratio used to calculate qt, also use for Ball and T-Bar",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CDDT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CDDT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CDDT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date of last calibration of data logger (applicable to analogue cones)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date of last calibration of data logger (applicable to analogue cones)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CFOA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CFOA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CFOA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shoulder of cone to centre of friction sleeve offset used by analysis",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shoulder of cone to centre of friction sleeve offset used by analysis",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CFOS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CFOS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CFOS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Shoulder of cone to centre of friction sleeve offset (physical measurement)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Shoulder of cone to centre of friction sleeve offset (physical measurement)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CONT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CONT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CONT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Subcontractor name",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Subcontractor name",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CORR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CORR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CORR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Corrections applied during data processing (e.g. depth corrections, removal of rod change spikes, zeros)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Corrections applied during data processing (e.g. depth corrections, removal of rod change spikes, zeros)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CPC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CPC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CPC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nominal cone maximum tip pressure capacity (assumed zero load on sleeve for subtraction cones and purely axial load)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Nominal cone maximum tip pressure capacity (assumed zero load on sleeve for subtraction cones and purely axial load)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CPCL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CPCL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CPCL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone penetrometer class",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone penetrometer class",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CRDT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CRDT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CRDT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date of last calibration of cone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date of last calibration of cone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CRED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CRED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CRED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Accrediting body and reference number (when appropriate)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CSA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CSA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CSA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cross sectional area of cone tip, Ball and T-Bar",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cross sectional area of cone tip, Ball and T-Bar",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_CSAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_CSAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_CSAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nominal cross sectional area of cone tip, Ball and T-Bar",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Nominal cross sectional area of cone tip, Ball and T-Bar",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_DATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_DATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_DATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Date time at beginning of test or push",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Date time at beginning of test or push",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_DAZV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_DAZV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_DAZV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Description of application of zero values",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Description of application of zero values",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_DEV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_DEV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_DEV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Deviations from the standard followed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Deviations from the standard followed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_ENV",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_ENV"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_ENV"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Details of weather and environmental conditions during test",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_EQPT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_EQPT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_EQPT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Mass, reaction and equipment geometry",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Mass, reaction and equipment geometry",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FILL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_FILL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_FILL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Filter location(s)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Filter location(s)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FILT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_FILT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_FILT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Type of filter material used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Type of filter material used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FPC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_FPC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_FPC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nominal friction maximum pressure capacity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Nominal friction maximum pressure capacity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FRIC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_FRIC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_FRIC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Friction reducer used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Friction reducer used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FRID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_FRID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_FRID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Friction reducer distance behind the shoulder of the cone tip",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Friction reducer distance behind the shoulder of the cone tip",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_FRIS",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_FRIS"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_FRIS"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Friction reducer diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Friction reducer diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_LCA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_LCA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_LCA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Load cell arrangement",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Load cell arrangement",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_MAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_MAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_MAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Manufacturer of cone penetrometer",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Manufacturer of cone penetrometer",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_METH",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_METH"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_METH"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Standard followed for testing",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Standard followed for testing",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_OPER",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_OPER"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_OPER"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Name of test operator",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_ORNT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_ORNT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_ORNT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Orientation of inclination X from North",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Orientation of inclination X from North",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_PED",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_PED"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_PED"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Pre-drilled depth",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Pre-drilled depth",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_RATE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_RATE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_RATE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nominal rate of penetration of the cone",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Nominal rate of penetration of the cone",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_REF",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_REF"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_REF"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_REM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_REM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_REM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Comments on testing and basis of any interpreted parameters included in CPTT",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Comments on testing and basis of any interpreted parameters included in CPTT",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_RLOC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_RLOC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_RLOC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "The location where the reference reading (pretest zero) of the test was performed",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "The location where the reference reading (pretest zero) of the test was performed",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_SAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_SAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Method of saturation of pore pressure system and type of fluid used",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Method of saturation of pore pressure system and type of fluid used",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SHA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_SHA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_SHA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cross-sectional area of the connecting shaft for Ball and T-Bar",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cross-sectional area of the connecting shaft for Ball and T-Bar",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SLA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_SLA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_SLA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Friction sleeve area",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Friction sleeve area",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SLAN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_SLAN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_SLAN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nominal friction sleeve area",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Nominal friction sleeve area",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_SLAR",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_SLAR"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_SLAR"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Sleeve area ratio used to calculate ft",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Sleeve area ratio used to calculate ft",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TBD",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_TBD"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_TBD"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "T-Bar diameter",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "T-Bar diameter",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TBL",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_TBL"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_TBL"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "T-Bar length",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "T-Bar length",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TERM",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_TERM"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_TERM"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Termination reason(s)",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Termination reason(s)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TESN",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_TESN"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_TESN"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test reference or push number",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test reference or push number",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_TYPE",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_TYPE"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_TYPE"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Cone test type",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Cone test type",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_UPC",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_UPC"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_UPC"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Nominal porewater pressure maximum pressure capacity",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Nominal porewater pressure maximum pressure capacity",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_WAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_WAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_WAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Depth to groundwater level, z_w at time of test. Negative for water levels above the location where the reference reading was performed.",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Depth to groundwater level, z_w at time of test. Negative for water levels above the location where the reference reading was performed.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/CPTG_WATA",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:CPTG_WATA"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:CPTG_WATA"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Origin of groundwater level in CPTG_WAT",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Origin of groundwater level in CPTG_WAT",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/FILE_FSET",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:FILE_FSET"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "File set reference",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/LOCA_ID",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:LOCA_ID"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Location identifier",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/ags4/voc/dictionary/TEST_STAT",
+    "https://prez.dev/identifier": [
+      {
+        "@value": "ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/link": [
+      {
+        "@value": "/catalogs/catalogue:gswa-vocabs/collections/ns1:dictionary/items/ns1:TEST_STAT"
+      }
+    ],
+    "https://prez.dev/label": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ],
+    "https://prez.dev/description": [
+      {
+        "@value": "Test status",
+        "@language": "en"
+      }
+    ]
+  }
+]
