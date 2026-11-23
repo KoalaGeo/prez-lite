@@ -1,12 +1,36 @@
 ---
 title: Changelog
 status: current
-updated: 2025-02-08
+updated: 2026-11-22
 ---
 
 # Changelog
 
 > Version history and completed features.
+
+## 2026-11-22
+
+### Toolchain & Dependency Upgrade
+- pnpm 10.15 → 12.21. pnpm settings moved from `.npmrc` to `pnpm-workspace.yaml` (`publicHoistPattern`); dependency build scripts are declared in `allowBuilds`, which pnpm 11+ requires
+- Node.js 26 (active LTS) in CI, reusable workflows, composite actions and the Docker image. `engines` follows Nuxt 4.6: `^22.22.3 || ^24.15.0 || >=26.0.0`
+- All dependencies at their latest releases, including Nuxt 4.6, Nuxt UI 4.13, Nuxt Content 3.17, vue-router 5, Vite 8 (Rolldown), Vitest 5, happy-dom 21, Playwright 1.65, mermaid 12, monaco-editor 0.57, jsonld 9, rdf-validate-shacl 0.7 and n3 2.13. TypeScript 7 in web-components; TypeScript 6 plus vue-tsc in web, because vue-tsc can't use TS 7 yet, so `nuxt typecheck` works again
+- GitHub Actions on their latest majors (checkout v7, setup-node v7, pnpm/action-setup v6, cache v6, release-please v5, Docker actions v4–v7, Pages actions, and others). Python 3.14 for label fetching
+- `fonts.throwOnError: false` in the web layer, which keeps builds working on offline or restricted networks with @nuxt/fonts 1.x
+- Template (`packages/gh-templates/default`): pnpm 12, dependencies aligned with the web layer, and the stylesheet path fixed (`~~/assets/css/main.css`), which had broken its builds
+
+---
+
+## 2026-11-19
+
+### Docker Image
+- `Dockerfile`: one image holding the pre-built site (nginx, port 8080, non-root) and the TTL → JSON pipeline. Vocabularies in `/data` are processed at start-up, and processing is skipped when nothing has changed.
+- Use it by mounting `/data`, or with a two-line custom `Dockerfile` (`FROM` + `COPY vocabs/`). Optional `RUN prez-lite-process` processes at build time.
+- `prez-lite-process` CLI in the image, also usable on its own to generate exports
+- `docker-compose.yml` serving `./data`
+- `docker-publish.yml` workflow: smoke-tests the image, then publishes multi-arch images to GHCR (`latest` from `main`, semver tags on release). `release.yml` calls it when release-please cuts a release.
+- Guide: `docs/5-technical/docker.md`
+
+---
 
 ## 2026-02-11
 

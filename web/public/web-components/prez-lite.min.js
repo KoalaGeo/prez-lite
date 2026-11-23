@@ -1,1817 +1,1035 @@
-var xe = Object.defineProperty;
-var l = (t, e) => xe(t, "name", { value: e, configurable: !0 });
-/**
- * @license
- * Copyright 2019 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-const q = globalThis, X = q.ShadowRoot && (q.ShadyCSS === void 0 || q.ShadyCSS.nativeShadow) && "adoptedStyleSheets" in Document.prototype && "replace" in CSSStyleSheet.prototype, Z = Symbol(), ie = /* @__PURE__ */ new WeakMap();
-let be = class {
-  static {
-    l(this, "n");
-  }
-  constructor(e, r, i) {
-    if (this._$cssResult$ = !0, i !== Z) throw Error("CSSResult is not constructable. Use `unsafeCSS` or `css` instead.");
-    this.cssText = e, this.t = r;
-  }
-  get styleSheet() {
-    let e = this.o;
-    const r = this.t;
-    if (X && e === void 0) {
-      const i = r !== void 0 && r.length === 1;
-      i && (e = ie.get(r)), e === void 0 && ((this.o = e = new CSSStyleSheet()).replaceSync(this.cssText), i && ie.set(r, e));
-    }
-    return e;
-  }
-  toString() {
-    return this.cssText;
-  }
+// \0rolldown/runtime.js
+var e = Object.defineProperty, __name = (o, s) => e(o, "name", {
+	value: s,
+	configurable: !0
+}), o = globalThis, s = o.ShadowRoot && (o.ShadyCSS === void 0 || o.ShadyCSS.nativeShadow) && "adoptedStyleSheets" in Document.prototype && "replace" in CSSStyleSheet.prototype, l = Symbol(), u = /* @__PURE__ */ new WeakMap(), n$3 = class {
+	static {
+		__name(this, "n");
+	}
+	constructor(e, o, s) {
+		if (this._$cssResult$ = !0, s !== l) throw Error("CSSResult is not constructable. Use `unsafeCSS` or `css` instead.");
+		this.cssText = e, this.t = o;
+	}
+	get styleSheet() {
+		let e = this.o, o = this.t;
+		if (s && e === void 0) {
+			let s = o !== void 0 && o.length === 1;
+			s && (e = u.get(o)), e === void 0 && ((this.o = e = new CSSStyleSheet()).replaceSync(this.cssText), s && u.set(o, e));
+		}
+		return e;
+	}
+	toString() {
+		return this.cssText;
+	}
+}, f = /* @__PURE__ */ __name((e) => new n$3(typeof e == "string" ? e : e + "", void 0, l), "r"), p = /* @__PURE__ */ __name((e, ...o) => new n$3(e.length === 1 ? e[0] : o.reduce((o, s, l) => o + ((e) => {
+	if (!0 === e._$cssResult$) return e.cssText;
+	if (typeof e == "number") return e;
+	throw Error("Value passed to 'css' function must be a 'css' function result: " + e + ". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.");
+})(s) + e[l + 1], e[0]), e, l), "i"), m = /* @__PURE__ */ __name((e, l) => {
+	if (s) e.adoptedStyleSheets = l.map((e) => e instanceof CSSStyleSheet ? e : e.styleSheet);
+	else for (let s of l) {
+		let l = document.createElement("style"), u = o.litNonce;
+		u !== void 0 && l.setAttribute("nonce", u), l.textContent = s.cssText, e.appendChild(l);
+	}
+}, "S"), h = s ? (e) => e : (e) => e instanceof CSSStyleSheet ? ((e) => {
+	let o = "";
+	for (let s of e.cssRules) o += s.cssText;
+	return f(o);
+})(e) : e, { is: g, defineProperty: _, getOwnPropertyDescriptor: v, getOwnPropertyNames: ee, getOwnPropertySymbols: te, getPrototypeOf: ne } = Object, y = globalThis, re = y.trustedTypes, ie = re ? re.emptyScript : "", ae = y.reactiveElementPolyfillSupport, b = /* @__PURE__ */ __name((e, o) => e, "d"), C = {
+	toAttribute(e, o) {
+		switch (o) {
+			case Boolean:
+				e = e ? ie : null;
+				break;
+			case Object:
+			case Array: e = e == null ? e : JSON.stringify(e);
+		}
+		return e;
+	},
+	fromAttribute(e, o) {
+		let s = e;
+		switch (o) {
+			case Boolean:
+				s = e !== null;
+				break;
+			case Number:
+				s = e === null ? null : Number(e);
+				break;
+			case Object:
+			case Array: try {
+				s = JSON.parse(e);
+			} catch {
+				s = null;
+			}
+		}
+		return s;
+	}
+}, w = /* @__PURE__ */ __name((e, o) => !g(e, o), "f"), oe = {
+	attribute: !0,
+	type: String,
+	converter: C,
+	reflect: !1,
+	useDefault: !1,
+	hasChanged: w
 };
-const _e = /* @__PURE__ */ l((t) => new be(typeof t == "string" ? t : t + "", void 0, Z), "r$4"), ze = /* @__PURE__ */ l((t, ...e) => {
-  const r = t.length === 1 ? t[0] : e.reduce((i, s, o) => i + ((n) => {
-    if (n._$cssResult$ === !0) return n.cssText;
-    if (typeof n == "number") return n;
-    throw Error("Value passed to 'css' function must be a 'css' function result: " + n + ". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.");
-  })(s) + t[o + 1], t[0]);
-  return new be(r, t, Z);
-}, "i$3"), Ae = /* @__PURE__ */ l((t, e) => {
-  if (X) t.adoptedStyleSheets = e.map((r) => r instanceof CSSStyleSheet ? r : r.styleSheet);
-  else for (const r of e) {
-    const i = document.createElement("style"), s = q.litNonce;
-    s !== void 0 && i.setAttribute("nonce", s), i.textContent = r.cssText, t.appendChild(i);
-  }
-}, "S$1"), se = X ? (t) => t : (t) => t instanceof CSSStyleSheet ? ((e) => {
-  let r = "";
-  for (const i of e.cssRules) r += i.cssText;
-  return _e(r);
-})(t) : t;
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-const { is: Se, defineProperty: Ce, getOwnPropertyDescriptor: Ee, getOwnPropertyNames: Te, getOwnPropertySymbols: Ne, getPrototypeOf: ke } = Object, B = globalThis, oe = B.trustedTypes, De = oe ? oe.emptyScript : "", Pe = B.reactiveElementPolyfillSupport, P = /* @__PURE__ */ l((t, e) => t, "d$1"), H = { toAttribute(t, e) {
-  switch (e) {
-    case Boolean:
-      t = t ? De : null;
-      break;
-    case Object:
-    case Array:
-      t = t == null ? t : JSON.stringify(t);
-  }
-  return t;
-}, fromAttribute(t, e) {
-  let r = t;
-  switch (e) {
-    case Boolean:
-      r = t !== null;
-      break;
-    case Number:
-      r = t === null ? null : Number(t);
-      break;
-    case Object:
-    case Array:
-      try {
-        r = JSON.parse(t);
-      } catch {
-        r = null;
-      }
-  }
-  return r;
-} }, K = /* @__PURE__ */ l((t, e) => !Se(t, e), "f$1"), ne = { attribute: !0, type: String, converter: H, reflect: !1, useDefault: !1, hasChanged: K };
-Symbol.metadata ??= Symbol("metadata"), B.litPropertyMetadata ??= /* @__PURE__ */ new WeakMap();
-let T = class extends HTMLElement {
-  static {
-    l(this, "y");
-  }
-  static addInitializer(e) {
-    this._$Ei(), (this.l ??= []).push(e);
-  }
-  static get observedAttributes() {
-    return this.finalize(), this._$Eh && [...this._$Eh.keys()];
-  }
-  static createProperty(e, r = ne) {
-    if (r.state && (r.attribute = !1), this._$Ei(), this.prototype.hasOwnProperty(e) && ((r = Object.create(r)).wrapped = !0), this.elementProperties.set(e, r), !r.noAccessor) {
-      const i = Symbol(), s = this.getPropertyDescriptor(e, i, r);
-      s !== void 0 && Ce(this.prototype, e, s);
-    }
-  }
-  static getPropertyDescriptor(e, r, i) {
-    const { get: s, set: o } = Ee(this.prototype, e) ?? { get() {
-      return this[r];
-    }, set(n) {
-      this[r] = n;
-    } };
-    return { get: s, set(n) {
-      const c = s?.call(this);
-      o?.call(this, n), this.requestUpdate(e, c, i);
-    }, configurable: !0, enumerable: !0 };
-  }
-  static getPropertyOptions(e) {
-    return this.elementProperties.get(e) ?? ne;
-  }
-  static _$Ei() {
-    if (this.hasOwnProperty(P("elementProperties"))) return;
-    const e = ke(this);
-    e.finalize(), e.l !== void 0 && (this.l = [...e.l]), this.elementProperties = new Map(e.elementProperties);
-  }
-  static finalize() {
-    if (this.hasOwnProperty(P("finalized"))) return;
-    if (this.finalized = !0, this._$Ei(), this.hasOwnProperty(P("properties"))) {
-      const r = this.properties, i = [...Te(r), ...Ne(r)];
-      for (const s of i) this.createProperty(s, r[s]);
-    }
-    const e = this[Symbol.metadata];
-    if (e !== null) {
-      const r = litPropertyMetadata.get(e);
-      if (r !== void 0) for (const [i, s] of r) this.elementProperties.set(i, s);
-    }
-    this._$Eh = /* @__PURE__ */ new Map();
-    for (const [r, i] of this.elementProperties) {
-      const s = this._$Eu(r, i);
-      s !== void 0 && this._$Eh.set(s, r);
-    }
-    this.elementStyles = this.finalizeStyles(this.styles);
-  }
-  static finalizeStyles(e) {
-    const r = [];
-    if (Array.isArray(e)) {
-      const i = new Set(e.flat(1 / 0).reverse());
-      for (const s of i) r.unshift(se(s));
-    } else e !== void 0 && r.push(se(e));
-    return r;
-  }
-  static _$Eu(e, r) {
-    const i = r.attribute;
-    return i === !1 ? void 0 : typeof i == "string" ? i : typeof e == "string" ? e.toLowerCase() : void 0;
-  }
-  constructor() {
-    super(), this._$Ep = void 0, this.isUpdatePending = !1, this.hasUpdated = !1, this._$Em = null, this._$Ev();
-  }
-  _$Ev() {
-    this._$ES = new Promise((e) => this.enableUpdating = e), this._$AL = /* @__PURE__ */ new Map(), this._$E_(), this.requestUpdate(), this.constructor.l?.forEach((e) => e(this));
-  }
-  addController(e) {
-    (this._$EO ??= /* @__PURE__ */ new Set()).add(e), this.renderRoot !== void 0 && this.isConnected && e.hostConnected?.();
-  }
-  removeController(e) {
-    this._$EO?.delete(e);
-  }
-  _$E_() {
-    const e = /* @__PURE__ */ new Map(), r = this.constructor.elementProperties;
-    for (const i of r.keys()) this.hasOwnProperty(i) && (e.set(i, this[i]), delete this[i]);
-    e.size > 0 && (this._$Ep = e);
-  }
-  createRenderRoot() {
-    const e = this.shadowRoot ?? this.attachShadow(this.constructor.shadowRootOptions);
-    return Ae(e, this.constructor.elementStyles), e;
-  }
-  connectedCallback() {
-    this.renderRoot ??= this.createRenderRoot(), this.enableUpdating(!0), this._$EO?.forEach((e) => e.hostConnected?.());
-  }
-  enableUpdating(e) {
-  }
-  disconnectedCallback() {
-    this._$EO?.forEach((e) => e.hostDisconnected?.());
-  }
-  attributeChangedCallback(e, r, i) {
-    this._$AK(e, i);
-  }
-  _$ET(e, r) {
-    const i = this.constructor.elementProperties.get(e), s = this.constructor._$Eu(e, i);
-    if (s !== void 0 && i.reflect === !0) {
-      const o = (i.converter?.toAttribute !== void 0 ? i.converter : H).toAttribute(r, i.type);
-      this._$Em = e, o == null ? this.removeAttribute(s) : this.setAttribute(s, o), this._$Em = null;
-    }
-  }
-  _$AK(e, r) {
-    const i = this.constructor, s = i._$Eh.get(e);
-    if (s !== void 0 && this._$Em !== s) {
-      const o = i.getPropertyOptions(s), n = typeof o.converter == "function" ? { fromAttribute: o.converter } : o.converter?.fromAttribute !== void 0 ? o.converter : H;
-      this._$Em = s;
-      const c = n.fromAttribute(r, o.type);
-      this[s] = c ?? this._$Ej?.get(s) ?? c, this._$Em = null;
-    }
-  }
-  requestUpdate(e, r, i, s = !1, o) {
-    if (e !== void 0) {
-      const n = this.constructor;
-      if (s === !1 && (o = this[e]), i ??= n.getPropertyOptions(e), !((i.hasChanged ?? K)(o, r) || i.useDefault && i.reflect && o === this._$Ej?.get(e) && !this.hasAttribute(n._$Eu(e, i)))) return;
-      this.C(e, r, i);
-    }
-    this.isUpdatePending === !1 && (this._$ES = this._$EP());
-  }
-  C(e, r, { useDefault: i, reflect: s, wrapped: o }, n) {
-    i && !(this._$Ej ??= /* @__PURE__ */ new Map()).has(e) && (this._$Ej.set(e, n ?? r ?? this[e]), o !== !0 || n !== void 0) || (this._$AL.has(e) || (this.hasUpdated || i || (r = void 0), this._$AL.set(e, r)), s === !0 && this._$Em !== e && (this._$Eq ??= /* @__PURE__ */ new Set()).add(e));
-  }
-  async _$EP() {
-    this.isUpdatePending = !0;
-    try {
-      await this._$ES;
-    } catch (r) {
-      Promise.reject(r);
-    }
-    const e = this.scheduleUpdate();
-    return e != null && await e, !this.isUpdatePending;
-  }
-  scheduleUpdate() {
-    return this.performUpdate();
-  }
-  performUpdate() {
-    if (!this.isUpdatePending) return;
-    if (!this.hasUpdated) {
-      if (this.renderRoot ??= this.createRenderRoot(), this._$Ep) {
-        for (const [s, o] of this._$Ep) this[s] = o;
-        this._$Ep = void 0;
-      }
-      const i = this.constructor.elementProperties;
-      if (i.size > 0) for (const [s, o] of i) {
-        const { wrapped: n } = o, c = this[s];
-        n !== !0 || this._$AL.has(s) || c === void 0 || this.C(s, void 0, o, c);
-      }
-    }
-    let e = !1;
-    const r = this._$AL;
-    try {
-      e = this.shouldUpdate(r), e ? (this.willUpdate(r), this._$EO?.forEach((i) => i.hostUpdate?.()), this.update(r)) : this._$EM();
-    } catch (i) {
-      throw e = !1, this._$EM(), i;
-    }
-    e && this._$AE(r);
-  }
-  willUpdate(e) {
-  }
-  _$AE(e) {
-    this._$EO?.forEach((r) => r.hostUpdated?.()), this.hasUpdated || (this.hasUpdated = !0, this.firstUpdated(e)), this.updated(e);
-  }
-  _$EM() {
-    this._$AL = /* @__PURE__ */ new Map(), this.isUpdatePending = !1;
-  }
-  get updateComplete() {
-    return this.getUpdateComplete();
-  }
-  getUpdateComplete() {
-    return this._$ES;
-  }
-  shouldUpdate(e) {
-    return !0;
-  }
-  update(e) {
-    this._$Eq &&= this._$Eq.forEach((r) => this._$ET(r, this[r])), this._$EM();
-  }
-  updated(e) {
-  }
-  firstUpdated(e) {
-  }
+Symbol.metadata ??= Symbol("metadata"), y.litPropertyMetadata ??= /* @__PURE__ */ new WeakMap();
+var y$1 = class extends HTMLElement {
+	static {
+		__name(this, "y");
+	}
+	static addInitializer(e) {
+		this._$Ei(), (this.l ??= []).push(e);
+	}
+	static get observedAttributes() {
+		return this.finalize(), this._$Eh && [...this._$Eh.keys()];
+	}
+	static createProperty(e, o = oe) {
+		if (o.state && (o.attribute = !1), this._$Ei(), this.prototype.hasOwnProperty(e) && ((o = Object.create(o)).wrapped = !0), this.elementProperties.set(e, o), !o.noAccessor) {
+			let s = Symbol(), l = this.getPropertyDescriptor(e, s, o);
+			l !== void 0 && _(this.prototype, e, l);
+		}
+	}
+	static getPropertyDescriptor(e, o, s) {
+		let { get: l, set: u } = v(this.prototype, e) ?? {
+			get() {
+				return this[o];
+			},
+			set(e) {
+				this[o] = e;
+			}
+		};
+		return {
+			get: l,
+			set(o) {
+				let f = l?.call(this);
+				u?.call(this, o), this.requestUpdate(e, f, s);
+			},
+			configurable: !0,
+			enumerable: !0
+		};
+	}
+	static getPropertyOptions(e) {
+		return this.elementProperties.get(e) ?? oe;
+	}
+	static _$Ei() {
+		if (this.hasOwnProperty(b("elementProperties"))) return;
+		let e = ne(this);
+		e.finalize(), e.l !== void 0 && (this.l = [...e.l]), this.elementProperties = new Map(e.elementProperties);
+	}
+	static finalize() {
+		if (this.hasOwnProperty(b("finalized"))) return;
+		if (this.finalized = !0, this._$Ei(), this.hasOwnProperty(b("properties"))) {
+			let e = this.properties, o = [...ee(e), ...te(e)];
+			for (let s of o) this.createProperty(s, e[s]);
+		}
+		let e = this[Symbol.metadata];
+		if (e !== null) {
+			let o = litPropertyMetadata.get(e);
+			if (o !== void 0) for (let [e, s] of o) this.elementProperties.set(e, s);
+		}
+		this._$Eh = /* @__PURE__ */ new Map();
+		for (let [e, o] of this.elementProperties) {
+			let s = this._$Eu(e, o);
+			s !== void 0 && this._$Eh.set(s, e);
+		}
+		this.elementStyles = this.finalizeStyles(this.styles);
+	}
+	static finalizeStyles(e) {
+		let o = [];
+		if (Array.isArray(e)) {
+			let s = new Set(e.flat(1 / 0).reverse());
+			for (let e of s) o.unshift(h(e));
+		} else e !== void 0 && o.push(h(e));
+		return o;
+	}
+	static _$Eu(e, o) {
+		let s = o.attribute;
+		return !1 === s ? void 0 : typeof s == "string" ? s : typeof e == "string" ? e.toLowerCase() : void 0;
+	}
+	constructor() {
+		super(), this._$Ep = void 0, this.isUpdatePending = !1, this.hasUpdated = !1, this._$Em = null, this._$Ev();
+	}
+	_$Ev() {
+		this._$ES = new Promise((e) => this.enableUpdating = e), this._$AL = /* @__PURE__ */ new Map(), this._$E_(), this.requestUpdate(), this.constructor.l?.forEach((e) => e(this));
+	}
+	addController(e) {
+		(this._$EO ??= /* @__PURE__ */ new Set()).add(e), this.renderRoot !== void 0 && this.isConnected && e.hostConnected?.();
+	}
+	removeController(e) {
+		this._$EO?.delete(e);
+	}
+	_$E_() {
+		let e = /* @__PURE__ */ new Map(), o = this.constructor.elementProperties;
+		for (let s of o.keys()) this.hasOwnProperty(s) && (e.set(s, this[s]), delete this[s]);
+		e.size > 0 && (this._$Ep = e);
+	}
+	createRenderRoot() {
+		let e = this.shadowRoot ?? this.attachShadow(this.constructor.shadowRootOptions);
+		return m(e, this.constructor.elementStyles), e;
+	}
+	connectedCallback() {
+		this.renderRoot ??= this.createRenderRoot(), this.enableUpdating(!0), this._$EO?.forEach((e) => e.hostConnected?.());
+	}
+	enableUpdating(e) {}
+	disconnectedCallback() {
+		this._$EO?.forEach((e) => e.hostDisconnected?.());
+	}
+	attributeChangedCallback(e, o, s) {
+		this._$AK(e, s);
+	}
+	_$ET(e, o) {
+		let s = this.constructor.elementProperties.get(e), l = this.constructor._$Eu(e, s);
+		if (l !== void 0 && !0 === s.reflect) {
+			let u = (s.converter?.toAttribute === void 0 ? C : s.converter).toAttribute(o, s.type);
+			this._$Em = e, u == null ? this.removeAttribute(l) : this.setAttribute(l, u), this._$Em = null;
+		}
+	}
+	_$AK(e, o) {
+		let s = this.constructor, l = s._$Eh.get(e);
+		if (l !== void 0 && this._$Em !== l) {
+			let e = s.getPropertyOptions(l), u = typeof e.converter == "function" ? { fromAttribute: e.converter } : e.converter?.fromAttribute === void 0 ? C : e.converter;
+			this._$Em = l;
+			let f = u.fromAttribute(o, e.type);
+			this[l] = f ?? this._$Ej?.get(l) ?? f, this._$Em = null;
+		}
+	}
+	requestUpdate(e, o, s, l = !1, u) {
+		if (e !== void 0) {
+			let f = this.constructor;
+			if (!1 === l && (u = this[e]), s ??= f.getPropertyOptions(e), !((s.hasChanged ?? w)(u, o) || s.useDefault && s.reflect && u === this._$Ej?.get(e) && !this.hasAttribute(f._$Eu(e, s)))) return;
+			this.C(e, o, s);
+		}
+		!1 === this.isUpdatePending && (this._$ES = this._$EP());
+	}
+	C(e, o, { useDefault: s, reflect: l, wrapped: u }, f) {
+		s && !(this._$Ej ??= /* @__PURE__ */ new Map()).has(e) && (this._$Ej.set(e, f ?? o ?? this[e]), !0 !== u || f !== void 0) || (this._$AL.has(e) || (this.hasUpdated || s || (o = void 0), this._$AL.set(e, o)), !0 === l && this._$Em !== e && (this._$Eq ??= /* @__PURE__ */ new Set()).add(e));
+	}
+	async _$EP() {
+		this.isUpdatePending = !0;
+		try {
+			await this._$ES;
+		} catch (e) {
+			Promise.reject(e);
+		}
+		let e = this.scheduleUpdate();
+		return e != null && await e, !this.isUpdatePending;
+	}
+	scheduleUpdate() {
+		return this.performUpdate();
+	}
+	performUpdate() {
+		if (!this.isUpdatePending) return;
+		if (!this.hasUpdated) {
+			if (this.renderRoot ??= this.createRenderRoot(), this._$Ep) {
+				for (let [e, o] of this._$Ep) this[e] = o;
+				this._$Ep = void 0;
+			}
+			let e = this.constructor.elementProperties;
+			if (e.size > 0) for (let [o, s] of e) {
+				let { wrapped: e } = s, l = this[o];
+				!0 !== e || this._$AL.has(o) || l === void 0 || this.C(o, void 0, s, l);
+			}
+		}
+		let e = !1, o = this._$AL;
+		try {
+			e = this.shouldUpdate(o), e ? (this.willUpdate(o), this._$EO?.forEach((e) => e.hostUpdate?.()), this.update(o)) : this._$EM();
+		} catch (o) {
+			throw e = !1, this._$EM(), o;
+		}
+		e && this._$AE(o);
+	}
+	willUpdate(e) {}
+	_$AE(e) {
+		this._$EO?.forEach((e) => e.hostUpdated?.()), this.hasUpdated || (this.hasUpdated = !0, this.firstUpdated(e)), this.updated(e);
+	}
+	_$EM() {
+		this._$AL = /* @__PURE__ */ new Map(), this.isUpdatePending = !1;
+	}
+	get updateComplete() {
+		return this.getUpdateComplete();
+	}
+	getUpdateComplete() {
+		return this._$ES;
+	}
+	shouldUpdate(e) {
+		return !0;
+	}
+	update(e) {
+		this._$Eq &&= this._$Eq.forEach((e) => this._$ET(e, this[e])), this._$EM();
+	}
+	updated(e) {}
+	firstUpdated(e) {}
 };
-T.elementStyles = [], T.shadowRootOptions = { mode: "open" }, T[P("elementProperties")] = /* @__PURE__ */ new Map(), T[P("finalized")] = /* @__PURE__ */ new Map(), Pe?.({ ReactiveElement: T }), (B.reactiveElementVersions ??= []).push("2.1.2");
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-const ee = globalThis, ae = /* @__PURE__ */ l((t) => t, "i$1"), j = ee.trustedTypes, le = j ? j.createPolicy("lit-html", { createHTML: /* @__PURE__ */ l((t) => t, "createHTML") }) : void 0, me = "$lit$", _ = `lit$${Math.random().toFixed(9).slice(2)}$`, ve = "?" + _, Le = `<${ve}>`, E = document, O = /* @__PURE__ */ l(() => E.createComment(""), "c"), M = /* @__PURE__ */ l((t) => t === null || typeof t != "object" && typeof t != "function", "a"), te = Array.isArray, Oe = /* @__PURE__ */ l((t) => te(t) || typeof t?.[Symbol.iterator] == "function", "d"), Q = `[ 	
-\f\r]`, D = /<(?:(!--|\/[^a-zA-Z])|(\/?[a-zA-Z][^>\s]*)|(\/?$))/g, ce = /-->/g, de = />/g, S = RegExp(`>|${Q}(?:([^\\s"'>=/]+)(${Q}*=${Q}*(?:[^ 	
-\f\r"'\`<>=]|("|')|))|$)`, "g"), he = /'/g, pe = /"/g, ge = /^(?:script|style|textarea|title)$/i, Me = /* @__PURE__ */ l((t) => (e, ...r) => ({ _$litType$: t, strings: e, values: r }), "x"), a = Me(1), N = Symbol.for("lit-noChange"), d = Symbol.for("lit-nothing"), ue = /* @__PURE__ */ new WeakMap(), C = E.createTreeWalker(E, 129);
-function $e(t, e) {
-  if (!te(t) || !t.hasOwnProperty("raw")) throw Error("invalid template strings array");
-  return le !== void 0 ? le.createHTML(e) : e;
+y$1.elementStyles = [], y$1.shadowRootOptions = { mode: "open" }, y$1[b("elementProperties")] = /* @__PURE__ */ new Map(), y$1[b("finalized")] = /* @__PURE__ */ new Map(), ae?.({ ReactiveElement: y$1 }), (y.reactiveElementVersions ??= []).push("2.1.2");
+// ../../node_modules/.pnpm/lit-html@3.3.3/node_modules/lit-html/lit-html.js
+var T = globalThis, se = /* @__PURE__ */ __name((e) => e, "i"), E = T.trustedTypes, O = E ? E.createPolicy("lit-html", { createHTML: (e) => e }) : void 0, ce = "$lit$", A = `lit$${Math.random().toFixed(9).slice(2)}$`, le = "?" + A, ue = `<${le}>`, j = document, c = () => j.createComment(""), a = (e) => e === null || typeof e != "object" && typeof e != "function", P = Array.isArray, d = (e) => P(e) || typeof e?.[Symbol.iterator] == "function", F = "[ 	\n\f\r]", B = /<(?:(!--|\/[^a-zA-Z])|(\/?[a-zA-Z][^>\s]*)|(\/?$))/g, de = /-->/g, fe = />/g, U = RegExp(`>|${F}(?:([^\\s"'>=/]+)(${F}*=${F}*(?:[^ \t\n\f\r"'\`<>=]|("|')|))|$)`, "g"), pe = /'/g, me = /"/g, he = /^(?:script|style|textarea|title)$/i, x = (e) => (o, ...s) => ({
+	_$litType$: e,
+	strings: o,
+	values: s
+}), W = x(1), G = Symbol.for("lit-noChange"), K = Symbol.for("lit-nothing"), ge = /* @__PURE__ */ new WeakMap(), q = j.createTreeWalker(j, 129);
+function V(e, o) {
+	if (!P(e) || !e.hasOwnProperty("raw")) throw Error("invalid template strings array");
+	return O === void 0 ? o : O.createHTML(o);
 }
-l($e, "V");
-const Re = /* @__PURE__ */ l((t, e) => {
-  const r = t.length - 1, i = [];
-  let s, o = e === 2 ? "<svg>" : e === 3 ? "<math>" : "", n = D;
-  for (let c = 0; c < r; c++) {
-    const h = t[c];
-    let p, u, b = -1, y = 0;
-    for (; y < h.length && (n.lastIndex = y, u = n.exec(h), u !== null); ) y = n.lastIndex, n === D ? u[1] === "!--" ? n = ce : u[1] !== void 0 ? n = de : u[2] !== void 0 ? (ge.test(u[2]) && (s = RegExp("</" + u[2], "g")), n = S) : u[3] !== void 0 && (n = S) : n === S ? u[0] === ">" ? (n = s ?? D, b = -1) : u[1] === void 0 ? b = -2 : (b = n.lastIndex - u[2].length, p = u[1], n = u[3] === void 0 ? S : u[3] === '"' ? pe : he) : n === pe || n === he ? n = S : n === ce || n === de ? n = D : (n = S, s = void 0);
-    const x = n === S && t[c + 1].startsWith("/>") ? " " : "";
-    o += n === D ? h + Le : b >= 0 ? (i.push(p), h.slice(0, b) + me + h.slice(b) + _ + x) : h + _ + (b === -2 ? c : x);
-  }
-  return [$e(t, o + (t[r] || "<?>") + (e === 2 ? "</svg>" : e === 3 ? "</math>" : "")), i];
-}, "N");
-class R {
-  static {
-    l(this, "S");
-  }
-  constructor({ strings: e, _$litType$: r }, i) {
-    let s;
-    this.parts = [];
-    let o = 0, n = 0;
-    const c = e.length - 1, h = this.parts, [p, u] = Re(e, r);
-    if (this.el = R.createElement(p, i), C.currentNode = this.el.content, r === 2 || r === 3) {
-      const b = this.el.content.firstChild;
-      b.replaceWith(...b.childNodes);
-    }
-    for (; (s = C.nextNode()) !== null && h.length < c; ) {
-      if (s.nodeType === 1) {
-        if (s.hasAttributes()) for (const b of s.getAttributeNames()) if (b.endsWith(me)) {
-          const y = u[n++], x = s.getAttribute(b).split(_), U = /([.?@])?(.*)/.exec(y);
-          h.push({ type: 1, index: o, name: U[2], strings: x, ctor: U[1] === "." ? Ue : U[1] === "?" ? qe : U[1] === "@" ? He : V }), s.removeAttribute(b);
-        } else b.startsWith(_) && (h.push({ type: 6, index: o }), s.removeAttribute(b));
-        if (ge.test(s.tagName)) {
-          const b = s.textContent.split(_), y = b.length - 1;
-          if (y > 0) {
-            s.textContent = j ? j.emptyScript : "";
-            for (let x = 0; x < y; x++) s.append(b[x], O()), C.nextNode(), h.push({ type: 2, index: ++o });
-            s.append(b[y], O());
-          }
-        }
-      } else if (s.nodeType === 8) if (s.data === ve) h.push({ type: 2, index: o });
-      else {
-        let b = -1;
-        for (; (b = s.data.indexOf(_, b + 1)) !== -1; ) h.push({ type: 7, index: o }), b += _.length - 1;
-      }
-      o++;
-    }
-  }
-  static createElement(e, r) {
-    const i = E.createElement("template");
-    return i.innerHTML = e, i;
-  }
-}
-function k(t, e, r = t, i) {
-  if (e === N) return e;
-  let s = i !== void 0 ? r._$Co?.[i] : r._$Cl;
-  const o = M(e) ? void 0 : e._$litDirective$;
-  return s?.constructor !== o && (s?._$AO?.(!1), o === void 0 ? s = void 0 : (s = new o(t), s._$AT(t, r, i)), i !== void 0 ? (r._$Co ??= [])[i] = s : r._$Cl = s), s !== void 0 && (e = k(t, s._$AS(t, e.values), s, i)), e;
-}
-l(k, "M");
-class Ie {
-  static {
-    l(this, "R");
-  }
-  constructor(e, r) {
-    this._$AV = [], this._$AN = void 0, this._$AD = e, this._$AM = r;
-  }
-  get parentNode() {
-    return this._$AM.parentNode;
-  }
-  get _$AU() {
-    return this._$AM._$AU;
-  }
-  u(e) {
-    const { el: { content: r }, parts: i } = this._$AD, s = (e?.creationScope ?? E).importNode(r, !0);
-    C.currentNode = s;
-    let o = C.nextNode(), n = 0, c = 0, h = i[0];
-    for (; h !== void 0; ) {
-      if (n === h.index) {
-        let p;
-        h.type === 2 ? p = new I(o, o.nextSibling, this, e) : h.type === 1 ? p = new h.ctor(o, h.name, h.strings, this, e) : h.type === 6 && (p = new je(o, this, e)), this._$AV.push(p), h = i[++c];
-      }
-      n !== h?.index && (o = C.nextNode(), n++);
-    }
-    return C.currentNode = E, s;
-  }
-  p(e) {
-    let r = 0;
-    for (const i of this._$AV) i !== void 0 && (i.strings !== void 0 ? (i._$AI(e, i, r), r += i.strings.length - 2) : i._$AI(e[r])), r++;
-  }
-}
-class I {
-  static {
-    l(this, "k");
-  }
-  get _$AU() {
-    return this._$AM?._$AU ?? this._$Cv;
-  }
-  constructor(e, r, i, s) {
-    this.type = 2, this._$AH = d, this._$AN = void 0, this._$AA = e, this._$AB = r, this._$AM = i, this.options = s, this._$Cv = s?.isConnected ?? !0;
-  }
-  get parentNode() {
-    let e = this._$AA.parentNode;
-    const r = this._$AM;
-    return r !== void 0 && e?.nodeType === 11 && (e = r.parentNode), e;
-  }
-  get startNode() {
-    return this._$AA;
-  }
-  get endNode() {
-    return this._$AB;
-  }
-  _$AI(e, r = this) {
-    e = k(this, e, r), M(e) ? e === d || e == null || e === "" ? (this._$AH !== d && this._$AR(), this._$AH = d) : e !== this._$AH && e !== N && this._(e) : e._$litType$ !== void 0 ? this.$(e) : e.nodeType !== void 0 ? this.T(e) : Oe(e) ? this.k(e) : this._(e);
-  }
-  O(e) {
-    return this._$AA.parentNode.insertBefore(e, this._$AB);
-  }
-  T(e) {
-    this._$AH !== e && (this._$AR(), this._$AH = this.O(e));
-  }
-  _(e) {
-    this._$AH !== d && M(this._$AH) ? this._$AA.nextSibling.data = e : this.T(E.createTextNode(e)), this._$AH = e;
-  }
-  $(e) {
-    const { values: r, _$litType$: i } = e, s = typeof i == "number" ? this._$AC(e) : (i.el === void 0 && (i.el = R.createElement($e(i.h, i.h[0]), this.options)), i);
-    if (this._$AH?._$AD === s) this._$AH.p(r);
-    else {
-      const o = new Ie(s, this), n = o.u(this.options);
-      o.p(r), this.T(n), this._$AH = o;
-    }
-  }
-  _$AC(e) {
-    let r = ue.get(e.strings);
-    return r === void 0 && ue.set(e.strings, r = new R(e)), r;
-  }
-  k(e) {
-    te(this._$AH) || (this._$AH = [], this._$AR());
-    const r = this._$AH;
-    let i, s = 0;
-    for (const o of e) s === r.length ? r.push(i = new I(this.O(O()), this.O(O()), this, this.options)) : i = r[s], i._$AI(o), s++;
-    s < r.length && (this._$AR(i && i._$AB.nextSibling, s), r.length = s);
-  }
-  _$AR(e = this._$AA.nextSibling, r) {
-    for (this._$AP?.(!1, !0, r); e !== this._$AB; ) {
-      const i = ae(e).nextSibling;
-      ae(e).remove(), e = i;
-    }
-  }
-  setConnected(e) {
-    this._$AM === void 0 && (this._$Cv = e, this._$AP?.(e));
-  }
-}
-class V {
-  static {
-    l(this, "H");
-  }
-  get tagName() {
-    return this.element.tagName;
-  }
-  get _$AU() {
-    return this._$AM._$AU;
-  }
-  constructor(e, r, i, s, o) {
-    this.type = 1, this._$AH = d, this._$AN = void 0, this.element = e, this.name = r, this._$AM = s, this.options = o, i.length > 2 || i[0] !== "" || i[1] !== "" ? (this._$AH = Array(i.length - 1).fill(new String()), this.strings = i) : this._$AH = d;
-  }
-  _$AI(e, r = this, i, s) {
-    const o = this.strings;
-    let n = !1;
-    if (o === void 0) e = k(this, e, r, 0), n = !M(e) || e !== this._$AH && e !== N, n && (this._$AH = e);
-    else {
-      const c = e;
-      let h, p;
-      for (e = o[0], h = 0; h < o.length - 1; h++) p = k(this, c[i + h], r, h), p === N && (p = this._$AH[h]), n ||= !M(p) || p !== this._$AH[h], p === d ? e = d : e !== d && (e += (p ?? "") + o[h + 1]), this._$AH[h] = p;
-    }
-    n && !s && this.j(e);
-  }
-  j(e) {
-    e === d ? this.element.removeAttribute(this.name) : this.element.setAttribute(this.name, e ?? "");
-  }
-}
-class Ue extends V {
-  static {
-    l(this, "I");
-  }
-  constructor() {
-    super(...arguments), this.type = 3;
-  }
-  j(e) {
-    this.element[this.name] = e === d ? void 0 : e;
-  }
-}
-class qe extends V {
-  static {
-    l(this, "L");
-  }
-  constructor() {
-    super(...arguments), this.type = 4;
-  }
-  j(e) {
-    this.element.toggleAttribute(this.name, !!e && e !== d);
-  }
-}
-class He extends V {
-  static {
-    l(this, "z");
-  }
-  constructor(e, r, i, s, o) {
-    super(e, r, i, s, o), this.type = 5;
-  }
-  _$AI(e, r = this) {
-    if ((e = k(this, e, r, 0) ?? d) === N) return;
-    const i = this._$AH, s = e === d && i !== d || e.capture !== i.capture || e.once !== i.once || e.passive !== i.passive, o = e !== d && (i === d || s);
-    s && this.element.removeEventListener(this.name, this, i), o && this.element.addEventListener(this.name, this, e), this._$AH = e;
-  }
-  handleEvent(e) {
-    typeof this._$AH == "function" ? this._$AH.call(this.options?.host ?? this.element, e) : this._$AH.handleEvent(e);
-  }
-}
-class je {
-  static {
-    l(this, "Z");
-  }
-  constructor(e, r, i) {
-    this.element = e, this.type = 6, this._$AN = void 0, this._$AM = r, this.options = i;
-  }
-  get _$AU() {
-    return this._$AM._$AU;
-  }
-  _$AI(e) {
-    k(this, e);
-  }
-}
-const Fe = ee.litHtmlPolyfillSupport;
-Fe?.(R, I), (ee.litHtmlVersions ??= []).push("3.3.2");
-const Be = /* @__PURE__ */ l((t, e, r) => {
-  const i = r?.renderBefore ?? e;
-  let s = i._$litPart$;
-  if (s === void 0) {
-    const o = r?.renderBefore ?? null;
-    i._$litPart$ = s = new I(e.insertBefore(O(), o), o, void 0, r ?? {});
-  }
-  return s._$AI(t), s;
-}, "D");
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-const re = globalThis;
-class L extends T {
-  static {
-    l(this, "i");
-  }
-  constructor() {
-    super(...arguments), this.renderOptions = { host: this }, this._$Do = void 0;
-  }
-  createRenderRoot() {
-    const e = super.createRenderRoot();
-    return this.renderOptions.renderBefore ??= e.firstChild, e;
-  }
-  update(e) {
-    const r = this.render();
-    this.hasUpdated || (this.renderOptions.isConnected = this.isConnected), super.update(e), this._$Do = Be(r, this.renderRoot, this.renderOptions);
-  }
-  connectedCallback() {
-    super.connectedCallback(), this._$Do?.setConnected(!0);
-  }
-  disconnectedCallback() {
-    super.disconnectedCallback(), this._$Do?.setConnected(!1);
-  }
-  render() {
-    return N;
-  }
-}
-L._$litElement$ = !0, L.finalized = !0, re.litElementHydrateSupport?.({ LitElement: L });
-const Ve = re.litElementPolyfillSupport;
-Ve?.({ LitElement: L });
-(re.litElementVersions ??= []).push("4.2.2");
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-const We = /* @__PURE__ */ l((t) => (e, r) => {
-  r !== void 0 ? r.addInitializer(() => {
-    customElements.define(t, e);
-  }) : customElements.define(t, e);
-}, "t");
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-const Ge = { attribute: !0, type: String, converter: H, reflect: !1, hasChanged: K }, Ye = /* @__PURE__ */ l((t = Ge, e, r) => {
-  const { kind: i, metadata: s } = r;
-  let o = globalThis.litPropertyMetadata.get(s);
-  if (o === void 0 && globalThis.litPropertyMetadata.set(s, o = /* @__PURE__ */ new Map()), i === "setter" && ((t = Object.create(t)).wrapped = !0), o.set(r.name, t), i === "accessor") {
-    const { name: n } = r;
-    return { set(c) {
-      const h = e.get.call(this);
-      e.set.call(this, c), this.requestUpdate(n, h, t, !0, c);
-    }, init(c) {
-      return c !== void 0 && this.C(n, void 0, t, c), c;
-    } };
-  }
-  if (i === "setter") {
-    const { name: n } = r;
-    return function(c) {
-      const h = this[n];
-      e.call(this, c), this.requestUpdate(n, h, t, !0, c);
-    };
-  }
-  throw Error("Unsupported decorator location: " + i);
-}, "r$1");
-function f(t) {
-  return (e, r) => typeof r == "object" ? Ye(t, e, r) : ((i, s, o) => {
-    const n = s.hasOwnProperty(o);
-    return s.constructor.createProperty(o, i), n ? Object.getOwnPropertyDescriptor(s, o) : void 0;
-  })(t, e, r);
-}
-l(f, "n");
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-function A(t) {
-  return f({ ...t, state: !0, attribute: !1 });
-}
-l(A, "r");
-const F = /* @__PURE__ */ new Map(), Je = 300 * 1e3;
-function Qe(t) {
-  const e = /* @__PURE__ */ new Map(), r = /* @__PURE__ */ new Map();
-  for (const o of t)
-    if (e.set(o.iri, o), o.broader)
-      for (const n of o.broader) {
-        const c = r.get(n) || [];
-        c.push(o.iri), r.set(n, c);
-      }
-  const i = t.filter(
-    (o) => !o.broader || o.broader.length === 0 || o.broader.every((n) => !e.has(n))
-  );
-  function s(o) {
-    const n = e.get(o);
-    if (!n) return null;
-    const h = (r.get(o) || []).map((p) => s(p)).filter((p) => p !== null).sort((p, u) => p.label.localeCompare(u.label));
-    return {
-      iri: n.iri,
-      label: n.label,
-      notation: n.notation,
-      description: n.description,
-      children: h
-    };
-  }
-  return l(s, "buildNode"), i.map((o) => s(o.iri)).filter((o) => o !== null).sort((o, n) => o.label.localeCompare(n.label));
-}
-l(Qe, "buildTree");
-function Xe(t, e) {
-  const r = t["@graph"] || [], i = r[0], s = i?.scheme || e, o = i?.schemeLabel || "Vocabulary", n = /* @__PURE__ */ new Map();
-  for (const p of r)
-    if (p.broader) {
-      const u = n.get(p.broader) || [];
-      u.push(p.iri), n.set(p.broader, u);
-    }
-  const c = r.map((p) => ({
-    iri: p.iri,
-    label: p.prefLabel,
-    notation: p.notation,
-    description: p.definition,
-    // Will be prez:description when export is updated
-    altLabels: p.altLabels,
-    broader: p.broader ? [p.broader] : void 0,
-    narrower: n.get(p.iri)
-  })), h = Qe(c);
-  return {
-    iri: s,
-    label: o,
-    description: "",
-    concepts: c,
-    tree: h
-  };
-}
-l(Xe, "transformListJson");
-async function Ze(t) {
-  const e = F.get(t);
-  if (e && Date.now() - e.timestamp < Je)
-    return e.data;
-  const r = await fetch(t);
-  if (!r.ok)
-    throw new Error(`Failed to fetch vocabulary: ${r.status} ${r.statusText}`);
-  const i = await r.json();
-  let s;
-  if (i["@graph"])
-    s = Xe(i, t);
-  else if (i.concepts && Array.isArray(i.concepts))
-    s = i;
-  else
-    throw new Error("Invalid vocabulary format: unrecognized structure");
-  return F.set(t, { data: s, timestamp: Date.now() }), s;
-}
-l(Ze, "fetchVocab");
-function bt(t) {
-  t ? F.delete(t) : F.clear();
-}
-l(bt, "clearCache");
-function Ke() {
-  const t = document.querySelectorAll('script[src*="prez-vocab"], script[src*="prez-lite"]');
-  if (t.length > 0) {
-    const e = t[t.length - 1].src, r = new URL(e), i = r.pathname.split("/");
-    return i.pop(), i.pop(), r.pathname = i.join("/") || "/", r.origin + r.pathname.replace(/\/$/, "");
-  }
-  return null;
-}
-l(Ke, "detectBaseUrl");
-function et(t, e, r) {
-  if (e) return e;
-  if (!t) return null;
-  const i = r || Ke();
-  return i ? `${i}/export/vocabs/${t}/${t}-concepts.json` : null;
-}
-l(et, "resolveVocabUrl");
-const tt = [
-  "http://www.w3.org/2004/02/skos/core#prefLabel",
-  "http://purl.org/dc/terms/title",
-  "http://www.w3.org/2000/01/rdf-schema#label"
-], rt = [
-  "http://www.w3.org/2004/02/skos/core#definition",
-  "http://purl.org/dc/terms/description"
-], we = {
-  "http://www.w3.org/2004/02/skos/core#": "skos:",
-  "http://purl.org/dc/terms/": "dcterms:",
-  "http://www.w3.org/2000/01/rdf-schema#": "rdfs:",
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": "rdf:"
+var N = (e, o) => {
+	let s = e.length - 1, l = [], u, f = o === 2 ? "<svg>" : o === 3 ? "<math>" : "", p = B;
+	for (let o = 0; o < s; o++) {
+		let s = e[o], m, h, g = -1, _ = 0;
+		for (; _ < s.length && (p.lastIndex = _, h = p.exec(s), h !== null);) _ = p.lastIndex, p === B ? h[1] === "!--" ? p = de : h[1] === void 0 ? h[2] === void 0 ? h[3] !== void 0 && (p = U) : (he.test(h[2]) && (u = RegExp("</" + h[2], "g")), p = U) : p = fe : p === U ? h[0] === ">" ? (p = u ?? B, g = -1) : h[1] === void 0 ? g = -2 : (g = p.lastIndex - h[2].length, m = h[1], p = h[3] === void 0 ? U : h[3] === "\"" ? me : pe) : p === me || p === pe ? p = U : p === de || p === fe ? p = B : (p = U, u = void 0);
+		let v = p === U && e[o + 1].startsWith("/>") ? " " : "";
+		f += p === B ? s + ue : g >= 0 ? (l.push(m), s.slice(0, g) + ce + s.slice(g) + A + v) : s + A + (g === -2 ? o : v);
+	}
+	return [V(e, f + (e[s] || "<?>") + (o === 2 ? "</svg>" : o === 3 ? "</math>" : "")), l];
+}, J = class S {
+	constructor({ strings: e, _$litType$: o }, s) {
+		let l;
+		this.parts = [];
+		let u = 0, f = 0, p = e.length - 1, m = this.parts, [h, g] = N(e, o);
+		if (this.el = S.createElement(h, s), q.currentNode = this.el.content, o === 2 || o === 3) {
+			let e = this.el.content.firstChild;
+			e.replaceWith(...e.childNodes);
+		}
+		for (; (l = q.nextNode()) !== null && m.length < p;) {
+			if (l.nodeType === 1) {
+				if (l.hasAttributes()) for (let e of l.getAttributeNames()) if (e.endsWith(ce)) {
+					let o = g[f++], s = l.getAttribute(e).split(A), p = /([.?@])?(.*)/.exec(o);
+					m.push({
+						type: 1,
+						index: u,
+						name: p[2],
+						strings: s,
+						ctor: p[1] === "." ? I : p[1] === "?" ? L : p[1] === "@" ? z : H
+					}), l.removeAttribute(e);
+				} else e.startsWith(A) && (m.push({
+					type: 6,
+					index: u
+				}), l.removeAttribute(e));
+				if (he.test(l.tagName)) {
+					let e = l.textContent.split(A), o = e.length - 1;
+					if (o > 0) {
+						l.textContent = E ? E.emptyScript : "";
+						for (let s = 0; s < o; s++) l.append(e[s], c()), q.nextNode(), m.push({
+							type: 2,
+							index: ++u
+						});
+						l.append(e[o], c());
+					}
+				}
+			} else if (l.nodeType === 8) {
+				if (l.data === le) m.push({
+					type: 2,
+					index: u
+				});
+				else {
+					let e = -1;
+					for (; (e = l.data.indexOf(A, e + 1)) !== -1;) m.push({
+						type: 7,
+						index: u
+					}), e += A.length - 1;
+				}
+			}
+			u++;
+		}
+	}
+	static createElement(e, o) {
+		let s = j.createElement("template");
+		return s.innerHTML = e, s;
+	}
 };
-function it(t) {
-  for (const [e, r] of Object.entries(we))
-    if (t.startsWith(e))
-      return r + t.slice(e.length);
-  return `<${t}>`;
+function M(e, o, s = e, l) {
+	if (o === G) return o;
+	let u = l === void 0 ? s._$Cl : s._$Co?.[l], f = a(o) ? void 0 : o._$litDirective$;
+	return u?.constructor !== f && (u?._$AO?.(!1), f === void 0 ? u = void 0 : (u = new f(e), u._$AT(e, s, l)), l === void 0 ? s._$Cl = u : (s._$Co ??= [])[l] = u), u !== void 0 && (o = M(e, u._$AS(e, o.values), u, l)), o;
 }
-l(it, "prefixed");
-function W(t) {
-  const e = /* @__PURE__ */ new Set();
-  for (const r of t)
-    for (const [i, s] of Object.entries(we))
-      r.startsWith(i) && e.add(`PREFIX ${s.slice(0, -1)}: <${i}>`);
-  return e.add("PREFIX skos: <http://www.w3.org/2004/02/skos/core#>"), [...e].join(`
-`);
+var R = class {
+	constructor(e, o) {
+		this._$AV = [], this._$AN = void 0, this._$AD = e, this._$AM = o;
+	}
+	get parentNode() {
+		return this._$AM.parentNode;
+	}
+	get _$AU() {
+		return this._$AM._$AU;
+	}
+	u(e) {
+		let { el: { content: o }, parts: s } = this._$AD, l = (e?.creationScope ?? j).importNode(o, !0);
+		q.currentNode = l;
+		let u = q.nextNode(), f = 0, p = 0, m = s[0];
+		for (; m !== void 0;) {
+			if (f === m.index) {
+				let o;
+				m.type === 2 ? o = new Y(u, u.nextSibling, this, e) : m.type === 1 ? o = new m.ctor(u, m.name, m.strings, this, e) : m.type === 6 && (o = new Z(u, this, e)), this._$AV.push(o), m = s[++p];
+			}
+			f !== m?.index && (u = q.nextNode(), f++);
+		}
+		return q.currentNode = j, l;
+	}
+	p(e) {
+		let o = 0;
+		for (let s of this._$AV) s !== void 0 && (s.strings === void 0 ? s._$AI(e[o]) : (s._$AI(e, s, o), o += s.strings.length - 2)), o++;
+	}
+}, Y = class k {
+	get _$AU() {
+		return this._$AM?._$AU ?? this._$Cv;
+	}
+	constructor(e, o, s, l) {
+		this.type = 2, this._$AH = K, this._$AN = void 0, this._$AA = e, this._$AB = o, this._$AM = s, this.options = l, this._$Cv = l?.isConnected ?? !0;
+	}
+	get parentNode() {
+		let e = this._$AA.parentNode, o = this._$AM;
+		return o !== void 0 && e?.nodeType === 11 && (e = o.parentNode), e;
+	}
+	get startNode() {
+		return this._$AA;
+	}
+	get endNode() {
+		return this._$AB;
+	}
+	_$AI(e, o = this) {
+		e = M(this, e, o), a(e) ? e === K || e == null || e === "" ? (this._$AH !== K && this._$AR(), this._$AH = K) : e !== this._$AH && e !== G && this._(e) : e._$litType$ === void 0 ? e.nodeType === void 0 ? d(e) ? this.k(e) : this._(e) : this.T(e) : this.$(e);
+	}
+	O(e) {
+		return this._$AA.parentNode.insertBefore(e, this._$AB);
+	}
+	T(e) {
+		this._$AH !== e && (this._$AR(), this._$AH = this.O(e));
+	}
+	_(e) {
+		this._$AH !== K && a(this._$AH) ? this._$AA.nextSibling.data = e : this.T(j.createTextNode(e)), this._$AH = e;
+	}
+	$(e) {
+		let { values: o, _$litType$: s } = e, l = typeof s == "number" ? this._$AC(e) : (s.el === void 0 && (s.el = J.createElement(V(s.h, s.h[0]), this.options)), s);
+		if (this._$AH?._$AD === l) this._$AH.p(o);
+		else {
+			let e = new R(l, this), s = e.u(this.options);
+			e.p(o), this.T(s), this._$AH = e;
+		}
+	}
+	_$AC(e) {
+		let o = ge.get(e.strings);
+		return o === void 0 && ge.set(e.strings, o = new J(e)), o;
+	}
+	k(e) {
+		P(this._$AH) || (this._$AH = [], this._$AR());
+		let o = this._$AH, s, l = 0;
+		for (let u of e) l === o.length ? o.push(s = new k(this.O(c()), this.O(c()), this, this.options)) : s = o[l], s._$AI(u), l++;
+		l < o.length && (this._$AR(s && s._$AB.nextSibling, l), o.length = l);
+	}
+	_$AR(e = this._$AA.nextSibling, o) {
+		for (this._$AP?.(!1, !0, o); e !== this._$AB;) {
+			let o = se(e).nextSibling;
+			se(e).remove(), e = o;
+		}
+	}
+	setConnected(e) {
+		this._$AM === void 0 && (this._$Cv = e, this._$AP?.(e));
+	}
+}, H = class {
+	get tagName() {
+		return this.element.tagName;
+	}
+	get _$AU() {
+		return this._$AM._$AU;
+	}
+	constructor(e, o, s, l, u) {
+		this.type = 1, this._$AH = K, this._$AN = void 0, this.element = e, this.name = o, this._$AM = l, this.options = u, s.length > 2 || s[0] !== "" || s[1] !== "" ? (this._$AH = Array(s.length - 1).fill(/* @__PURE__ */ new String()), this.strings = s) : this._$AH = K;
+	}
+	_$AI(e, o = this, s, l) {
+		let u = this.strings, f = !1;
+		if (u === void 0) e = M(this, e, o, 0), f = !a(e) || e !== this._$AH && e !== G, f && (this._$AH = e);
+		else {
+			let l = e, p, m;
+			for (e = u[0], p = 0; p < u.length - 1; p++) m = M(this, l[s + p], o, p), m === G && (m = this._$AH[p]), f ||= !a(m) || m !== this._$AH[p], m === K ? e = K : e !== K && (e += (m ?? "") + u[p + 1]), this._$AH[p] = m;
+		}
+		f && !l && this.j(e);
+	}
+	j(e) {
+		e === K ? this.element.removeAttribute(this.name) : this.element.setAttribute(this.name, e ?? "");
+	}
+}, I = class extends H {
+	constructor() {
+		super(...arguments), this.type = 3;
+	}
+	j(e) {
+		this.element[this.name] = e === K ? void 0 : e;
+	}
+}, L = class extends H {
+	constructor() {
+		super(...arguments), this.type = 4;
+	}
+	j(e) {
+		this.element.toggleAttribute(this.name, !!e && e !== K);
+	}
+}, z = class extends H {
+	constructor(e, o, s, l, u) {
+		super(e, o, s, l, u), this.type = 5;
+	}
+	_$AI(e, o = this) {
+		if ((e = M(this, e, o, 0) ?? K) === G) return;
+		let s = this._$AH, l = e === K && s !== K || e.capture !== s.capture || e.once !== s.once || e.passive !== s.passive, u = e !== K && (s === K || l);
+		l && this.element.removeEventListener(this.name, this, s), u && this.element.addEventListener(this.name, this, e), this._$AH = e;
+	}
+	handleEvent(e) {
+		typeof this._$AH == "function" ? this._$AH.call(this.options?.host ?? this.element, e) : this._$AH.handleEvent(e);
+	}
+}, Z = class {
+	constructor(e, o, s) {
+		this.element = e, this.type = 6, this._$AN = void 0, this._$AM = o, this.options = s;
+	}
+	get _$AU() {
+		return this._$AM._$AU;
+	}
+	_$AI(e) {
+		M(this, e);
+	}
+}, _e = T.litHtmlPolyfillSupport;
+_e?.(J, Y), (T.litHtmlVersions ??= []).push("3.3.3");
+var D = (e, o, s) => {
+	let l = s?.renderBefore ?? o, u = l._$litPart$;
+	if (u === void 0) {
+		let e = s?.renderBefore ?? null;
+		l._$litPart$ = u = new Y(o.insertBefore(c(), e), e, void 0, s ?? {});
+	}
+	return u._$AI(e), u;
+}, X = globalThis, i = class extends y$1 {
+	constructor() {
+		super(...arguments), this.renderOptions = { host: this }, this._$Do = void 0;
+	}
+	createRenderRoot() {
+		let e = super.createRenderRoot();
+		return this.renderOptions.renderBefore ??= e.firstChild, e;
+	}
+	update(e) {
+		let o = this.render();
+		this.hasUpdated || (this.renderOptions.isConnected = this.isConnected), super.update(e), this._$Do = D(o, this.renderRoot, this.renderOptions);
+	}
+	connectedCallback() {
+		super.connectedCallback(), this._$Do?.setConnected(!0);
+	}
+	disconnectedCallback() {
+		super.disconnectedCallback(), this._$Do?.setConnected(!1);
+	}
+	render() {
+		return G;
+	}
+};
+i._$litElement$ = !0, i.finalized = !0, X.litElementHydrateSupport?.({ LitElement: i });
+var ve = X.litElementPolyfillSupport;
+ve?.({ LitElement: i }), (X.litElementVersions ??= []).push("4.2.2");
+// ../../node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/decorators/custom-element.js
+var t = (e) => (o, s) => {
+	s === void 0 ? customElements.define(e, o) : s.addInitializer(() => {
+		customElements.define(e, o);
+	});
+}, ye = {
+	attribute: !0,
+	type: String,
+	converter: C,
+	reflect: !1,
+	hasChanged: w
+}, be = /* @__PURE__ */ __name((e = ye, o, s) => {
+	let { kind: l, metadata: u } = s, f = globalThis.litPropertyMetadata.get(u);
+	if (f === void 0 && globalThis.litPropertyMetadata.set(u, f = /* @__PURE__ */ new Map()), l === "setter" && ((e = Object.create(e)).wrapped = !0), f.set(s.name, e), l === "accessor") {
+		let { name: l } = s;
+		return {
+			set(s) {
+				let u = o.get.call(this);
+				o.set.call(this, s), this.requestUpdate(l, u, e, !0, s);
+			},
+			init(o) {
+				return o !== void 0 && this.C(l, void 0, e, o), o;
+			}
+		};
+	}
+	if (l === "setter") {
+		let { name: l } = s;
+		return function(s) {
+			let u = this[l];
+			o.call(this, s), this.requestUpdate(l, u, e, !0, s);
+		};
+	}
+	throw Error("Unsupported decorator location: " + l);
+}, "r");
+function n(e) {
+	return (o, s) => typeof s == "object" ? be(e, o, s) : ((e, o, s) => {
+		let l = o.hasOwnProperty(s);
+		return o.constructor.createProperty(s, e), l ? Object.getOwnPropertyDescriptor(o, s) : void 0;
+	})(e, o, s);
 }
-l(W, "prefixDeclarations");
-function z(t, e, r, i) {
-  const s = [], o = [];
-  e.forEach((c, h) => {
-    const p = `?_${r}${h + 1}`;
-    o.push(p);
-    const u = i ? ` . FILTER(LANG(${p}) = "" || LANG(${p}) = "en")` : "";
-    s.push(`  OPTIONAL { ${t} ${it(c)} ${p}${u} }`);
-  });
-  const n = `  BIND(COALESCE(${o.join(", ")}) AS ?${r})`;
-  return [...s, n].join(`
-`);
+// ../../node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/decorators/state.js
+function r(e) {
+	return n({
+		...e,
+		state: !0,
+		attribute: !1
+	});
 }
-l(z, "buildPredicateResolution");
-function G(t, e) {
-  return e ? `  GRAPH <${e}> {
-${t}
-  }` : t;
+// src/utils/fetch-vocab.ts
+var Q = /* @__PURE__ */ new Map(), xe = 3e5;
+function buildTree(e) {
+	let o = /* @__PURE__ */ new Map(), s = /* @__PURE__ */ new Map();
+	for (let l of e) if (o.set(l.iri, l), l.broader) for (let e of l.broader) {
+		let o = s.get(e) || [];
+		o.push(l.iri), s.set(e, o);
+	}
+	let l = e.filter((e) => !e.broader || e.broader.length === 0 || e.broader.every((e) => !o.has(e)));
+	function buildNode(e) {
+		let l = o.get(e);
+		if (!l) return null;
+		let u = (s.get(e) || []).map((e) => buildNode(e)).filter((e) => e !== null).sort((e, o) => e.label.localeCompare(o.label));
+		return {
+			iri: l.iri,
+			label: l.label,
+			notation: l.notation,
+			description: l.description,
+			children: u
+		};
+	}
+	return l.map((e) => buildNode(e.iri)).filter((e) => e !== null).sort((e, o) => e.label.localeCompare(o.label));
 }
-l(G, "wrapGraph");
-async function Y(t, e, r = 1e4) {
-  const i = new AbortController(), s = setTimeout(() => i.abort(), r);
-  try {
-    const o = await fetch(t, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        Accept: "application/sparql-results+json"
-      },
-      body: `query=${encodeURIComponent(e)}`,
-      signal: i.signal
-    });
-    if (!o.ok)
-      throw new Error(`SPARQL query failed: ${o.status} ${o.statusText}`);
-    return await o.json();
-  } catch (o) {
-    throw o instanceof DOMException && o.name === "AbortError" ? new Error(`SPARQL query timed out after ${r}ms`) : o;
-  } finally {
-    clearTimeout(s);
-  }
+function transformListJson(e, o) {
+	let s = e["@graph"] || [], l = s[0], u = l?.scheme || o, f = l?.schemeLabel || "Vocabulary", p = /* @__PURE__ */ new Map();
+	for (let e of s) if (e.broader) {
+		let o = p.get(e.broader) || [];
+		o.push(e.iri), p.set(e.broader, o);
+	}
+	let m = s.map((e) => ({
+		iri: e.iri,
+		label: e.prefLabel,
+		notation: e.notation,
+		description: e.definition,
+		altLabels: e.altLabels,
+		broader: e.broader ? [e.broader] : void 0,
+		narrower: p.get(e.iri)
+	}));
+	return {
+		iri: u,
+		label: f,
+		description: "",
+		concepts: m,
+		tree: buildTree(m)
+	};
 }
-l(Y, "executeSparql");
-function w(t, e) {
-  return t[e]?.value;
+async function fetchVocab(e) {
+	let o = Q.get(e);
+	if (o && Date.now() - o.timestamp < xe) return o.data;
+	let s = await fetch(e);
+	if (!s.ok) throw Error(`Failed to fetch vocabulary: ${s.status} ${s.statusText}`);
+	let l = await s.json(), u;
+	if (l["@graph"]) u = transformListJson(l, e);
+	else if (l.concepts && Array.isArray(l.concepts)) u = l;
+	else throw Error("Invalid vocabulary format: unrecognized structure");
+	return Q.set(e, {
+		data: u,
+		timestamp: Date.now()
+	}), u;
 }
-l(w, "getVal");
-function st(t, e) {
-  const r = t[e]?.value;
-  return r ? parseInt(r, 10) : 0;
+function clearCache(e) {
+	e ? Q.delete(e) : Q.clear();
 }
-l(st, "getCount");
-function ye(t) {
-  return t.map((e) => ({
-    iri: w(e, "concept"),
-    label: w(e, "label") || w(e, "concept").split(/[#/]/).pop() || "",
-    notation: w(e, "notation"),
-    description: w(e, "definition"),
-    children: [],
-    hasChildren: st(e, "childCount") > 0,
-    childrenLoaded: !1,
-    loading: !1
-  }));
+// src/utils/base-url.ts
+function detectBaseUrl() {
+	let e = document.querySelectorAll("script[src*=\"prez-vocab\"], script[src*=\"prez-lite\"]");
+	if (e.length > 0) {
+		let o = e[e.length - 1].src, s = new URL(o), l = s.pathname.split("/");
+		return l.pop(), l.pop(), s.pathname = l.join("/") || "/", s.origin + s.pathname.replace(/\/$/, "");
+	}
+	return null;
 }
-l(ye, "bindingsToNodes");
-function J(t) {
-  return {
-    labels: t.labelPredicates ?? tt,
-    descriptions: t.descriptionPredicates ?? rt
-  };
+function resolveVocabUrl(e, o, s) {
+	if (o) return o;
+	if (!e) return null;
+	let l = s || detectBaseUrl();
+	return l ? `${l}/export/vocabs/${e}/${e}-concepts.json` : null;
 }
-l(J, "resolvePredicates");
-async function ot(t) {
-  const { labels: e, descriptions: r } = J(t), i = [...e, ...r], s = [
-    `    ?concept skos:topConceptOf <${t.schemeIri}> .`,
-    z("?concept", e, "label", !0),
-    "    OPTIONAL { ?concept skos:notation ?notation }",
-    z("?concept", r, "definition", !1),
-    "    OPTIONAL { ?child skos:broader ?concept }"
-  ].join(`
-`), o = `${W(i)}
+// src/utils/sparql-fetch.ts
+var Se = [
+	"http://www.w3.org/2004/02/skos/core#prefLabel",
+	"http://purl.org/dc/terms/title",
+	"http://www.w3.org/2000/01/rdf-schema#label"
+], Ce = ["http://www.w3.org/2004/02/skos/core#definition", "http://purl.org/dc/terms/description"], we = {
+	"http://www.w3.org/2004/02/skos/core#": "skos:",
+	"http://purl.org/dc/terms/": "dcterms:",
+	"http://www.w3.org/2000/01/rdf-schema#": "rdfs:",
+	"http://www.w3.org/1999/02/22-rdf-syntax-ns#": "rdf:"
+};
+function prefixed(e) {
+	for (let [o, s] of Object.entries(we)) if (e.startsWith(o)) return s + e.slice(o.length);
+	return `<${e}>`;
+}
+function prefixDeclarations(e) {
+	let o = /* @__PURE__ */ new Set();
+	for (let s of e) for (let [e, l] of Object.entries(we)) s.startsWith(e) && o.add(`PREFIX ${l.slice(0, -1)}: <${e}>`);
+	return o.add("PREFIX skos: <http://www.w3.org/2004/02/skos/core#>"), [...o].join("\n");
+}
+function buildPredicateResolution(e, o, s, l) {
+	let u = [], f = [];
+	o.forEach((o, p) => {
+		let m = `?_${s}${p + 1}`;
+		f.push(m);
+		let h = l ? ` . FILTER(LANG(${m}) = "" || LANG(${m}) = "en")` : "";
+		u.push(`  OPTIONAL { ${e} ${prefixed(o)} ${m}${h} }`);
+	});
+	let p = `  BIND(COALESCE(${f.join(", ")}) AS ?${s})`;
+	return [...u, p].join("\n");
+}
+function wrapGraph(e, o) {
+	return o ? `  GRAPH <${o}> {\n${e}\n  }` : e;
+}
+async function executeSparql(e, o, s = 1e4) {
+	let l = new AbortController(), u = setTimeout(() => l.abort(), s);
+	try {
+		let s = await fetch(e, {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/x-www-form-urlencoded",
+				Accept: "application/sparql-results+json"
+			},
+			body: `query=${encodeURIComponent(o)}`,
+			signal: l.signal
+		});
+		if (!s.ok) throw Error(`SPARQL query failed: ${s.status} ${s.statusText}`);
+		return await s.json();
+	} catch (e) {
+		throw e instanceof DOMException && e.name === "AbortError" ? Error(`SPARQL query timed out after ${s}ms`) : e;
+	} finally {
+		clearTimeout(u);
+	}
+}
+function getVal(e, o) {
+	return e[o]?.value;
+}
+function getCount(e, o) {
+	let s = e[o]?.value;
+	return s ? parseInt(s, 10) : 0;
+}
+function bindingsToNodes(e) {
+	return e.map((e) => ({
+		iri: getVal(e, "concept"),
+		label: getVal(e, "label") || getVal(e, "concept").split(/[#/]/).pop() || "",
+		notation: getVal(e, "notation"),
+		description: getVal(e, "definition"),
+		children: [],
+		hasChildren: getCount(e, "childCount") > 0,
+		childrenLoaded: !1,
+		loading: !1
+	}));
+}
+function resolvePredicates(e) {
+	return {
+		labels: e.labelPredicates ?? Se,
+		descriptions: e.descriptionPredicates ?? Ce
+	};
+}
+async function fetchTopConcepts(e) {
+	let { labels: o, descriptions: s } = resolvePredicates(e), l = [...o, ...s], u = [
+		`    ?concept skos:topConceptOf <${e.schemeIri}> .`,
+		buildPredicateResolution("?concept", o, "label", !0),
+		"    OPTIONAL { ?concept skos:notation ?notation }",
+		buildPredicateResolution("?concept", s, "definition", !1),
+		"    OPTIONAL { ?child skos:broader ?concept }"
+	].join("\n"), f = `${prefixDeclarations(l)}
 
 SELECT ?concept ?label ?notation ?definition (COUNT(?child) AS ?childCount)
 WHERE {
-${G(s, t.namedGraph)}
+${wrapGraph(u, e.namedGraph)}
 }
 GROUP BY ?concept ?label ?notation ?definition
-ORDER BY ?label`, n = await Y(t.endpoint, o, t.timeout);
-  return ye(n.results.bindings);
+ORDER BY ?label`;
+	return bindingsToNodes((await executeSparql(e.endpoint, f, e.timeout)).results.bindings);
 }
-l(ot, "fetchTopConcepts");
-async function nt(t, e) {
-  const { labels: r, descriptions: i } = J(t), s = [...r, ...i], o = [
-    `    ?concept skos:broader <${e}> .`,
-    z("?concept", r, "label", !0),
-    "    OPTIONAL { ?concept skos:notation ?notation }",
-    z("?concept", i, "definition", !1),
-    "    OPTIONAL { ?child skos:broader ?concept }"
-  ].join(`
-`), n = `${W(s)}
+async function fetchNarrowerConcepts(e, o) {
+	let { labels: s, descriptions: l } = resolvePredicates(e), u = [...s, ...l], f = [
+		`    ?concept skos:broader <${o}> .`,
+		buildPredicateResolution("?concept", s, "label", !0),
+		"    OPTIONAL { ?concept skos:notation ?notation }",
+		buildPredicateResolution("?concept", l, "definition", !1),
+		"    OPTIONAL { ?child skos:broader ?concept }"
+	].join("\n"), p = `${prefixDeclarations(u)}
 
 SELECT ?concept ?label ?notation ?definition (COUNT(?child) AS ?childCount)
 WHERE {
-${G(o, t.namedGraph)}
+${wrapGraph(f, e.namedGraph)}
 }
 GROUP BY ?concept ?label ?notation ?definition
-ORDER BY ?label`, c = await Y(t.endpoint, n, t.timeout);
-  return ye(c.results.bindings);
+ORDER BY ?label`;
+	return bindingsToNodes((await executeSparql(e.endpoint, p, e.timeout)).results.bindings);
 }
-l(nt, "fetchNarrowerConcepts");
-async function at(t, e, r = 50) {
-  const { labels: i, descriptions: s } = J(t), o = [...i, ...s], n = e.replace(/\\/g, "\\\\").replace(/"/g, '\\"'), c = [
-    `    ?concept skos:inScheme <${t.schemeIri}> .`,
-    z("?concept", i, "label", !0),
-    `    FILTER(CONTAINS(LCASE(?label), LCASE("${n}")))`,
-    "    OPTIONAL { ?concept skos:notation ?notation }",
-    z("?concept", s, "definition", !1)
-  ].join(`
-`), h = `${W(o)}
+async function fetchSearchConcepts(e, o, s = 50) {
+	let { labels: l, descriptions: u } = resolvePredicates(e), f = [...l, ...u], p = o.replace(/\\/g, "\\\\").replace(/"/g, "\\\""), m = [
+		`    ?concept skos:inScheme <${e.schemeIri}> .`,
+		buildPredicateResolution("?concept", l, "label", !0),
+		`    FILTER(CONTAINS(LCASE(?label), LCASE("${p}")))`,
+		"    OPTIONAL { ?concept skos:notation ?notation }",
+		buildPredicateResolution("?concept", u, "definition", !1)
+	].join("\n"), h = `${prefixDeclarations(f)}
 
 SELECT ?concept ?label ?notation ?definition
 WHERE {
-${G(c, t.namedGraph)}
+${wrapGraph(m, e.namedGraph)}
 }
 ORDER BY ?label
-LIMIT ${r}`;
-  return (await Y(t.endpoint, h, t.timeout)).results.bindings.map((u) => ({
-    iri: w(u, "concept"),
-    label: w(u, "label") || w(u, "concept").split(/[#/]/).pop() || "",
-    notation: w(u, "notation"),
-    description: w(u, "definition"),
-    children: [],
-    hasChildren: !1,
-    childrenLoaded: !0,
-    loading: !1
-  }));
+LIMIT ${s}`;
+	return (await executeSparql(e.endpoint, h, e.timeout)).results.bindings.map((e) => ({
+		iri: getVal(e, "concept"),
+		label: getVal(e, "label") || getVal(e, "concept").split(/[#/]/).pop() || "",
+		notation: getVal(e, "notation"),
+		description: getVal(e, "definition"),
+		children: [],
+		hasChildren: !1,
+		childrenLoaded: !0,
+		loading: !1
+	}));
 }
-l(at, "fetchSearchConcepts");
-async function lt(t) {
-  const { labels: e, descriptions: r } = J(t), i = [...e, ...r], s = [
-    `    BIND(<${t.schemeIri}> AS ?scheme)`,
-    z("?scheme", e, "label", !0),
-    z("?scheme", r, "description", !1)
-  ].join(`
-`), o = `${W(i)}
+async function fetchSchemeMetadata(e) {
+	let { labels: o, descriptions: s } = resolvePredicates(e), l = [...o, ...s], u = [
+		`    BIND(<${e.schemeIri}> AS ?scheme)`,
+		buildPredicateResolution("?scheme", o, "label", !0),
+		buildPredicateResolution("?scheme", s, "description", !1)
+	].join("\n"), f = `${prefixDeclarations(l)}
 
 SELECT ?label ?description
 WHERE {
-${G(s, t.namedGraph)}
+${wrapGraph(u, e.namedGraph)}
 }
-LIMIT 1`, c = (await Y(t.endpoint, o, t.timeout)).results.bindings[0];
-  return {
-    label: w(c, "label") || t.schemeIri.split(/[#/]/).pop() || "Vocabulary",
-    description: w(c, "description") || ""
-  };
+LIMIT 1`, p = (await executeSparql(e.endpoint, f, e.timeout)).results.bindings[0];
+	return {
+		label: getVal(p, "label") || e.schemeIri.split(/[#/]/).pop() || "Vocabulary",
+		description: getVal(p, "description") || ""
+	};
 }
-l(lt, "fetchSchemeMetadata");
-var ct = Object.defineProperty, $ = /* @__PURE__ */ l((t, e, r, i) => {
-  for (var s = void 0, o = t.length - 1, n; o >= 0; o--)
-    (n = t[o]) && (s = n(e, r, s) || s);
-  return s && ct(e, r, s), s;
-}, "__decorateClass$1");
-function fe(t) {
-  const e = {
-    "skos:": "http://www.w3.org/2004/02/skos/core#",
-    "dcterms:": "http://purl.org/dc/terms/",
-    "rdfs:": "http://www.w3.org/2000/01/rdf-schema#",
-    "rdf:": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  };
-  return t.split(",").map((r) => {
-    const i = r.trim();
-    for (const [s, o] of Object.entries(e))
-      if (i.startsWith(s))
-        return o + i.slice(s.length);
-    return i;
-  });
+// \0@oxc-project+runtime@0.156.0/helpers/esm/decorate.js
+function __decorate(e, o, s, l) {
+	var u = arguments.length, f = u < 3 ? o : l === null ? l = Object.getOwnPropertyDescriptor(o, s) : l, p;
+	if (typeof Reflect == "object" && typeof Reflect.decorate == "function") f = Reflect.decorate(e, o, s, l);
+	else for (var m = e.length - 1; m >= 0; m--) (p = e[m]) && (f = (u < 3 ? p(f) : u > 3 ? p(o, s, f) : p(o, s)) || f);
+	return u > 3 && f && Object.defineProperty(o, s, f), f;
 }
-l(fe, "parsePredicates");
-class g extends L {
-  static {
-    l(this, "PrezVocabBase");
-  }
-  constructor() {
-    super(...arguments), this.vocab = null, this.vocabUrl = null, this.baseUrl = null, this.sparqlEndpoint = null, this.vocabIri = null, this.namedGraph = null, this.timeout = 1e4, this.labelPredicates = null, this.descriptionPredicates = null, this.disabled = !1, this.lang = "en", this.theme = "auto", this.loading = !1, this.error = null, this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map();
-  }
-  /** Whether SPARQL mode is active */
-  get sparqlMode() {
-    return !!this.sparqlEndpoint;
-  }
-  /** Build SparqlConfig from current properties */
-  get sparqlConfig() {
-    return !this.sparqlEndpoint || !this.vocabIri ? null : {
-      endpoint: this.sparqlEndpoint,
-      schemeIri: this.vocabIri,
-      namedGraph: this.namedGraph ?? void 0,
-      timeout: this.timeout,
-      labelPredicates: this.labelPredicates ? fe(this.labelPredicates) : void 0,
-      descriptionPredicates: this.descriptionPredicates ? fe(this.descriptionPredicates) : void 0
-    };
-  }
-  updated(e) {
-    super.updated(e), (e.has("vocab") || e.has("vocabUrl") || e.has("baseUrl") || e.has("sparqlEndpoint") || e.has("vocabIri")) && this.loadVocab();
-  }
-  async loadVocab() {
-    if (this.sparqlMode)
-      return this.loadVocabFromSparql();
-    const e = et(this.vocab, this.vocabUrl, this.baseUrl);
-    if (!e) {
-      this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map();
-      return;
-    }
-    this.loading = !0, this.error = null;
-    try {
-      this.vocabData = await Ze(e), this.conceptMap = new Map(this.vocabData.concepts.map((r) => [r.iri, r])), this.dispatchEvent(new CustomEvent("prez-load", {
-        bubbles: !0,
-        composed: !0,
-        detail: {
-          vocab: this.vocab,
-          url: e,
-          conceptCount: this.vocabData.concepts.length
-        }
-      }));
-    } catch (r) {
-      this.error = r instanceof Error ? r.message : "Failed to load vocabulary", this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map(), this.dispatchEvent(new CustomEvent("prez-error", {
-        bubbles: !0,
-        composed: !0,
-        detail: {
-          vocab: this.vocab,
-          url: e,
-          error: this.error
-        }
-      }));
-    } finally {
-      this.loading = !1;
-    }
-  }
-  /** Load vocabulary from a SPARQL endpoint */
-  async loadVocabFromSparql() {
-    const e = this.sparqlConfig;
-    if (!e) {
-      this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map();
-      return;
-    }
-    this.loading = !0, this.error = null;
-    try {
-      const [r, i] = await Promise.all([
-        lt(e),
-        ot(e)
-      ]), s = i.map((o) => ({
-        iri: o.iri,
-        label: o.label,
-        notation: o.notation,
-        description: o.description
-      }));
-      this.vocabData = {
-        iri: e.schemeIri,
-        label: r.label,
-        description: r.description,
-        concepts: s,
-        tree: i
-      }, this.conceptMap = new Map(s.map((o) => [o.iri, o])), this.dispatchEvent(new CustomEvent("prez-load", {
-        bubbles: !0,
-        composed: !0,
-        detail: {
-          vocab: this.vocabIri,
-          url: e.endpoint,
-          conceptCount: s.length
-        }
-      }));
-    } catch (r) {
-      this.error = r instanceof Error ? r.message : "Failed to query SPARQL endpoint", this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map(), this.dispatchEvent(new CustomEvent("prez-error", {
-        bubbles: !0,
-        composed: !0,
-        detail: {
-          vocab: this.vocabIri,
-          url: e.endpoint,
-          error: this.error
-        }
-      }));
-    } finally {
-      this.loading = !1;
-    }
-  }
-  /** Lazily load children for a SPARQL tree node */
-  async loadChildren(e) {
-    const r = this.sparqlConfig;
-    if (!r || !this.vocabData) return;
-    const i = this.findTreeNode(e, this.vocabData.tree);
-    if (!i) return;
-    const s = i;
-    if (!s.childrenLoaded) {
-      s.loading = !0, this.requestUpdate();
-      try {
-        const o = await nt(r, e);
-        s.children = o, s.childrenLoaded = !0;
-        for (const n of o)
-          if (!this.conceptMap.has(n.iri)) {
-            const c = {
-              iri: n.iri,
-              label: n.label,
-              notation: n.notation,
-              description: n.description,
-              broader: [e]
-            };
-            this.vocabData.concepts.push(c), this.conceptMap.set(n.iri, c);
-          }
-      } catch (o) {
-        s.childrenLoaded = !1;
-        const n = o instanceof Error ? o.message : "Failed to load children";
-        this.dispatchEvent(new CustomEvent("prez-error", {
-          bubbles: !0,
-          composed: !0,
-          detail: { iri: e, error: n }
-        }));
-      } finally {
-        s.loading = !1, this.requestUpdate();
-      }
-    }
-  }
-  /** Recursively find a tree node by IRI */
-  findTreeNode(e, r) {
-    for (const i of r) {
-      if (i.iri === e) return i;
-      if (i.children.length > 0) {
-        const s = this.findTreeNode(e, i.children);
-        if (s) return s;
-      }
-    }
-    return null;
-  }
-  /** Emit change event */
-  emitChange(e) {
-    this.dispatchEvent(new CustomEvent("prez-change", {
-      bubbles: !0,
-      composed: !0,
-      detail: {
-        value: e,
-        vocab: this.vocab,
-        concepts: Array.isArray(e) ? e.map((r) => this.conceptMap.get(r)).filter(Boolean) : this.conceptMap.get(e) || null
-      }
-    }));
-  }
-  /** Emit expand/collapse event */
-  emitExpand(e, r) {
-    this.dispatchEvent(new CustomEvent("prez-expand", {
-      bubbles: !0,
-      composed: !0,
-      detail: {
-        iri: e,
-        expanded: r,
-        vocab: this.vocab
-      }
-    }));
-  }
-  /** Emit filter event */
-  emitFilter(e) {
-    this.dispatchEvent(new CustomEvent("prez-filter", {
-      bubbles: !0,
-      composed: !0,
-      detail: {
-        text: e,
-        vocab: this.vocab
-      }
-    }));
-  }
-  /** Get label for a concept IRI */
-  getConceptLabel(e) {
-    return this.conceptMap.get(e)?.label || e.split(/[#/]/).pop() || e;
-  }
+// src/components/base-element.ts
+function parsePredicates(e) {
+	let o = {
+		"skos:": "http://www.w3.org/2004/02/skos/core#",
+		"dcterms:": "http://purl.org/dc/terms/",
+		"rdfs:": "http://www.w3.org/2000/01/rdf-schema#",
+		"rdf:": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	};
+	return e.split(",").map((e) => {
+		let s = e.trim();
+		for (let [e, l] of Object.entries(o)) if (s.startsWith(e)) return l + s.slice(e.length);
+		return s;
+	});
 }
-$([
-  f({ type: String })
-], g.prototype, "vocab");
-$([
-  f({ type: String, attribute: "vocab-url" })
-], g.prototype, "vocabUrl");
-$([
-  f({ type: String, attribute: "base-url" })
-], g.prototype, "baseUrl");
-$([
-  f({ type: String, attribute: "sparql-endpoint" })
-], g.prototype, "sparqlEndpoint");
-$([
-  f({ type: String, attribute: "vocab-iri" })
-], g.prototype, "vocabIri");
-$([
-  f({ type: String, attribute: "named-graph" })
-], g.prototype, "namedGraph");
-$([
-  f({ type: Number })
-], g.prototype, "timeout");
-$([
-  f({ type: String, attribute: "label-predicates" })
-], g.prototype, "labelPredicates");
-$([
-  f({ type: String, attribute: "description-predicates" })
-], g.prototype, "descriptionPredicates");
-$([
-  f({ type: Boolean, reflect: !0 })
-], g.prototype, "disabled");
-$([
-  f({ type: String })
-], g.prototype, "lang");
-$([
-  f({ type: String, reflect: !0 })
-], g.prototype, "theme");
-$([
-  A()
-], g.prototype, "loading");
-$([
-  A()
-], g.prototype, "error");
-$([
-  A()
-], g.prototype, "vocabData");
-$([
-  A()
-], g.prototype, "conceptMap");
-var dt = Object.defineProperty, ht = Object.getOwnPropertyDescriptor, v = /* @__PURE__ */ l((t, e, r, i) => {
-  for (var s = i > 1 ? void 0 : i ? ht(e, r) : e, o = t.length - 1, n; o >= 0; o--)
-    (n = t[o]) && (s = (i ? n(e, r, s) : n(s)) || s);
-  return i && s && dt(e, r, s), s;
-}, "__decorateClass");
-let m = class extends g {
-  static {
-    l(this, "PrezList");
-  }
-  constructor() {
-    super(...arguments), this.type = "select", this.fields = "", this.multiple = !1, this.flat = !1, this.horizontal = !1, this.search = !1, this.maxLevel = 1, this.showSelected = !0, this.placeholder = "Select...", this.value = null, this.values = [], this.showCount = !1, this.showDescription = !1, this.showIri = !1, this.filterText = "", this.expandedNodes = /* @__PURE__ */ new Set(), this.dropdownOpen = !1, this.sparqlSearchResults = null, this.searchDebounceTimer = null, this.boundHandleClickOutside = this.handleClickOutside.bind(this);
-  }
-  connectedCallback() {
-    super.connectedCallback(), document.addEventListener("click", this.boundHandleClickOutside);
-  }
-  disconnectedCallback() {
-    super.disconnectedCallback(), document.removeEventListener("click", this.boundHandleClickOutside), this.searchDebounceTimer && clearTimeout(this.searchDebounceTimer);
-  }
-  handleClickOutside(t) {
-    this.dropdownOpen && !this.contains(t.target) && (this.dropdownOpen = !1);
-  }
-  updated(t) {
-    super.updated(t), t.has("vocabData") && this.vocabData && this.initializeExpanded();
-  }
-  initializeExpanded() {
-    if (this.vocabData?.tree) {
-      if (this.sparqlMode) {
-        this.expandedNodes = /* @__PURE__ */ new Set();
-        return;
-      }
-      if (this.maxLevel === -1) {
-        const t = /* @__PURE__ */ new Set(), e = /* @__PURE__ */ l((r) => {
-          for (const i of r)
-            i.children.length > 0 && (t.add(i.iri), e(i.children));
-        }, "collectIris");
-        e(this.vocabData.tree), this.expandedNodes = t;
-      } else if (this.maxLevel > 0) {
-        const t = /* @__PURE__ */ new Set(), e = /* @__PURE__ */ l((r, i) => {
-          if (!(i <= 0))
-            for (const s of r)
-              s.children.length > 0 && (t.add(s.iri), e(s.children, i - 1));
-        }, "expandToLevel");
-        e(this.vocabData.tree, this.maxLevel), this.expandedNodes = t;
-      }
-    }
-  }
-  handleFilter(t) {
-    this.filterText = t.target.value, this.emitFilter(this.filterText), this.sparqlMode && this.debounceSparqlSearch(this.filterText);
-  }
-  debounceSparqlSearch(t) {
-    if (this.searchDebounceTimer && clearTimeout(this.searchDebounceTimer), !t) {
-      this.sparqlSearchResults = null;
-      return;
-    }
-    this.searchDebounceTimer = setTimeout(async () => {
-      const e = this.sparqlConfig;
-      if (e)
-        try {
-          this.sparqlSearchResults = await at(e, t);
-        } catch {
-          this.sparqlSearchResults = [];
-        }
-    }, 300);
-  }
-  async toggleExpand(t, e) {
-    e.stopPropagation();
-    const r = new Set(this.expandedNodes), i = r.has(t);
-    !i && this.sparqlMode && await this.loadChildren(t), i ? r.delete(t) : r.add(t), this.expandedNodes = r, this.emitExpand(t, !i);
-  }
-  toggleDropdown(t) {
-    t.stopPropagation(), this.dropdownOpen = !this.dropdownOpen;
-  }
-  selectRadio(t) {
-    this.value = t, this.emitChange(t);
-  }
-  selectAll() {
-    if (!this.vocabData) return;
-    const t = this.filteredConcepts.map((e) => e.iri);
-    this.values = t, this.emitChange(t);
-  }
-  deselectAll() {
-    this.values = [], this.emitChange([]);
-  }
-  selectNode(t) {
-    if (this.multiple) {
-      const e = this.values.includes(t) ? this.values.filter((r) => r !== t) : [...this.values, t];
-      this.values = e, this.emitChange(e);
-    } else
-      this.value = t, this.emitChange(t), this.type === "dropdown" && (this.dropdownOpen = !1, this.filterText = "");
-  }
-  handleSelectChange(t) {
-    const e = t.target;
-    if (this.multiple) {
-      const r = Array.from(e.selectedOptions).map((i) => i.value);
-      this.values = r, this.emitChange(r);
-    } else {
-      const r = e.value || null;
-      this.value = r, this.emitChange(r || "");
-    }
-  }
-  countDescendants(t) {
-    let e = t.children.length;
-    for (const r of t.children)
-      e += this.countDescendants(r);
-    return e;
-  }
-  collectDescendantIris(t) {
-    const e = [t.iri];
-    for (const r of t.children)
-      e.push(...this.collectDescendantIris(r));
-    return e;
-  }
-  selectNodeWithDescendants(t, e) {
-    e.stopPropagation(), e.preventDefault();
-    const r = this.collectDescendantIris(t), i = this.values.includes(t.iri);
-    let s;
-    if (i)
-      s = this.values.filter((o) => !r.includes(o));
-    else {
-      const o = r.filter((n) => !this.values.includes(n));
-      s = [...this.values, ...o];
-    }
-    this.values = s, this.emitChange(s);
-  }
-  get filteredConcepts() {
-    if (!this.vocabData?.concepts) return [];
-    let t = this.vocabData.concepts;
-    if (this.filterText) {
-      const e = this.filterText.toLowerCase();
-      t = t.filter(
-        (r) => r.label.toLowerCase().includes(e) || r.notation?.toLowerCase().includes(e) || r.altLabels?.some((i) => i.toLowerCase().includes(e))
-      );
-    }
-    return [...t].sort((e, r) => e.label.localeCompare(r.label));
-  }
-  filterTreeNodes(t) {
-    if (!this.filterText) return t;
-    const e = this.filterText.toLowerCase(), r = /* @__PURE__ */ l((s) => s.label.toLowerCase().includes(e) || s.notation?.toLowerCase().includes(e), "matchesFilter"), i = /* @__PURE__ */ l((s) => {
-      const o = s.children.map(i).filter((n) => n !== null);
-      return r(s) || o.length > 0 ? { ...s, children: o } : null;
-    }, "filterNode");
-    return t.map(i).filter((s) => s !== null);
-  }
-  nodeHasChildren(t) {
-    return t.children.length > 0 ? !0 : this.sparqlMode && "hasChildren" in t ? t.hasChildren : !1;
-  }
-  isNodeLoading(t) {
-    return "loading" in t ? t.loading : !1;
-  }
-  renderTreeNode(t) {
-    const e = this.nodeHasChildren(t), r = this.isNodeLoading(t), i = this.expandedNodes.has(t.iri) || this.filterText && e && !this.sparqlMode, s = this.multiple ? this.values.includes(t.iri) : this.value === t.iri;
-    return a`
-      <li class="tree-item">
-        <div
-          class="tree-row ${this.showSelected && s ? "selected" : ""}"
-          @click=${() => this.selectNode(t.iri)}
-        >
-          ${r ? a`<span class="node-loading"></span>` : e ? a`
-            <button
-              class="expand-btn"
-              @click=${(o) => this.toggleExpand(t.iri, o)}
-              aria-expanded=${i}
-              aria-label=${i ? "Collapse" : "Expand"}
-            >
-              ${i ? a`<svg width="10" height="10" viewBox="0 0 10 10"><path d="M1 3 L5 7 L9 3" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>` : a`<svg width="10" height="10" viewBox="0 0 10 10"><path d="M3 1 L7 5 L3 9" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`}
-            </button>
-          ` : a`<span class="expand-placeholder"></span>`}
-          ${this.multiple ? a`
-            <input
-              type="checkbox"
-              class="checkbox"
-              .checked=${s}
-              @click=${(o) => {
-      o.stopPropagation(), this.selectNode(t.iri);
-    }}
-              @dblclick=${(o) => this.selectNodeWithDescendants(t, o)}
-              title="Double-click to select/deselect with all children"
-            >
-          ` : d}
-          ${t.notation ? a`<span class="notation">${t.notation}</span>` : d}
-          <div class="item-content">
-            <span class="label">${t.label}</span>
-            ${this.showDescription && t.description ? a`
-              <span class="description">${t.description}</span>
-            ` : d}
-          </div>
-          ${this.showCount && e ? a`
-            <span class="count">(${this.countDescendants(t)})</span>
-          ` : d}
-        </div>
-        ${e && i && t.children.length > 0 ? a`
-          <ul class="children">
-            ${t.children.map((o) => this.renderTreeNode(o))}
-          </ul>
-        ` : d}
-      </li>
-    `;
-  }
-  findNodePath(t, e = this.vocabData?.tree || [], r = []) {
-    for (const i of e) {
-      const s = [...r, i.label];
-      if (i.iri === t)
-        return s;
-      if (i.children.length > 0) {
-        const o = this.findNodePath(t, i.children, s);
-        if (o) return o;
-      }
-    }
-    return null;
-  }
-  getSelectedLabels() {
-    if (this.multiple) {
-      if (this.values.length === 0) return "";
-      const t = this.values.map((e) => {
-        if (!this.flat) {
-          const r = this.findNodePath(e);
-          if (r) return r.join(" > ");
-        }
-        return this.vocabData?.concepts.find((r) => r.iri === e)?.label || e;
-      }).slice(0, 2);
-      return this.values.length > 2 ? `${t.join(", ")} +${this.values.length - 2} more` : t.join(", ");
-    } else {
-      if (!this.value) return "";
-      if (!this.flat) {
-        const t = this.findNodePath(this.value);
-        if (t) return t.join(" > ");
-      }
-      return this.vocabData?.concepts.find((t) => t.iri === this.value)?.label || this.value;
-    }
-  }
-  renderDropdownContent() {
-    if (this.flat) {
-      const e = this.filteredConcepts;
-      return e.length === 0 ? a`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : a`
-        ${this.renderSelectControls()}
-        <ul class="flat-list" role="listbox" aria-label=${this.vocabData?.label || "Vocabulary list"}>
-          ${e.map((r) => {
-        const i = this.multiple ? this.values.includes(r.iri) : this.value === r.iri;
-        return a`
-              <li class="flat-item">
-                <div
-                  class="tree-row ${this.showSelected && i ? "selected" : ""}"
-                  role="option"
-                  aria-selected=${i}
-                  @click=${() => this.selectNode(r.iri)}
-                >
-                  ${this.multiple ? a`
-                    <input
-                      type="checkbox"
-                      class="checkbox"
-                      .checked=${i}
-                      @click=${(s) => {
-          s.stopPropagation(), this.selectNode(r.iri);
-        }}
-                    >
-                  ` : d}
-                  ${r.notation ? a`<span class="notation">${r.notation}</span>` : d}
-                  <div class="item-content">
-                    <span class="label">${r.label}</span>
-                    ${this.showDescription && r.description ? a`
-                      <span class="description">${r.description}</span>
-                    ` : d}
-                  </div>
-                </div>
-              </li>
-            `;
-      })}
-        </ul>
-      `;
-    }
-    if (this.sparqlMode && this.filterText && this.sparqlSearchResults !== null)
-      return this.sparqlSearchResults.length === 0 ? a`<div class="empty">No matching concepts</div>` : a`
-        <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Search results"}>
-          ${this.sparqlSearchResults.map((e) => this.renderTreeNode(e))}
-        </ul>
-      `;
-    const t = this.sparqlMode ? this.vocabData?.tree || [] : this.filterTreeNodes(this.vocabData?.tree || []);
-    return t.length === 0 ? a`<div class="empty">${this.filterText ? "No matching concepts" : "No hierarchy available"}</div>` : a`
-      ${this.renderSelectControls()}
-      <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Vocabulary tree"}>
-        ${t.map((e) => this.renderTreeNode(e))}
-      </ul>
-    `;
-  }
-  handleSearchFocus() {
-    this.dropdownOpen = !0;
-  }
-  handleSearchInput(t) {
-    this.filterText = t.target.value, this.emitFilter(this.filterText), this.dropdownOpen || (this.dropdownOpen = !0), this.sparqlMode && this.debounceSparqlSearch(this.filterText);
-  }
-  renderDropdown() {
-    const t = this.getSelectedLabels(), e = this.multiple ? this.values.length > 0 : !!this.value;
-    return this.search ? a`
-        <div class="dropdown">
-          <div class="dropdown-trigger ${this.dropdownOpen ? "open" : ""}">
-            <input
-              type="text"
-              class="dropdown-search-input"
-              .value=${this.filterText}
-              placeholder=${e ? t : this.placeholder}
-              @focus=${this.handleSearchFocus}
-              @input=${this.handleSearchInput}
-              @click=${(r) => r.stopPropagation()}
-              aria-haspopup="listbox"
-              aria-expanded=${this.dropdownOpen}
-            />
-            <svg class="dropdown-trigger-icon" viewBox="0 0 20 20" fill="currentColor" @click=${this.toggleDropdown}>
-              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-            </svg>
-          </div>
-          ${this.dropdownOpen ? a`
-            <div class="dropdown-popover">
-              ${this.renderDropdownContent()}
-              ${this.multiple && this.values.length > 0 ? a`
-                <div class="selection-count" style="padding: 0.25rem 0.5rem; border-top: 1px solid var(--prez-divider);">
-                  ${this.values.length} selected
-                </div>
-              ` : d}
-            </div>
-          ` : d}
-        </div>
-      ` : a`
-      <div class="dropdown">
-        <button
-          class="dropdown-trigger ${this.dropdownOpen ? "open" : ""}"
-          @click=${this.toggleDropdown}
-          aria-haspopup="listbox"
-          aria-expanded=${this.dropdownOpen}
-        >
-          <span class="dropdown-trigger-text ${e ? "" : "dropdown-trigger-placeholder"}">
-            ${e ? t : this.placeholder}
-          </span>
-          <svg class="dropdown-trigger-icon" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-          </svg>
-        </button>
-        ${this.dropdownOpen ? a`
-          <div class="dropdown-popover">
-            ${this.renderDropdownContent()}
-            ${this.multiple && this.values.length > 0 ? a`
-              <div class="selection-count" style="padding: 0.25rem 0.5rem; border-top: 1px solid var(--prez-divider);">
-                ${this.values.length} selected
-              </div>
-            ` : d}
-          </div>
-        ` : d}
-      </div>
-    `;
-  }
-  renderSelectControls() {
-    if (!this.multiple) return d;
-    const t = this.filteredConcepts.length, e = this.values.length;
-    return a`
-      <div class="select-controls">
-        <button @click=${this.selectAll} ?disabled=${e === t}>
-          Select all${this.filterText ? " filtered" : ""} (${t})
-        </button>
-        <button @click=${this.deselectAll} ?disabled=${e === 0}>
-          Deselect all
-        </button>
-      </div>
-    `;
-  }
-  renderTree() {
-    if (this.sparqlMode && this.filterText && this.sparqlSearchResults !== null)
-      return this.sparqlSearchResults.length === 0 ? a`<div class="empty">No matching concepts</div>` : a`
-        <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Search results"}>
-          ${this.sparqlSearchResults.map((e) => this.renderTreeNode(e))}
-        </ul>
-      `;
-    const t = this.sparqlMode ? this.vocabData?.tree || [] : this.filterTreeNodes(this.vocabData?.tree || []);
-    return t.length === 0 ? a`<div class="empty">${this.filterText ? "No matching concepts" : "No hierarchy available"}</div>` : a`
-      ${this.renderSelectControls()}
-      <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Vocabulary tree"}>
-        ${t.map((e) => this.renderTreeNode(e))}
-      </ul>
-      ${this.multiple && this.values.length > 0 ? a`
-        <div class="selection-count">
-          ${this.values.length} selected
-        </div>
-      ` : d}
-    `;
-  }
-  renderRadioNode(t, e) {
-    const r = t.children.length > 0, i = t.children.length > 1, s = this.value === t.iri, o = `radio-${this.vocab || "vocab"}`, n = this.horizontal && i && !e;
-    return a`
-      <div class="radio-node">
-        <label class="radio-item">
-          <input
-            type="radio"
-            name=${o}
-            .checked=${s}
-            @change=${() => this.selectRadio(t.iri)}
-          />
-          ${t.notation ? a`<span class="notation">${t.notation}</span>` : d}
-          <div class="item-content">
-            <span class="label">${t.label}</span>
-            ${this.showDescription && t.description ? a`
-              <span class="description">${t.description}</span>
-            ` : d}
-          </div>
-        </label>
-        ${r ? a`
-          <div class="radio-children ${this.horizontal ? "horizontal" : ""} ${n ? "with-separator" : ""}">
-            ${t.children.map((c, h) => {
-      const p = e && h === t.children.length - 1;
-      return this.renderRadioNode(c, p);
-    })}
-          </div>
-        ` : d}
-      </div>
-    `;
-  }
-  renderRadio() {
-    const t = this.filterTreeNodes(this.vocabData?.tree || []);
-    return t.length === 0 ? a`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : a`
-      <div class="radio-group" role="radiogroup" aria-label=${this.vocabData?.label || "Vocabulary selection"}>
-        <div class="radio-level ${this.horizontal ? "horizontal" : ""}">
-          ${t.map((e, r) => this.renderRadioNode(e, r === t.length - 1))}
-        </div>
-      </div>
-    `;
-  }
-  get tableFields() {
-    return this.fields ? this.fields.split(",").map((t) => t.trim()) : ["iri", "label", "notation", "description"];
-  }
-  /**
-   * Get display label for a field name.
-   * Fields use shorthand names that map to VocabConcept properties.
-   * Available: iri, label, notation, description, altLabels, broader, narrower
-   */
-  getFieldLabel(t) {
-    return {
-      iri: "IRI",
-      label: "Label",
-      notation: "Notation",
-      description: "Description",
-      altLabels: "Alt Labels",
-      broader: "Broader",
-      narrower: "Narrower"
-    }[t] || t;
-  }
-  /**
-   * Get value for a field from concept data.
-   * Uses shorthand names mapped to VocabConcept properties.
-   */
-  getFieldValue(t, e) {
-    switch (e) {
-      case "iri":
-        return t.iri;
-      case "label":
-        return t.label;
-      case "notation":
-        return t.notation || "";
-      case "description":
-        return t.description || "";
-      case "altLabels":
-        return t.altLabels?.join(", ") || "";
-      case "broader":
-        return t.broader?.join(", ") || "";
-      case "narrower":
-        return t.narrower?.join(", ") || "";
-      default:
-        return "";
-    }
-  }
-  renderTableRow(t, e = 0) {
-    const r = this.multiple ? this.values.includes(t.iri) : this.value === t.iri, i = this.tableFields;
-    return a`
-      <tr
-        class="${r ? "selected" : ""}"
-        @click=${() => this.selectNode(t.iri)}
-        style="cursor: pointer"
-      >
-        ${this.multiple ? a`
-          <td class="cell-checkbox">
-            <input
-              type="checkbox"
-              .checked=${r}
-              @click=${(s) => {
-      s.stopPropagation(), this.selectNode(t.iri);
-    }}
-            />
-          </td>
-        ` : d}
-        ${i.map((s, o) => a`
-          <td class="${s === "iri" ? "cell-iri" : s === "description" ? "cell-description" : ""}">
-            ${o === 0 && !this.flat && e > 0 ? a`
-              <div class="cell-indent">
-                ${Array(e).fill(0).map(() => a`<span class="indent-spacer"></span>`)}
-                <span>${this.getFieldValue(t, s)}</span>
-              </div>
-            ` : this.getFieldValue(t, s)}
-          </td>
-        `)}
-      </tr>
-    `;
-  }
-  renderTableTreeRows(t, e = 0) {
-    const r = this.conceptMap.get(t.iri);
-    if (!r) return [];
-    const i = [this.renderTableRow(r, e)];
-    for (const s of t.children)
-      i.push(...this.renderTableTreeRows(s, e + 1));
-    return i;
-  }
-  renderTable() {
-    const t = this.tableFields;
-    if (this.flat) {
-      const r = this.filteredConcepts;
-      return r.length === 0 ? a`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : a`
-        ${this.renderSelectControls()}
-        <table class="vocab-table">
-          <thead>
-            <tr>
-              ${this.multiple ? a`<th class="cell-checkbox"></th>` : d}
-              ${t.map((i) => a`<th>${this.getFieldLabel(i)}</th>`)}
-            </tr>
-          </thead>
-          <tbody>
-            ${r.map((i) => this.renderTableRow(i, 0))}
-          </tbody>
-        </table>
-        ${this.multiple && this.values.length > 0 ? a`
-          <div class="selection-count">
-            ${this.values.length} selected
-          </div>
-        ` : d}
-      `;
-    }
-    const e = this.filterTreeNodes(this.vocabData?.tree || []);
-    return e.length === 0 ? a`<div class="empty">${this.filterText ? "No matching concepts" : "No hierarchy available"}</div>` : a`
-      ${this.renderSelectControls()}
-      <table class="vocab-table">
-        <thead>
-          <tr>
-            ${this.multiple ? a`<th class="cell-checkbox"></th>` : d}
-            ${t.map((r) => a`<th>${this.getFieldLabel(r)}</th>`)}
-          </tr>
-        </thead>
-        <tbody>
-          ${e.flatMap((r) => this.renderTableTreeRows(r, 0))}
-        </tbody>
-      </table>
-      ${this.multiple && this.values.length > 0 ? a`
-        <div class="selection-count">
-          ${this.values.length} selected
-        </div>
-      ` : d}
-    `;
-  }
-  renderFlatItem(t) {
-    const e = this.multiple ? this.values.includes(t.iri) : this.value === t.iri;
-    if (this.type === "radio") {
-      const r = `radio-${this.vocab || "vocab"}`;
-      return a`
-        <div class="radio-node">
-          <label class="radio-item">
-            <input
-              type="radio"
-              name=${r}
-              .checked=${e}
-              @change=${() => this.selectRadio(t.iri)}
-            />
-            ${t.notation ? a`<span class="notation">${t.notation}</span>` : d}
-            <div class="item-content">
-              <span class="label">${t.label}</span>
-              ${this.showDescription && t.description ? a`
-                <span class="description">${t.description}</span>
-              ` : d}
-            </div>
-          </label>
-        </div>
-      `;
-    }
-    return a`
-      <li class="flat-item">
-        <div
-          class="tree-row ${this.showSelected && e ? "selected" : ""}"
-          role="option"
-          aria-selected=${e}
-          @click=${() => this.selectNode(t.iri)}
-        >
-          ${this.multiple ? a`
-            <input
-              type="checkbox"
-              class="checkbox"
-              .checked=${e}
-              @click=${(r) => {
-      r.stopPropagation(), this.selectNode(t.iri);
-    }}
-            >
-          ` : d}
-          ${t.notation ? a`<span class="notation">${t.notation}</span>` : d}
-          <div class="item-content">
-            <span class="label">${t.label}</span>
-            ${this.showDescription && t.description ? a`
-              <span class="description">${t.description}</span>
-            ` : d}
-          </div>
-        </div>
-      </li>
-    `;
-  }
-  renderFlatList() {
-    const t = this.filteredConcepts;
-    return t.length === 0 ? a`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : this.type === "radio" ? a`
-        <div class="radio-group" role="radiogroup" aria-label=${this.vocabData?.label || "Vocabulary selection"}>
-          <div class="radio-level ${this.horizontal ? "horizontal" : ""}">
-            ${t.map((e) => this.renderFlatItem(e))}
-          </div>
-        </div>
-      ` : a`
-      ${this.renderSelectControls()}
-      <ul class="flat-list" role="listbox" aria-label=${this.vocabData?.label || "Vocabulary list"}>
-        ${t.map((e) => this.renderFlatItem(e))}
-      </ul>
-      ${this.multiple && this.values.length > 0 ? a`
-        <div class="selection-count">
-          ${this.values.length} selected
-        </div>
-      ` : d}
-    `;
-  }
-  render() {
-    return this.loading ? a`<div class="loading">Loading vocabulary...</div>` : this.error ? a`<div class="error">${this.error}</div>` : this.vocabData ? this.type === "dropdown" ? this.renderDropdown() : this.type === "radio" ? a`
-        ${this.search ? a`
-          <div class="search">
-            <input
-              type="text"
-              .value=${this.filterText}
-              @input=${this.handleFilter}
-              placeholder="Filter concepts..."
-              aria-label="Filter concepts"
-            />
-          </div>
-        ` : d}
-        ${this.flat ? this.renderFlatList() : this.renderRadio()}
-      ` : this.type === "table" ? a`
-        ${this.search ? a`
-          <div class="search">
-            <input
-              type="text"
-              .value=${this.filterText}
-              @input=${this.handleFilter}
-              placeholder="Filter concepts..."
-              aria-label="Filter concepts"
-            />
-          </div>
-        ` : d}
-        ${this.renderTable()}
-      ` : a`
-      ${this.search ? a`
-        <div class="search">
-          <input
-            type="text"
-            .value=${this.filterText}
-            @input=${this.handleFilter}
-            placeholder="Filter concepts..."
-            aria-label="Filter concepts"
-          />
-        </div>
-      ` : d}
-      ${this.flat ? this.renderFlatList() : this.renderTree()}
-    ` : a`<div class="loading">No vocabulary specified</div>`;
-  }
+var PrezVocabBase = class extends i {
+	constructor(...e) {
+		super(...e), this.vocab = null, this.vocabUrl = null, this.baseUrl = null, this.sparqlEndpoint = null, this.vocabIri = null, this.namedGraph = null, this.timeout = 1e4, this.labelPredicates = null, this.descriptionPredicates = null, this.disabled = !1, this.lang = "en", this.theme = "auto", this.loading = !1, this.error = null, this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map();
+	}
+	get sparqlMode() {
+		return !!this.sparqlEndpoint;
+	}
+	get sparqlConfig() {
+		return !this.sparqlEndpoint || !this.vocabIri ? null : {
+			endpoint: this.sparqlEndpoint,
+			schemeIri: this.vocabIri,
+			namedGraph: this.namedGraph ?? void 0,
+			timeout: this.timeout,
+			labelPredicates: this.labelPredicates ? parsePredicates(this.labelPredicates) : void 0,
+			descriptionPredicates: this.descriptionPredicates ? parsePredicates(this.descriptionPredicates) : void 0
+		};
+	}
+	updated(e) {
+		super.updated(e), (e.has("vocab") || e.has("vocabUrl") || e.has("baseUrl") || e.has("sparqlEndpoint") || e.has("vocabIri")) && this.loadVocab();
+	}
+	async loadVocab() {
+		if (this.sparqlMode) return this.loadVocabFromSparql();
+		let e = resolveVocabUrl(this.vocab, this.vocabUrl, this.baseUrl);
+		if (!e) this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map();
+		else {
+			this.loading = !0, this.error = null;
+			try {
+				this.vocabData = await fetchVocab(e), this.conceptMap = new Map(this.vocabData.concepts.map((e) => [e.iri, e])), this.dispatchEvent(new CustomEvent("prez-load", {
+					bubbles: !0,
+					composed: !0,
+					detail: {
+						vocab: this.vocab,
+						url: e,
+						conceptCount: this.vocabData.concepts.length
+					}
+				}));
+			} catch (o) {
+				this.error = o instanceof Error ? o.message : "Failed to load vocabulary", this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map(), this.dispatchEvent(new CustomEvent("prez-error", {
+					bubbles: !0,
+					composed: !0,
+					detail: {
+						vocab: this.vocab,
+						url: e,
+						error: this.error
+					}
+				}));
+			} finally {
+				this.loading = !1;
+			}
+		}
+	}
+	async loadVocabFromSparql() {
+		let e = this.sparqlConfig;
+		if (!e) this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map();
+		else {
+			this.loading = !0, this.error = null;
+			try {
+				let [o, s] = await Promise.all([fetchSchemeMetadata(e), fetchTopConcepts(e)]), l = s.map((e) => ({
+					iri: e.iri,
+					label: e.label,
+					notation: e.notation,
+					description: e.description
+				}));
+				this.vocabData = {
+					iri: e.schemeIri,
+					label: o.label,
+					description: o.description,
+					concepts: l,
+					tree: s
+				}, this.conceptMap = new Map(l.map((e) => [e.iri, e])), this.dispatchEvent(new CustomEvent("prez-load", {
+					bubbles: !0,
+					composed: !0,
+					detail: {
+						vocab: this.vocabIri,
+						url: e.endpoint,
+						conceptCount: l.length
+					}
+				}));
+			} catch (o) {
+				this.error = o instanceof Error ? o.message : "Failed to query SPARQL endpoint", this.vocabData = null, this.conceptMap = /* @__PURE__ */ new Map(), this.dispatchEvent(new CustomEvent("prez-error", {
+					bubbles: !0,
+					composed: !0,
+					detail: {
+						vocab: this.vocabIri,
+						url: e.endpoint,
+						error: this.error
+					}
+				}));
+			} finally {
+				this.loading = !1;
+			}
+		}
+	}
+	async loadChildren(e) {
+		let o = this.sparqlConfig;
+		if (!o || !this.vocabData) return;
+		let s = this.findTreeNode(e, this.vocabData.tree);
+		if (!s) return;
+		let l = s;
+		if (!l.childrenLoaded) {
+			l.loading = !0, this.requestUpdate();
+			try {
+				let s = await fetchNarrowerConcepts(o, e);
+				l.children = s, l.childrenLoaded = !0;
+				for (let o of s) if (!this.conceptMap.has(o.iri)) {
+					let s = {
+						iri: o.iri,
+						label: o.label,
+						notation: o.notation,
+						description: o.description,
+						broader: [e]
+					};
+					this.vocabData.concepts.push(s), this.conceptMap.set(o.iri, s);
+				}
+			} catch (o) {
+				l.childrenLoaded = !1;
+				let s = o instanceof Error ? o.message : "Failed to load children";
+				this.dispatchEvent(new CustomEvent("prez-error", {
+					bubbles: !0,
+					composed: !0,
+					detail: {
+						iri: e,
+						error: s
+					}
+				}));
+			} finally {
+				l.loading = !1, this.requestUpdate();
+			}
+		}
+	}
+	findTreeNode(e, o) {
+		for (let s of o) {
+			if (s.iri === e) return s;
+			if (s.children.length > 0) {
+				let o = this.findTreeNode(e, s.children);
+				if (o) return o;
+			}
+		}
+		return null;
+	}
+	emitChange(e) {
+		this.dispatchEvent(new CustomEvent("prez-change", {
+			bubbles: !0,
+			composed: !0,
+			detail: {
+				value: e,
+				vocab: this.vocab,
+				concepts: Array.isArray(e) ? e.map((e) => this.conceptMap.get(e)).filter(Boolean) : this.conceptMap.get(e) || null
+			}
+		}));
+	}
+	emitExpand(e, o) {
+		this.dispatchEvent(new CustomEvent("prez-expand", {
+			bubbles: !0,
+			composed: !0,
+			detail: {
+				iri: e,
+				expanded: o,
+				vocab: this.vocab
+			}
+		}));
+	}
+	emitFilter(e) {
+		this.dispatchEvent(new CustomEvent("prez-filter", {
+			bubbles: !0,
+			composed: !0,
+			detail: {
+				text: e,
+				vocab: this.vocab
+			}
+		}));
+	}
+	getConceptLabel(e) {
+		return this.conceptMap.get(e)?.label || e.split(/[#/]/).pop() || e;
+	}
 };
-m.styles = ze`
+__decorate([n({ type: String })], PrezVocabBase.prototype, "vocab", void 0), __decorate([n({
+	type: String,
+	attribute: "vocab-url"
+})], PrezVocabBase.prototype, "vocabUrl", void 0), __decorate([n({
+	type: String,
+	attribute: "base-url"
+})], PrezVocabBase.prototype, "baseUrl", void 0), __decorate([n({
+	type: String,
+	attribute: "sparql-endpoint"
+})], PrezVocabBase.prototype, "sparqlEndpoint", void 0), __decorate([n({
+	type: String,
+	attribute: "vocab-iri"
+})], PrezVocabBase.prototype, "vocabIri", void 0), __decorate([n({
+	type: String,
+	attribute: "named-graph"
+})], PrezVocabBase.prototype, "namedGraph", void 0), __decorate([n({ type: Number })], PrezVocabBase.prototype, "timeout", void 0), __decorate([n({
+	type: String,
+	attribute: "label-predicates"
+})], PrezVocabBase.prototype, "labelPredicates", void 0), __decorate([n({
+	type: String,
+	attribute: "description-predicates"
+})], PrezVocabBase.prototype, "descriptionPredicates", void 0), __decorate([n({
+	type: Boolean,
+	reflect: !0
+})], PrezVocabBase.prototype, "disabled", void 0), __decorate([n({ type: String })], PrezVocabBase.prototype, "lang", void 0), __decorate([n({
+	type: String,
+	reflect: !0
+})], PrezVocabBase.prototype, "theme", void 0), __decorate([r()], PrezVocabBase.prototype, "loading", void 0), __decorate([r()], PrezVocabBase.prototype, "error", void 0), __decorate([r()], PrezVocabBase.prototype, "vocabData", void 0), __decorate([r()], PrezVocabBase.prototype, "conceptMap", void 0);
+// src/components/list.ts
+var $ = class PrezList extends PrezVocabBase {
+	constructor(...e) {
+		super(...e), this.type = "select", this.fields = "", this.multiple = !1, this.flat = !1, this.horizontal = !1, this.search = !1, this.maxLevel = 1, this.showSelected = !0, this.placeholder = "Select...", this.value = null, this.values = [], this.showCount = !1, this.showDescription = !1, this.showIri = !1, this.filterText = "", this.expandedNodes = /* @__PURE__ */ new Set(), this.dropdownOpen = !1, this.sparqlSearchResults = null, this.searchDebounceTimer = null, this.boundHandleClickOutside = this.handleClickOutside.bind(this);
+	}
+	static {
+		this.styles = p`
     :host {
       display: block;
       font-family: system-ui, -apple-system, sans-serif;
@@ -2374,71 +1592,643 @@ m.styles = ze`
       font-size: 0.8125rem;
     }
   `;
-v([
-  f({ type: String })
-], m.prototype, "type", 2);
-v([
-  f({ type: String })
-], m.prototype, "fields", 2);
-v([
-  f({ type: Boolean })
-], m.prototype, "multiple", 2);
-v([
-  f({ type: Boolean })
-], m.prototype, "flat", 2);
-v([
-  f({ type: Boolean })
-], m.prototype, "horizontal", 2);
-v([
-  f({ type: Boolean })
-], m.prototype, "search", 2);
-v([
-  f({ type: Number, attribute: "max-level" })
-], m.prototype, "maxLevel", 2);
-v([
-  f({ type: Boolean, attribute: "show-selected" })
-], m.prototype, "showSelected", 2);
-v([
-  f({ type: String })
-], m.prototype, "placeholder", 2);
-v([
-  f({ type: String })
-], m.prototype, "value", 2);
-v([
-  f({ type: Array, attribute: "values" })
-], m.prototype, "values", 2);
-v([
-  f({ type: Boolean, attribute: "show-count" })
-], m.prototype, "showCount", 2);
-v([
-  f({ type: Boolean, attribute: "show-description" })
-], m.prototype, "showDescription", 2);
-v([
-  f({ type: Boolean, attribute: "show-iri" })
-], m.prototype, "showIri", 2);
-v([
-  A()
-], m.prototype, "filterText", 2);
-v([
-  A()
-], m.prototype, "expandedNodes", 2);
-v([
-  A()
-], m.prototype, "dropdownOpen", 2);
-v([
-  A()
-], m.prototype, "sparqlSearchResults", 2);
-m = v([
-  We("prez-list")
-], m);
-export {
-  m as PrezList,
-  g as PrezVocabBase,
-  bt as clearCache,
-  Ke as detectBaseUrl,
-  nt as fetchNarrowerConcepts,
-  at as fetchSearchConcepts,
-  ot as fetchTopConcepts,
-  Ze as fetchVocab,
-  et as resolveVocabUrl
+	}
+	connectedCallback() {
+		super.connectedCallback(), document.addEventListener("click", this.boundHandleClickOutside);
+	}
+	disconnectedCallback() {
+		super.disconnectedCallback(), document.removeEventListener("click", this.boundHandleClickOutside), this.searchDebounceTimer && clearTimeout(this.searchDebounceTimer);
+	}
+	handleClickOutside(e) {
+		this.dropdownOpen && !this.contains(e.target) && (this.dropdownOpen = !1);
+	}
+	updated(e) {
+		super.updated(e), e.has("vocabData") && this.vocabData && this.initializeExpanded();
+	}
+	initializeExpanded() {
+		if (this.vocabData?.tree) {
+			if (this.sparqlMode) this.expandedNodes = /* @__PURE__ */ new Set();
+			else if (this.maxLevel === -1) {
+				let e = /* @__PURE__ */ new Set(), collectIris = (o) => {
+					for (let s of o) s.children.length > 0 && (e.add(s.iri), collectIris(s.children));
+				};
+				collectIris(this.vocabData.tree), this.expandedNodes = e;
+			} else if (this.maxLevel > 0) {
+				let e = /* @__PURE__ */ new Set(), expandToLevel = (o, s) => {
+					if (!(s <= 0)) for (let l of o) l.children.length > 0 && (e.add(l.iri), expandToLevel(l.children, s - 1));
+				};
+				expandToLevel(this.vocabData.tree, this.maxLevel), this.expandedNodes = e;
+			}
+		}
+	}
+	handleFilter(e) {
+		this.filterText = e.target.value, this.emitFilter(this.filterText), this.sparqlMode && this.debounceSparqlSearch(this.filterText);
+	}
+	debounceSparqlSearch(e) {
+		this.searchDebounceTimer && clearTimeout(this.searchDebounceTimer), e ? this.searchDebounceTimer = setTimeout(async () => {
+			let o = this.sparqlConfig;
+			if (o) try {
+				this.sparqlSearchResults = await fetchSearchConcepts(o, e);
+			} catch {
+				this.sparqlSearchResults = [];
+			}
+		}, 300) : this.sparqlSearchResults = null;
+	}
+	async toggleExpand(e, o) {
+		o.stopPropagation();
+		let s = new Set(this.expandedNodes), l = s.has(e);
+		!l && this.sparqlMode && await this.loadChildren(e), l ? s.delete(e) : s.add(e), this.expandedNodes = s, this.emitExpand(e, !l);
+	}
+	toggleDropdown(e) {
+		e.stopPropagation(), this.dropdownOpen = !this.dropdownOpen;
+	}
+	selectRadio(e) {
+		this.value = e, this.emitChange(e);
+	}
+	selectAll() {
+		if (!this.vocabData) return;
+		let e = this.filteredConcepts.map((e) => e.iri);
+		this.values = e, this.emitChange(e);
+	}
+	deselectAll() {
+		this.values = [], this.emitChange([]);
+	}
+	selectNode(e) {
+		if (this.multiple) {
+			let o = this.values.includes(e) ? this.values.filter((o) => o !== e) : [...this.values, e];
+			this.values = o, this.emitChange(o);
+		} else this.value = e, this.emitChange(e), this.type === "dropdown" && (this.dropdownOpen = !1, this.filterText = "");
+	}
+	handleSelectChange(e) {
+		let o = e.target;
+		if (this.multiple) {
+			let e = Array.from(o.selectedOptions).map((e) => e.value);
+			this.values = e, this.emitChange(e);
+		} else {
+			let e = o.value || null;
+			this.value = e, this.emitChange(e || "");
+		}
+	}
+	countDescendants(e) {
+		let o = e.children.length;
+		for (let s of e.children) o += this.countDescendants(s);
+		return o;
+	}
+	collectDescendantIris(e) {
+		let o = [e.iri];
+		for (let s of e.children) o.push(...this.collectDescendantIris(s));
+		return o;
+	}
+	selectNodeWithDescendants(e, o) {
+		o.stopPropagation(), o.preventDefault();
+		let s = this.collectDescendantIris(e), l = this.values.includes(e.iri), u;
+		if (l) u = this.values.filter((e) => !s.includes(e));
+		else {
+			let e = s.filter((e) => !this.values.includes(e));
+			u = [...this.values, ...e];
+		}
+		this.values = u, this.emitChange(u);
+	}
+	get filteredConcepts() {
+		if (!this.vocabData?.concepts) return [];
+		let e = this.vocabData.concepts;
+		if (this.filterText) {
+			let o = this.filterText.toLowerCase();
+			e = e.filter((e) => e.label.toLowerCase().includes(o) || e.notation?.toLowerCase().includes(o) || e.altLabels?.some((e) => e.toLowerCase().includes(o)));
+		}
+		return [...e].sort((e, o) => e.label.localeCompare(o.label));
+	}
+	filterTreeNodes(e) {
+		if (!this.filterText) return e;
+		let o = this.filterText.toLowerCase(), matchesFilter = (e) => e.label.toLowerCase().includes(o) || (e.notation?.toLowerCase().includes(o) ?? !1), filterNode = (e) => {
+			let o = e.children.map(filterNode).filter((e) => e !== null);
+			return matchesFilter(e) || o.length > 0 ? {
+				...e,
+				children: o
+			} : null;
+		};
+		return e.map(filterNode).filter((e) => e !== null);
+	}
+	nodeHasChildren(e) {
+		return e.children.length > 0 ? !0 : this.sparqlMode && "hasChildren" in e ? e.hasChildren : !1;
+	}
+	isNodeLoading(e) {
+		return "loading" in e && e.loading;
+	}
+	renderTreeNode(e) {
+		let o = this.nodeHasChildren(e), s = this.isNodeLoading(e), l = this.expandedNodes.has(e.iri) || this.filterText && o && !this.sparqlMode, u = this.multiple ? this.values.includes(e.iri) : this.value === e.iri;
+		return W`
+      <li class="tree-item">
+        <div
+          class="tree-row ${this.showSelected && u ? "selected" : ""}"
+          @click=${() => this.selectNode(e.iri)}
+        >
+          ${s ? W`<span class="node-loading"></span>` : o ? W`
+            <button
+              class="expand-btn"
+              @click=${(o) => this.toggleExpand(e.iri, o)}
+              aria-expanded=${l}
+              aria-label=${l ? "Collapse" : "Expand"}
+            >
+              ${l ? W`<svg width="10" height="10" viewBox="0 0 10 10"><path d="M1 3 L5 7 L9 3" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>` : W`<svg width="10" height="10" viewBox="0 0 10 10"><path d="M3 1 L7 5 L3 9" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`}
+            </button>
+          ` : W`<span class="expand-placeholder"></span>`}
+          ${this.multiple ? W`
+            <input
+              type="checkbox"
+              class="checkbox"
+              .checked=${u}
+              @click=${(o) => {
+			o.stopPropagation(), this.selectNode(e.iri);
+		}}
+              @dblclick=${(o) => this.selectNodeWithDescendants(e, o)}
+              title="Double-click to select/deselect with all children"
+            >
+          ` : K}
+          ${e.notation ? W`<span class="notation">${e.notation}</span>` : K}
+          <div class="item-content">
+            <span class="label">${e.label}</span>
+            ${this.showDescription && e.description ? W`
+              <span class="description">${e.description}</span>
+            ` : K}
+          </div>
+          ${this.showCount && o ? W`
+            <span class="count">(${this.countDescendants(e)})</span>
+          ` : K}
+        </div>
+        ${o && l && e.children.length > 0 ? W`
+          <ul class="children">
+            ${e.children.map((e) => this.renderTreeNode(e))}
+          </ul>
+        ` : K}
+      </li>
+    `;
+	}
+	findNodePath(e, o = this.vocabData?.tree || [], s = []) {
+		for (let l of o) {
+			let o = [...s, l.label];
+			if (l.iri === e) return o;
+			if (l.children.length > 0) {
+				let s = this.findNodePath(e, l.children, o);
+				if (s) return s;
+			}
+		}
+		return null;
+	}
+	getSelectedLabels() {
+		if (this.multiple) {
+			if (this.values.length === 0) return "";
+			let e = this.values.map((e) => {
+				if (!this.flat) {
+					let o = this.findNodePath(e);
+					if (o) return o.join(" > ");
+				}
+				return this.vocabData?.concepts.find((o) => o.iri === e)?.label || e;
+			}).slice(0, 2);
+			return this.values.length > 2 ? `${e.join(", ")} +${this.values.length - 2} more` : e.join(", ");
+		}
+		if (!this.value) return "";
+		if (!this.flat) {
+			let e = this.findNodePath(this.value);
+			if (e) return e.join(" > ");
+		}
+		return this.vocabData?.concepts.find((e) => e.iri === this.value)?.label || this.value;
+	}
+	renderDropdownContent() {
+		if (this.flat) {
+			let e = this.filteredConcepts;
+			return e.length === 0 ? W`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : W`
+        ${this.renderSelectControls()}
+        <ul class="flat-list" role="listbox" aria-label=${this.vocabData?.label || "Vocabulary list"}>
+          ${e.map((e) => {
+				let o = this.multiple ? this.values.includes(e.iri) : this.value === e.iri;
+				return W`
+              <li class="flat-item">
+                <div
+                  class="tree-row ${this.showSelected && o ? "selected" : ""}"
+                  role="option"
+                  aria-selected=${o}
+                  @click=${() => this.selectNode(e.iri)}
+                >
+                  ${this.multiple ? W`
+                    <input
+                      type="checkbox"
+                      class="checkbox"
+                      .checked=${o}
+                      @click=${(o) => {
+					o.stopPropagation(), this.selectNode(e.iri);
+				}}
+                    >
+                  ` : K}
+                  ${e.notation ? W`<span class="notation">${e.notation}</span>` : K}
+                  <div class="item-content">
+                    <span class="label">${e.label}</span>
+                    ${this.showDescription && e.description ? W`
+                      <span class="description">${e.description}</span>
+                    ` : K}
+                  </div>
+                </div>
+              </li>
+            `;
+			})}
+        </ul>
+      `;
+		}
+		if (this.sparqlMode && this.filterText && this.sparqlSearchResults !== null) return this.sparqlSearchResults.length === 0 ? W`<div class="empty">No matching concepts</div>` : W`
+        <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Search results"}>
+          ${this.sparqlSearchResults.map((e) => this.renderTreeNode(e))}
+        </ul>
+      `;
+		let e = this.sparqlMode ? this.vocabData?.tree || [] : this.filterTreeNodes(this.vocabData?.tree || []);
+		return e.length === 0 ? W`<div class="empty">${this.filterText ? "No matching concepts" : "No hierarchy available"}</div>` : W`
+      ${this.renderSelectControls()}
+      <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Vocabulary tree"}>
+        ${e.map((e) => this.renderTreeNode(e))}
+      </ul>
+    `;
+	}
+	handleSearchFocus() {
+		this.dropdownOpen = !0;
+	}
+	handleSearchInput(e) {
+		this.filterText = e.target.value, this.emitFilter(this.filterText), this.dropdownOpen ||= !0, this.sparqlMode && this.debounceSparqlSearch(this.filterText);
+	}
+	renderDropdown() {
+		let e = this.getSelectedLabels(), o = this.multiple ? this.values.length > 0 : !!this.value;
+		return this.search ? W`
+        <div class="dropdown">
+          <div class="dropdown-trigger ${this.dropdownOpen ? "open" : ""}">
+            <input
+              type="text"
+              class="dropdown-search-input"
+              .value=${this.filterText}
+              placeholder=${o ? e : this.placeholder}
+              @focus=${this.handleSearchFocus}
+              @input=${this.handleSearchInput}
+              @click=${(e) => e.stopPropagation()}
+              aria-haspopup="listbox"
+              aria-expanded=${this.dropdownOpen}
+            />
+            <svg class="dropdown-trigger-icon" viewBox="0 0 20 20" fill="currentColor" @click=${this.toggleDropdown}>
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          ${this.dropdownOpen ? W`
+            <div class="dropdown-popover">
+              ${this.renderDropdownContent()}
+              ${this.multiple && this.values.length > 0 ? W`
+                <div class="selection-count" style="padding: 0.25rem 0.5rem; border-top: 1px solid var(--prez-divider);">
+                  ${this.values.length} selected
+                </div>
+              ` : K}
+            </div>
+          ` : K}
+        </div>
+      ` : W`
+      <div class="dropdown">
+        <button
+          class="dropdown-trigger ${this.dropdownOpen ? "open" : ""}"
+          @click=${this.toggleDropdown}
+          aria-haspopup="listbox"
+          aria-expanded=${this.dropdownOpen}
+        >
+          <span class="dropdown-trigger-text ${o ? "" : "dropdown-trigger-placeholder"}">
+            ${o ? e : this.placeholder}
+          </span>
+          <svg class="dropdown-trigger-icon" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+        </button>
+        ${this.dropdownOpen ? W`
+          <div class="dropdown-popover">
+            ${this.renderDropdownContent()}
+            ${this.multiple && this.values.length > 0 ? W`
+              <div class="selection-count" style="padding: 0.25rem 0.5rem; border-top: 1px solid var(--prez-divider);">
+                ${this.values.length} selected
+              </div>
+            ` : K}
+          </div>
+        ` : K}
+      </div>
+    `;
+	}
+	renderSelectControls() {
+		if (!this.multiple) return K;
+		let e = this.filteredConcepts.length, o = this.values.length;
+		return W`
+      <div class="select-controls">
+        <button @click=${this.selectAll} ?disabled=${o === e}>
+          Select all${this.filterText ? " filtered" : ""} (${e})
+        </button>
+        <button @click=${this.deselectAll} ?disabled=${o === 0}>
+          Deselect all
+        </button>
+      </div>
+    `;
+	}
+	renderTree() {
+		if (this.sparqlMode && this.filterText && this.sparqlSearchResults !== null) return this.sparqlSearchResults.length === 0 ? W`<div class="empty">No matching concepts</div>` : W`
+        <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Search results"}>
+          ${this.sparqlSearchResults.map((e) => this.renderTreeNode(e))}
+        </ul>
+      `;
+		let e = this.sparqlMode ? this.vocabData?.tree || [] : this.filterTreeNodes(this.vocabData?.tree || []);
+		return e.length === 0 ? W`<div class="empty">${this.filterText ? "No matching concepts" : "No hierarchy available"}</div>` : W`
+      ${this.renderSelectControls()}
+      <ul class="tree" role="tree" aria-label=${this.vocabData?.label || "Vocabulary tree"}>
+        ${e.map((e) => this.renderTreeNode(e))}
+      </ul>
+      ${this.multiple && this.values.length > 0 ? W`
+        <div class="selection-count">
+          ${this.values.length} selected
+        </div>
+      ` : K}
+    `;
+	}
+	renderRadioNode(e, o) {
+		let s = e.children.length > 0, l = e.children.length > 1, u = this.value === e.iri, f = `radio-${this.vocab || "vocab"}`, p = this.horizontal && l && !o;
+		return W`
+      <div class="radio-node">
+        <label class="radio-item">
+          <input
+            type="radio"
+            name=${f}
+            .checked=${u}
+            @change=${() => this.selectRadio(e.iri)}
+          />
+          ${e.notation ? W`<span class="notation">${e.notation}</span>` : K}
+          <div class="item-content">
+            <span class="label">${e.label}</span>
+            ${this.showDescription && e.description ? W`
+              <span class="description">${e.description}</span>
+            ` : K}
+          </div>
+        </label>
+        ${s ? W`
+          <div class="radio-children ${this.horizontal ? "horizontal" : ""} ${p ? "with-separator" : ""}">
+            ${e.children.map((s, l) => {
+			let u = o && l === e.children.length - 1;
+			return this.renderRadioNode(s, u);
+		})}
+          </div>
+        ` : K}
+      </div>
+    `;
+	}
+	renderRadio() {
+		let e = this.filterTreeNodes(this.vocabData?.tree || []);
+		return e.length === 0 ? W`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : W`
+      <div class="radio-group" role="radiogroup" aria-label=${this.vocabData?.label || "Vocabulary selection"}>
+        <div class="radio-level ${this.horizontal ? "horizontal" : ""}">
+          ${e.map((o, s) => this.renderRadioNode(o, s === e.length - 1))}
+        </div>
+      </div>
+    `;
+	}
+	get tableFields() {
+		return this.fields ? this.fields.split(",").map((e) => e.trim()) : [
+			"iri",
+			"label",
+			"notation",
+			"description"
+		];
+	}
+	getFieldLabel(e) {
+		return {
+			iri: "IRI",
+			label: "Label",
+			notation: "Notation",
+			description: "Description",
+			altLabels: "Alt Labels",
+			broader: "Broader",
+			narrower: "Narrower"
+		}[e] || e;
+	}
+	getFieldValue(e, o) {
+		switch (o) {
+			case "iri": return e.iri;
+			case "label": return e.label;
+			case "notation": return e.notation || "";
+			case "description": return e.description || "";
+			case "altLabels": return e.altLabels?.join(", ") || "";
+			case "broader": return e.broader?.join(", ") || "";
+			case "narrower": return e.narrower?.join(", ") || "";
+			default: return "";
+		}
+	}
+	renderTableRow(e, o = 0) {
+		let s = this.multiple ? this.values.includes(e.iri) : this.value === e.iri, l = this.tableFields;
+		return W`
+      <tr
+        class="${s ? "selected" : ""}"
+        @click=${() => this.selectNode(e.iri)}
+        style="cursor: pointer"
+      >
+        ${this.multiple ? W`
+          <td class="cell-checkbox">
+            <input
+              type="checkbox"
+              .checked=${s}
+              @click=${(o) => {
+			o.stopPropagation(), this.selectNode(e.iri);
+		}}
+            />
+          </td>
+        ` : K}
+        ${l.map((s, l) => W`
+          <td class="${s === "iri" ? "cell-iri" : s === "description" ? "cell-description" : ""}">
+            ${l === 0 && !this.flat && o > 0 ? W`
+              <div class="cell-indent">
+                ${Array(o).fill(0).map(() => W`<span class="indent-spacer"></span>`)}
+                <span>${this.getFieldValue(e, s)}</span>
+              </div>
+            ` : this.getFieldValue(e, s)}
+          </td>
+        `)}
+      </tr>
+    `;
+	}
+	renderTableTreeRows(e, o = 0) {
+		let s = this.conceptMap.get(e.iri);
+		if (!s) return [];
+		let l = [this.renderTableRow(s, o)];
+		for (let s of e.children) l.push(...this.renderTableTreeRows(s, o + 1));
+		return l;
+	}
+	renderTable() {
+		let e = this.tableFields;
+		if (this.flat) {
+			let o = this.filteredConcepts;
+			return o.length === 0 ? W`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : W`
+        ${this.renderSelectControls()}
+        <table class="vocab-table">
+          <thead>
+            <tr>
+              ${this.multiple ? W`<th class="cell-checkbox"></th>` : K}
+              ${e.map((e) => W`<th>${this.getFieldLabel(e)}</th>`)}
+            </tr>
+          </thead>
+          <tbody>
+            ${o.map((e) => this.renderTableRow(e, 0))}
+          </tbody>
+        </table>
+        ${this.multiple && this.values.length > 0 ? W`
+          <div class="selection-count">
+            ${this.values.length} selected
+          </div>
+        ` : K}
+      `;
+		}
+		let o = this.filterTreeNodes(this.vocabData?.tree || []);
+		return o.length === 0 ? W`<div class="empty">${this.filterText ? "No matching concepts" : "No hierarchy available"}</div>` : W`
+      ${this.renderSelectControls()}
+      <table class="vocab-table">
+        <thead>
+          <tr>
+            ${this.multiple ? W`<th class="cell-checkbox"></th>` : K}
+            ${e.map((e) => W`<th>${this.getFieldLabel(e)}</th>`)}
+          </tr>
+        </thead>
+        <tbody>
+          ${o.flatMap((e) => this.renderTableTreeRows(e, 0))}
+        </tbody>
+      </table>
+      ${this.multiple && this.values.length > 0 ? W`
+        <div class="selection-count">
+          ${this.values.length} selected
+        </div>
+      ` : K}
+    `;
+	}
+	renderFlatItem(e) {
+		let o = this.multiple ? this.values.includes(e.iri) : this.value === e.iri;
+		return this.type === "radio" ? W`
+        <div class="radio-node">
+          <label class="radio-item">
+            <input
+              type="radio"
+              name=${`radio-${this.vocab || "vocab"}`}
+              .checked=${o}
+              @change=${() => this.selectRadio(e.iri)}
+            />
+            ${e.notation ? W`<span class="notation">${e.notation}</span>` : K}
+            <div class="item-content">
+              <span class="label">${e.label}</span>
+              ${this.showDescription && e.description ? W`
+                <span class="description">${e.description}</span>
+              ` : K}
+            </div>
+          </label>
+        </div>
+      ` : W`
+      <li class="flat-item">
+        <div
+          class="tree-row ${this.showSelected && o ? "selected" : ""}"
+          role="option"
+          aria-selected=${o}
+          @click=${() => this.selectNode(e.iri)}
+        >
+          ${this.multiple ? W`
+            <input
+              type="checkbox"
+              class="checkbox"
+              .checked=${o}
+              @click=${(o) => {
+			o.stopPropagation(), this.selectNode(e.iri);
+		}}
+            >
+          ` : K}
+          ${e.notation ? W`<span class="notation">${e.notation}</span>` : K}
+          <div class="item-content">
+            <span class="label">${e.label}</span>
+            ${this.showDescription && e.description ? W`
+              <span class="description">${e.description}</span>
+            ` : K}
+          </div>
+        </div>
+      </li>
+    `;
+	}
+	renderFlatList() {
+		let e = this.filteredConcepts;
+		return e.length === 0 ? W`<div class="empty">${this.filterText ? "No matching concepts" : "No concepts available"}</div>` : this.type === "radio" ? W`
+        <div class="radio-group" role="radiogroup" aria-label=${this.vocabData?.label || "Vocabulary selection"}>
+          <div class="radio-level ${this.horizontal ? "horizontal" : ""}">
+            ${e.map((e) => this.renderFlatItem(e))}
+          </div>
+        </div>
+      ` : W`
+      ${this.renderSelectControls()}
+      <ul class="flat-list" role="listbox" aria-label=${this.vocabData?.label || "Vocabulary list"}>
+        ${e.map((e) => this.renderFlatItem(e))}
+      </ul>
+      ${this.multiple && this.values.length > 0 ? W`
+        <div class="selection-count">
+          ${this.values.length} selected
+        </div>
+      ` : K}
+    `;
+	}
+	render() {
+		return this.loading ? W`<div class="loading">Loading vocabulary...</div>` : this.error ? W`<div class="error">${this.error}</div>` : this.vocabData ? this.type === "dropdown" ? this.renderDropdown() : this.type === "radio" ? W`
+        ${this.search ? W`
+          <div class="search">
+            <input
+              type="text"
+              .value=${this.filterText}
+              @input=${this.handleFilter}
+              placeholder="Filter concepts..."
+              aria-label="Filter concepts"
+            />
+          </div>
+        ` : K}
+        ${this.flat ? this.renderFlatList() : this.renderRadio()}
+      ` : this.type === "table" ? W`
+        ${this.search ? W`
+          <div class="search">
+            <input
+              type="text"
+              .value=${this.filterText}
+              @input=${this.handleFilter}
+              placeholder="Filter concepts..."
+              aria-label="Filter concepts"
+            />
+          </div>
+        ` : K}
+        ${this.renderTable()}
+      ` : W`
+      ${this.search ? W`
+        <div class="search">
+          <input
+            type="text"
+            .value=${this.filterText}
+            @input=${this.handleFilter}
+            placeholder="Filter concepts..."
+            aria-label="Filter concepts"
+          />
+        </div>
+      ` : K}
+      ${this.flat ? this.renderFlatList() : this.renderTree()}
+    ` : W`<div class="loading">No vocabulary specified</div>`;
+	}
 };
+__decorate([n({ type: String })], $.prototype, "type", void 0), __decorate([n({ type: String })], $.prototype, "fields", void 0), __decorate([n({ type: Boolean })], $.prototype, "multiple", void 0), __decorate([n({ type: Boolean })], $.prototype, "flat", void 0), __decorate([n({ type: Boolean })], $.prototype, "horizontal", void 0), __decorate([n({ type: Boolean })], $.prototype, "search", void 0), __decorate([n({
+	type: Number,
+	attribute: "max-level"
+})], $.prototype, "maxLevel", void 0), __decorate([n({
+	type: Boolean,
+	attribute: "show-selected"
+})], $.prototype, "showSelected", void 0), __decorate([n({ type: String })], $.prototype, "placeholder", void 0), __decorate([n({ type: String })], $.prototype, "value", void 0), __decorate([n({
+	type: Array,
+	attribute: "values"
+})], $.prototype, "values", void 0), __decorate([n({
+	type: Boolean,
+	attribute: "show-count"
+})], $.prototype, "showCount", void 0), __decorate([n({
+	type: Boolean,
+	attribute: "show-description"
+})], $.prototype, "showDescription", void 0), __decorate([n({
+	type: Boolean,
+	attribute: "show-iri"
+})], $.prototype, "showIri", void 0), __decorate([r()], $.prototype, "filterText", void 0), __decorate([r()], $.prototype, "expandedNodes", void 0), __decorate([r()], $.prototype, "dropdownOpen", void 0), __decorate([r()], $.prototype, "sparqlSearchResults", void 0), $ = __decorate([t("prez-list")], $);
+export { $ as PrezList, PrezVocabBase, clearCache, detectBaseUrl, fetchNarrowerConcepts, fetchSearchConcepts, fetchTopConcepts, fetchVocab, resolveVocabUrl };

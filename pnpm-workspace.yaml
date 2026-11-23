@@ -3,3 +3,22 @@ packages:
   - 'packages/*'
   - '!packages/gh-templates'
   - '!packages/gh-templates/**'
+
+# Hoist MDC dependencies for Vite's optimizeDeps resolution
+publicHoistPattern:
+  - '*remark*'
+  - '*rehype*'
+  - '*unified*'
+  - '*unist*'
+  - '*parse5*'
+  - '*debug*'
+
+# Dependency build scripts. pnpm 11+ fails the install when a dependency has a
+# build script that isn't listed here. None of these need theirs: each ships
+# prebuilt binaries through optional dependencies.
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  sharp: false
+  vue-demi: false
+  workerd: false

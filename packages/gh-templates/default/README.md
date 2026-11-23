@@ -47,8 +47,8 @@ Push to `main` branch. The GitHub Action will:
 
 ### Prerequisites
 
-- Node.js 22+
-- pnpm 9+
+- Node.js 26 (or 22.22+ / 24.15+)
+- pnpm 12 (pinned in `package.json`; recent pnpm versions switch to it automatically)
 
 ### Setup
 

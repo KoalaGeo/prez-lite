@@ -894,7 +894,7 @@ export class PrezList extends PrezVocabBase {
     const filter = this.filterText.toLowerCase()
     const matchesFilter = (node: VocabTreeNode): boolean => {
       return node.label.toLowerCase().includes(filter) ||
-        node.notation?.toLowerCase().includes(filter)
+        (node.notation?.toLowerCase().includes(filter) ?? false)
     }
 
     const filterNode = (node: VocabTreeNode): VocabTreeNode | null => {
